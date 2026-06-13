@@ -1,0 +1,99 @@
+{
+  "people_number": 4,
+  "start_city": "Guangzhou",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:04",
+          "end_time": "07:34",
+          "cost": 2237.72,
+          "price": 559.43,
+          "transports": [],
+          "tickets": 4,
+          "start": "Guangzhou Baiyun International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "FlightID": "FL244"
+        },
+        {
+          "type": "attraction",
+          "start_time": "20:12",
+          "end_time": "21:00",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Shanghai Pudong International Airport",
+              "end": "Blue Forest Huangpu River Cruise Ship",
+              "mode": "metro",
+              "start_time": "19:00",
+              "end_time": "20:12",
+              "cost": 136.16,
+              "price": 34.04,
+              "distance": 30.04,
+              "tickets": 4
+            }
+          ],
+          "position": "Blue Forest Huangpu River Cruise Ship",
+          "tickets": 4
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:49",
+          "end_time": "22:49",
+          "cost": 898.0,
+          "price": 449.0,
+          "transports": [
+            {
+              "start": "Blue Forest Huangpu River Cruise Ship",
+              "end": "Harbour Plaza Metropolitan",
+              "mode": "taxi",
+              "start_time": "21:32",
+              "end_time": "21:49",
+              "cost": 27.52,
+              "price": 27.52,
+              "distance": 8.76,
+              "cars": 1
+            }
+          ],
+          "position": "Harbour Plaza Metropolitan",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "21:32",
+          "end_time": "23:02",
+          "cost": 2408.56,
+          "price": 602.14,
+          "transports": [
+            {
+              "start": "Harbour Plaza Metropolitan",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "taxi",
+              "start_time": "09:00",
+              "end_time": "09:32",
+              "cost": 42.38,
+              "price": 42.38,
+              "distance": 16.19,
+              "cars": 1
+            }
+          ],
+          "tickets": 4,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Guangzhou Baiyun International Airport",
+          "FlightID": "FL027"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.221
+}

@@ -1,0 +1,278 @@
+{
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:45",
+          "end_time": "08:16",
+          "cost": 2546.44,
+          "price": 636.61,
+          "transports": [],
+          "tickets": 4,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "FlightID": "FL165"
+        },
+        {
+          "type": "attraction",
+          "start_time": "19:56",
+          "end_time": "20:56",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "Blue Forest Huangpu River Cruise Ship",
+              "mode": "metro",
+              "start_time": "19:00",
+              "end_time": "19:56",
+              "cost": 109.44,
+              "price": 27.36,
+              "distance": 23.36,
+              "tickets": 4
+            }
+          ],
+          "position": "Blue Forest Huangpu River Cruise Ship",
+          "tickets": 4
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:56",
+          "end_time": "22:56",
+          "cost": 606.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Blue Forest Huangpu River Cruise Ship",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "taxi",
+              "start_time": "21:16",
+              "end_time": "21:56",
+              "cost": 50.53,
+              "price": 50.53,
+              "distance": 20.26,
+              "cars": 1
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "16:18",
+          "end_time": "17:03",
+          "cost": 352.0,
+          "price": 88.0,
+          "transports": [
+            {
+              "start": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "end": "Huangpu River Cruise (Jinling East Road Pier)",
+              "mode": "metro",
+              "start_time": "15:30",
+              "end_time": "16:18",
+              "cost": 97.04,
+              "price": 24.26,
+              "distance": 20.26,
+              "tickets": 4
+            }
+          ],
+          "position": "Huangpu River Cruise (Jinling East Road Pier)",
+          "tickets": 4
+        },
+        {
+          "type": "attraction",
+          "start_time": "17:28",
+          "end_time": "18:58",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Huangpu River Cruise (Jinling East Road Pier)",
+              "end": "Oriental Pearl Tower 259-Meter Fully Transparent Suspended Sightseeing Corridor",
+              "mode": "metro",
+              "start_time": "17:23",
+              "end_time": "17:28",
+              "cost": 18.64,
+              "price": 4.66,
+              "distance": 0.66,
+              "tickets": 4
+            }
+          ],
+          "position": "Oriental Pearl Tower 259-Meter Fully Transparent Suspended Sightseeing Corridor",
+          "tickets": 4
+        },
+        {
+          "type": "dinner",
+          "start_time": "19:23",
+          "end_time": "20:00",
+          "cost": 116.0,
+          "price": 29.0,
+          "transports": [
+            {
+              "start": "Oriental Pearl Tower 259-Meter Fully Transparent Suspended Sightseeing Corridor",
+              "end": "Dahuchun (Sichuan Middle Road Branch)",
+              "mode": "metro",
+              "start_time": "19:18",
+              "end_time": "19:23",
+              "cost": 24.04,
+              "price": 6.01,
+              "distance": 2.01,
+              "tickets": 4
+            }
+          ],
+          "position": "Dahuchun (Sichuan Middle Road Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:51",
+          "end_time": "21:51",
+          "cost": 606.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Dahuchun (Sichuan Middle Road Branch)",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "taxi",
+              "start_time": "20:10",
+              "end_time": "20:51",
+              "cost": 51.78,
+              "price": 51.78,
+              "distance": 20.89,
+              "cars": 1
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:15",
+          "end_time": "11:15",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "end": "Lujiazui Central Green Space",
+              "mode": "metro",
+              "start_time": "08:30",
+              "end_time": "09:15",
+              "cost": 92.04,
+              "price": 23.01,
+              "distance": 19.01,
+              "tickets": 4
+            }
+          ],
+          "position": "Lujiazui Central Green Space",
+          "tickets": 4
+        },
+        {
+          "type": "lunch",
+          "start_time": "11:40",
+          "end_time": "12:40",
+          "cost": 116.0,
+          "price": 29.0,
+          "transports": [
+            {
+              "start": "Lujiazui Central Green Space",
+              "end": "Dahuchun (Sichuan Middle Road Branch)",
+              "mode": "metro",
+              "start_time": "11:35",
+              "end_time": "11:40",
+              "cost": 25.16,
+              "price": 6.29,
+              "distance": 2.29,
+              "tickets": 4
+            }
+          ],
+          "position": "Dahuchun (Sichuan Middle Road Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "12:55",
+          "end_time": "13:55",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Dahuchun (Sichuan Middle Road Branch)",
+              "end": "The Bund Architectural Complex",
+              "mode": "metro",
+              "start_time": "12:50",
+              "end_time": "12:55",
+              "cost": 20.92,
+              "price": 5.23,
+              "distance": 1.23,
+              "tickets": 4
+            }
+          ],
+          "position": "The Bund Architectural Complex",
+          "tickets": 4
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:35",
+          "end_time": "18:35",
+          "cost": 116.0,
+          "price": 29.0,
+          "transports": [
+            {
+              "start": "The Bund Architectural Complex",
+              "end": "Dahuchun (Sichuan Middle Road Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:35",
+              "cost": 20.92,
+              "price": 5.23,
+              "distance": 1.23,
+              "tickets": 4
+            }
+          ],
+          "position": "Dahuchun (Sichuan Middle Road Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "20:30",
+          "end_time": "22:01",
+          "cost": 2583.84,
+          "price": 645.96,
+          "transports": [
+            {
+              "start": "Dahuchun (Sichuan Middle Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "taxi",
+              "start_time": "18:45",
+              "end_time": "19:29",
+              "cost": 54.14,
+              "price": 54.14,
+              "distance": 22.07,
+              "cars": 1
+            }
+          ],
+          "tickets": 4,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL015"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.188
+}

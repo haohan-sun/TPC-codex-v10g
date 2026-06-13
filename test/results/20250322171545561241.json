@@ -1,0 +1,85 @@
+{
+  "people_number": 3,
+  "start_city": "Chongqing",
+  "target_city": "Suzhou",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "06:21",
+          "end_time": "17:45",
+          "cost": 2444.61,
+          "price": 814.87,
+          "transports": [],
+          "tickets": 3,
+          "start": "Chongqing North Railway Station",
+          "end": "Suzhou Station",
+          "TrainID": "D3074"
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:15",
+          "end_time": "19:15",
+          "cost": 150.0,
+          "price": 50.0,
+          "transports": []
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:28",
+          "end_time": "21:00",
+          "cost": 412.0,
+          "price": 206.0,
+          "transports": [
+            {
+              "start": "Suzhou Station",
+              "end": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:28",
+              "cost": 79.31,
+              "distance": 18.8,
+              "cars": 1,
+              "price": 79.31
+            }
+          ],
+          "position": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "10:00",
+          "end_time": "20:05",
+          "cost": 2444.61,
+          "price": 814.87,
+          "transports": [
+            {
+              "start": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "end": "Suzhou Station",
+              "mode": "taxi",
+              "start_time": "09:00",
+              "end_time": "09:28",
+              "cost": 79.31,
+              "distance": 18.8,
+              "cars": 1,
+              "price": 79.31
+            }
+          ],
+          "tickets": 3,
+          "start": "Suzhou Station",
+          "end": "Chongqing North Railway Station",
+          "TrainID": "D956"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.158
+}

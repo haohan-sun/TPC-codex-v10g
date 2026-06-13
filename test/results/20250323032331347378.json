@@ -1,0 +1,119 @@
+{
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "07:53",
+          "end_time": "09:00",
+          "cost": 2351.55,
+          "price": 470.31,
+          "transports": [],
+          "tickets": 5,
+          "start": "Nanjing Lukou International Airport",
+          "end": "Beijing Daxing International Airport",
+          "FlightID": "FL657"
+        },
+        {
+          "type": "dinner",
+          "start_time": "19:09",
+          "end_time": "20:00",
+          "cost": 70.0,
+          "price": 14.0,
+          "transports": [
+            {
+              "start": "Beijing Daxing International Airport",
+              "end": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "19:09",
+              "cost": 227.05,
+              "price": 45.41,
+              "distance": 41.41,
+              "tickets": 5
+            }
+          ],
+          "position": "Imperial Crispy Beef Pancake - Niujie Gourmet"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:02",
+          "end_time": "22:02",
+          "cost": 807.0,
+          "price": 269.0,
+          "transports": [
+            {
+              "start": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+              "end": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+              "mode": "taxi",
+              "start_time": "20:10",
+              "end_time": "21:02",
+              "cost": 125.58,
+              "price": 62.79,
+              "distance": 26.4,
+              "cars": 2
+            }
+          ],
+          "position": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+          "rooms": 3,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:48",
+          "end_time": "12:48",
+          "cost": 80.0,
+          "price": 16.0,
+          "transports": [
+            {
+              "start": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+              "end": "Zengshengkui Snack Shop",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:48",
+              "cost": 121.65,
+              "price": 24.33,
+              "distance": 20.33,
+              "tickets": 5
+            }
+          ],
+          "position": "Zengshengkui Snack Shop"
+        },
+        {
+          "type": "airplane",
+          "start_time": "23:22",
+          "end_time": "00:29",
+          "cost": 2084.55,
+          "price": 416.91,
+          "transports": [
+            {
+              "start": "Zengshengkui Snack Shop",
+              "end": "Beijing Daxing International Airport",
+              "mode": "taxi",
+              "start_time": "17:30",
+              "end_time": "19:01",
+              "cost": 202.88,
+              "price": 101.44,
+              "distance": 45.72,
+              "cars": 2
+            }
+          ],
+          "tickets": 5,
+          "start": "Beijing Daxing International Airport",
+          "end": "Nanjing Lukou International Airport",
+          "FlightID": "FL154"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.116
+}

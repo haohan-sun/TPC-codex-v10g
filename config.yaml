@@ -1,0 +1,41 @@
+project:
+  name: tpc_agent
+  version: "0.1.0"
+
+paths:
+  data_raw: data/raw
+  data_processed: data/processed
+  data_outputs: data/outputs
+  verifier: null  # 官方 verifier 脚本路径，对接后填写
+  chinatravel_root: ChinaTravel  # ChinaTravel repo path
+
+planning:
+  max_repair_rounds: 3
+  policies:
+    - safe
+    - budget
+    - preference
+    - low_transport
+    - must_visit_first
+
+candidates:
+  top_k_pois: 50
+  top_k_restaurants: 30
+  top_k_hotels: 10
+
+logging:
+  level: INFO
+  experiment_dir: data/outputs/experiments
+
+# 官方 Agent 适配层配置
+adapter:
+  timeout_sec: 300          # 单条 query 超时（与 run_tpc.py 一致）
+  use_oracle_dsl: false     # 比赛正式模式：false=剥离 hard_logic_py
+  results_dir: data/outputs/results
+  cache_dir: data/outputs/cache
+  method_name: TPCAgent_TPCLLM
+
+# WorldEnv 后端选择（agent_env > direct > csv）
+world_env:
+  backend: auto             # auto | agent_env | direct | csv
+  agent_env_cwd: ChinaTravel  # agent_env adapter 所在目录

@@ -1,0 +1,93 @@
+{
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:45",
+          "end_time": "08:16",
+          "cost": 636.61,
+          "price": 636.61,
+          "transports": [],
+          "tickets": 1,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "FlightID": "FL165"
+        },
+        {
+          "type": "breakfast",
+          "start_time": "08:46",
+          "end_time": "09:16",
+          "cost": 35.0,
+          "price": 35.0,
+          "transports": []
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:30",
+          "end_time": "20:00",
+          "cost": 50.0,
+          "price": 50.0,
+          "transports": []
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:31",
+          "end_time": "22:01",
+          "cost": 303.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "taxi",
+              "start_time": "20:10",
+              "end_time": "21:31",
+              "cost": 91.81,
+              "price": 91.81,
+              "distance": 40.9,
+              "cars": 1
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 1,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "20:30",
+          "end_time": "22:01",
+          "cost": 645.96,
+          "price": 645.96,
+          "transports": [
+            {
+              "start": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "taxi",
+              "start_time": "09:00",
+              "end_time": "10:21",
+              "cost": 91.81,
+              "price": 91.81,
+              "distance": 40.9,
+              "cars": 1
+            }
+          ],
+          "tickets": 1,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL015"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.125
+}

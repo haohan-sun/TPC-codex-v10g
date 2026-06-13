@@ -1,0 +1,308 @@
+{
+  "total_queries": 50,
+  "succ_count": 50,
+  "total_sec": 15.3,
+  "avg_sec": 0.31,
+  "results": [
+    {
+      "uid": "20250321124425303150",
+      "elapsed_sec": 3.91,
+      "succ": true,
+      "itinerary_len": 4
+    },
+    {
+      "uid": "20250323092547439734",
+      "elapsed_sec": 0.27,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250324211553448025",
+      "elapsed_sec": 0.25,
+      "succ": true,
+      "itinerary_len": 4
+    },
+    {
+      "uid": "20250321134959122953",
+      "elapsed_sec": 0.09,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250321225614363808",
+      "elapsed_sec": 0.12,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250324214731716167",
+      "elapsed_sec": 0.17,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250323100629700752",
+      "elapsed_sec": 0.22,
+      "succ": true,
+      "itinerary_len": 4
+    },
+    {
+      "uid": "20250324221956345687",
+      "elapsed_sec": 0.09,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250322113339255520",
+      "elapsed_sec": 0.17,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250323112418445268",
+      "elapsed_sec": 0.19,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250323103155486174",
+      "elapsed_sec": 0.53,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250324213904677942",
+      "elapsed_sec": 0.22,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250324223736692300",
+      "elapsed_sec": 0.34,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250323032331347378",
+      "elapsed_sec": 0.12,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250322130858615464",
+      "elapsed_sec": 0.17,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250322112200735337",
+      "elapsed_sec": 0.28,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250323095940080796",
+      "elapsed_sec": 0.12,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250322133926562736",
+      "elapsed_sec": 0.2,
+      "succ": true,
+      "itinerary_len": 4
+    },
+    {
+      "uid": "20250321212831950991",
+      "elapsed_sec": 0.19,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250322004458893638",
+      "elapsed_sec": 0.09,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250322214707379941",
+      "elapsed_sec": 0.17,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250322144805453117",
+      "elapsed_sec": 0.16,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250321043636382871",
+      "elapsed_sec": 0.19,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250322220122821328",
+      "elapsed_sec": 0.17,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250324220239016130",
+      "elapsed_sec": 0.38,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250320192106788056",
+      "elapsed_sec": 0.2,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250322181205707883",
+      "elapsed_sec": 0.62,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250323022244580599",
+      "elapsed_sec": 0.16,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250322164053425056",
+      "elapsed_sec": 0.55,
+      "succ": true,
+      "itinerary_len": 4
+    },
+    {
+      "uid": "20250322170043869372",
+      "elapsed_sec": 0.09,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250323021033039890",
+      "elapsed_sec": 0.23,
+      "succ": true,
+      "itinerary_len": 4
+    },
+    {
+      "uid": "20250322173114414187",
+      "elapsed_sec": 0.19,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250324220517218632",
+      "elapsed_sec": 0.22,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250322165556942772",
+      "elapsed_sec": 0.38,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250322171545561241",
+      "elapsed_sec": 0.16,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250321092540864955",
+      "elapsed_sec": 0.22,
+      "succ": true,
+      "itinerary_len": 5
+    },
+    {
+      "uid": "20250323010244610768",
+      "elapsed_sec": 0.23,
+      "succ": true,
+      "itinerary_len": 4
+    },
+    {
+      "uid": "20250322101848527673",
+      "elapsed_sec": 0.22,
+      "succ": true,
+      "itinerary_len": 4
+    },
+    {
+      "uid": "20250322175216115859",
+      "elapsed_sec": 0.11,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250322185047891707",
+      "elapsed_sec": 0.23,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250323133346744540",
+      "elapsed_sec": 0.38,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250323001836416953",
+      "elapsed_sec": 0.2,
+      "succ": true,
+      "itinerary_len": 4
+    },
+    {
+      "uid": "20250322224333111462",
+      "elapsed_sec": 0.17,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250322171300393227",
+      "elapsed_sec": 0.55,
+      "succ": true,
+      "itinerary_len": 4
+    },
+    {
+      "uid": "20250322152641976356",
+      "elapsed_sec": 0.17,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250325022704913446",
+      "elapsed_sec": 0.23,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250322193339108904",
+      "elapsed_sec": 0.62,
+      "succ": true,
+      "itinerary_len": 4
+    },
+    {
+      "uid": "20250322080938334036",
+      "elapsed_sec": 0.12,
+      "succ": true,
+      "itinerary_len": 3
+    },
+    {
+      "uid": "20250323005159144588",
+      "elapsed_sec": 0.11,
+      "succ": true,
+      "itinerary_len": 2
+    },
+    {
+      "uid": "20250324222807389444",
+      "elapsed_sec": 0.11,
+      "succ": true,
+      "itinerary_len": 3
+    }
+  ]
+}

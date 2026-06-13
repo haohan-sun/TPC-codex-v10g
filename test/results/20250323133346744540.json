@@ -1,0 +1,270 @@
+{
+  "people_number": 3,
+  "start_city": "Hangzhou",
+  "target_city": "Chengdu",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:17",
+          "end_time": "08:12",
+          "cost": 2214.63,
+          "price": 738.21,
+          "transports": [],
+          "tickets": 3,
+          "start": "Hangzhou Xiaoshan International Airport",
+          "end": "Chengdu Tianfu International Airport",
+          "FlightID": "FL538"
+        },
+        {
+          "type": "attraction",
+          "start_time": "11:23",
+          "end_time": "12:23",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Chengdu Tianfu International Airport",
+              "end": "Tianfu Airport Terminal 1 and 2-Metro Station",
+              "mode": "walk",
+              "start_time": "08:42",
+              "end_time": "09:26",
+              "cost": 0.0,
+              "distance": 3.72,
+              "price": 0.0
+            },
+            {
+              "start": "Tianfu Airport Terminal 1 and 2-Metro Station",
+              "end": "North Renmin Road-Metro Station",
+              "mode": "metro",
+              "start_time": "09:26",
+              "end_time": "11:15",
+              "cost": 27.0,
+              "distance": 54.65,
+              "tickets": 3,
+              "price": 9.0
+            },
+            {
+              "start": "North Renmin Road-Metro Station",
+              "end": "Manjushri Lane Manjushri Temple Historical and Cultural Protection Area",
+              "mode": "walk",
+              "start_time": "11:15",
+              "end_time": "11:23",
+              "cost": 0.0,
+              "distance": 0.72,
+              "price": 0.0
+            }
+          ],
+          "position": "Manjushri Lane Manjushri Temple Historical and Cultural Protection Area",
+          "tickets": 3
+        },
+        {
+          "type": "lunch",
+          "start_time": "12:48",
+          "end_time": "13:48",
+          "cost": 18.0,
+          "price": 6.0,
+          "transports": [
+            {
+              "start": "Manjushri Lane Manjushri Temple Historical and Cultural Protection Area",
+              "end": "Second Brother Qiu's Guokui (Jinsi Street Branch)",
+              "mode": "metro",
+              "start_time": "12:43",
+              "end_time": "12:48",
+              "cost": 15.18,
+              "price": 5.06,
+              "distance": 1.06,
+              "tickets": 3
+            }
+          ],
+          "position": "Second Brother Qiu's Guokui (Jinsi Street Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:03",
+          "end_time": "14:48",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Second Brother Qiu's Guokui (Jinsi Street Branch)",
+              "end": "Chengdu People's Park",
+              "mode": "metro",
+              "start_time": "13:58",
+              "end_time": "14:03",
+              "cost": 15.78,
+              "price": 5.26,
+              "distance": 1.26,
+              "tickets": 3
+            }
+          ],
+          "position": "Chengdu People's Park",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "15:20",
+          "end_time": "17:20",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Chengdu People's Park",
+              "end": "Jinsha Site Museum Ebony Forest",
+              "mode": "metro",
+              "start_time": "15:08",
+              "end_time": "15:20",
+              "cost": 27.09,
+              "price": 9.03,
+              "distance": 5.03,
+              "tickets": 3
+            }
+          ],
+          "position": "Jinsha Site Museum Ebony Forest",
+          "tickets": 3
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:58",
+          "end_time": "18:58",
+          "cost": 27.0,
+          "price": 9.0,
+          "transports": [
+            {
+              "start": "Jinsha Site Museum Ebony Forest",
+              "end": "Grandpa and Grandma Chen's Egg Pancakes",
+              "mode": "metro",
+              "start_time": "17:40",
+              "end_time": "17:58",
+              "cost": 34.89,
+              "price": 11.63,
+              "distance": 7.63,
+              "tickets": 3
+            }
+          ],
+          "position": "Grandpa and Grandma Chen's Egg Pancakes"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:10",
+          "end_time": "21:10",
+          "cost": 316.0,
+          "price": 158.0,
+          "transports": [
+            {
+              "start": "Grandpa and Grandma Chen's Egg Pancakes",
+              "end": "Chengdu Yuehuimei Hotel",
+              "mode": "metro",
+              "start_time": "20:00",
+              "end_time": "20:10",
+              "cost": 4.68,
+              "price": 1.56,
+              "distance": 5.19,
+              "tickets": 3
+            }
+          ],
+          "position": "Chengdu Yuehuimei Hotel",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:08",
+          "end_time": "14:28",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Chengdu Yuehuimei Hotel",
+              "end": "Du Fu Thatched Cottage Museum",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:08",
+              "cost": 22.38,
+              "price": 7.46,
+              "distance": 3.46,
+              "tickets": 3
+            }
+          ],
+          "position": "Du Fu Thatched Cottage Museum",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:53",
+          "end_time": "15:23",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Du Fu Thatched Cottage Museum",
+              "end": "Sichuan University (Wangjiang Campus) - Museum",
+              "mode": "metro",
+              "start_time": "14:38",
+              "end_time": "14:53",
+              "cost": 30.78,
+              "price": 10.26,
+              "distance": 6.26,
+              "tickets": 3
+            }
+          ],
+          "position": "Sichuan University (Wangjiang Campus) - Museum",
+          "tickets": 3
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:35",
+          "end_time": "18:41",
+          "cost": 33.0,
+          "price": 11.0,
+          "transports": [
+            {
+              "start": "Sichuan University (Wangjiang Campus) - Museum",
+              "end": "Crispy and Fragrant Family's Guokui and Liangfen (Gengjia Alley Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:35",
+              "cost": 16.98,
+              "price": 5.66,
+              "distance": 1.66,
+              "tickets": 3
+            }
+          ],
+          "position": "Crispy and Fragrant Family's Guokui and Liangfen (Gengjia Alley Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "21:18",
+          "end_time": "23:13",
+          "cost": 2447.82,
+          "price": 815.94,
+          "transports": [
+            {
+              "start": "Crispy and Fragrant Family's Guokui and Liangfen (Gengjia Alley Branch)",
+              "end": "Chengdu Shuangliu International Airport",
+              "mode": "metro",
+              "start_time": "18:51",
+              "end_time": "19:24",
+              "cost": 15.18,
+              "price": 5.06,
+              "distance": 16.86,
+              "tickets": 3
+            }
+          ],
+          "tickets": 3,
+          "start": "Chengdu Shuangliu International Airport",
+          "end": "Hangzhou Xiaoshan International Airport",
+          "FlightID": "FL455"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.378
+}

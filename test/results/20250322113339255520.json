@@ -1,0 +1,214 @@
+{
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:45",
+          "end_time": "08:16",
+          "cost": 2546.44,
+          "price": 636.61,
+          "transports": [],
+          "tickets": 4,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "FlightID": "FL165"
+        },
+        {
+          "type": "attraction",
+          "start_time": "19:56",
+          "end_time": "20:56",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "Blue Forest Huangpu River Cruise Ship",
+              "mode": "metro",
+              "start_time": "19:00",
+              "end_time": "19:56",
+              "cost": 109.44,
+              "price": 27.36,
+              "distance": 23.36,
+              "tickets": 4
+            }
+          ],
+          "position": "Blue Forest Huangpu River Cruise Ship",
+          "tickets": 4
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:33",
+          "end_time": "22:33",
+          "cost": 898.0,
+          "price": 449.0,
+          "transports": [
+            {
+              "start": "Blue Forest Huangpu River Cruise Ship",
+              "end": "Harbour Plaza Metropolitan",
+              "mode": "taxi",
+              "start_time": "21:16",
+              "end_time": "21:33",
+              "cost": 27.52,
+              "price": 27.52,
+              "distance": 8.76,
+              "cars": 1
+            }
+          ],
+          "position": "Harbour Plaza Metropolitan",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "18:45",
+          "end_time": "20:45",
+          "cost": 1500.0,
+          "price": 375.0,
+          "transports": [
+            {
+              "start": "Harbour Plaza Metropolitan",
+              "end": "Crystal Princess Huangpu River Cruise",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:21",
+              "cost": 51.04,
+              "price": 12.76,
+              "distance": 8.76,
+              "tickets": 4
+            }
+          ],
+          "position": "Crystal Princess Huangpu River Cruise",
+          "tickets": 4
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:27",
+          "end_time": "22:27",
+          "cost": 898.0,
+          "price": 449.0,
+          "transports": [
+            {
+              "start": "Crystal Princess Huangpu River Cruise",
+              "end": "Harbour Plaza Metropolitan",
+              "mode": "taxi",
+              "start_time": "21:10",
+              "end_time": "21:27",
+              "cost": 27.52,
+              "price": 27.52,
+              "distance": 8.76,
+              "cars": 1
+            }
+          ],
+          "position": "Harbour Plaza Metropolitan",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "15:30",
+          "end_time": "16:28",
+          "cost": 352.0,
+          "price": 88.0,
+          "transports": [
+            {
+              "start": "Harbour Plaza Metropolitan",
+              "end": "Huangpu River Cruise (Jinling East Road Pier)",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:21",
+              "cost": 51.04,
+              "price": 12.76,
+              "distance": 8.76,
+              "tickets": 4
+            }
+          ],
+          "position": "Huangpu River Cruise (Jinling East Road Pier)",
+          "tickets": 4
+        },
+        {
+          "type": "attraction",
+          "start_time": "16:43",
+          "end_time": "17:13",
+          "cost": 360.0,
+          "price": 90.0,
+          "transports": [
+            {
+              "start": "Huangpu River Cruise (Jinling East Road Pier)",
+              "end": "Huangpu River Cruise (Oriental Pearl Pier)",
+              "mode": "metro",
+              "start_time": "16:38",
+              "end_time": "16:43",
+              "cost": 16.0,
+              "price": 4.0,
+              "distance": 0.0,
+              "tickets": 4
+            }
+          ],
+          "position": "Huangpu River Cruise (Oriental Pearl Pier)",
+          "tickets": 4
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:35",
+          "end_time": "18:35",
+          "cost": 156.0,
+          "price": 39.0,
+          "transports": [
+            {
+              "start": "Huangpu River Cruise (Oriental Pearl Pier)",
+              "end": "Haling Noodle House (Guangxi North Road Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:35",
+              "cost": 25.36,
+              "price": 6.34,
+              "distance": 2.34,
+              "tickets": 4
+            }
+          ],
+          "position": "Haling Noodle House (Guangxi North Road Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "20:30",
+          "end_time": "22:01",
+          "cost": 2583.84,
+          "price": 645.96,
+          "transports": [
+            {
+              "start": "Haling Noodle House (Guangxi North Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "taxi",
+              "start_time": "18:45",
+              "end_time": "19:27",
+              "cost": 52.04,
+              "price": 52.04,
+              "distance": 21.02,
+              "cars": 1
+            }
+          ],
+          "tickets": 4,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL015"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.165
+}

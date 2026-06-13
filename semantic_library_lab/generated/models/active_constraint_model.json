@@ -1,0 +1,31 @@
+{
+  "model_name": "constraint_bow_mlp_hotel_budget_v3_bigram_cu13_lr0015_h512",
+  "model_dir": "semantic_library_lab/generated/models/constraint_bow_mlp_hotel_budget_v3_bigram_cu13_lr0015_h512",
+  "selection_reason": "V3 adds weak-label extraction for hotel names/features, hotel distance, budget kinds, room type, restaurant names, activity time windows, and long-distance taxi rules. It improves validation F1 from 0.6734 to 0.7032 and raises V9 hard-fail semantic family hit rate from 2/15 to 9/15 on codex_rand30_s131.",
+  "fallback_model": "constraint_bow_mlp_clean_ds_web_bigram_cu13_lr0015_h512",
+  "fallback_reason": "Previous 122-label active model; slightly narrower but useful if downstream code expects the old label vocabulary.",
+  "best": {
+    "epoch": 71,
+    "train_loss": 0.05630802363157272,
+    "valid_loss": 0.20594516396522522,
+    "precision": 0.785,
+    "recall": 0.6369168356997972,
+    "f1": 0.7032474804031354,
+    "threshold": 0.5
+  },
+  "threshold_policy": {
+    "balanced": 0.5,
+    "recall_oriented": 0.4,
+    "precision_oriented": 0.55
+  },
+  "label_vocab": 174,
+  "ngram_max": 2,
+  "dataset_dir": "semantic_library_lab/generated/ml_augmented_dataset",
+  "alignment": {
+    "split": "codex_rand30_s131",
+    "method": "CODEX_V9_TPCLLM_en",
+    "semantic_hits": 9,
+    "semantic_checks": 15,
+    "semantic_family_hit_rate": 0.6
+  }
+}

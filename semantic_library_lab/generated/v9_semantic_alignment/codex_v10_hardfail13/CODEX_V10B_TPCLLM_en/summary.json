@@ -1,0 +1,31 @@
+{
+  "split": "codex_v10_hardfail13",
+  "method": "CODEX_V10B_TPCLLM_en",
+  "schema_rate": 100.0,
+  "micro_commonsense": 100.0,
+  "macro_commonsense": 100.0,
+  "hard_micro": 88.23529411764706,
+  "hard_macro": 46.15384615384615,
+  "conditional_hard_micro": 88.23529411764706,
+  "conditional_hard_macro": 46.15384615384615,
+  "schema_pass": 13,
+  "commonsense_pass": 13,
+  "hard_pass": 6,
+  "all_pass": 6,
+  "total": 13,
+  "category_counts": {
+    "innercity_transport": 2,
+    "restaurant_name": 2,
+    "activity_time_window": 1,
+    "hotel_distance": 1,
+    "hotel_feature": 1,
+    "innercity_transport_budget": 1
+  },
+  "semantic_family_hit_rate": 0.375,
+  "semantic_hits": 3,
+  "semantic_checks": 8,
+  "model": "generated\\models\\constraint_bow_mlp_hotel_budget_v3_bigram_cu13_lr0015_h512",
+  "threshold": 0.5,
+  "csv": "D:\\IJCAI_TPC\\semantic_library_lab\\generated\\v9_semantic_alignment\\codex_v10_hardfail13\\CODEX_V10B_TPCLLM_en\\semantic_hard_alignment.csv",
+  "jsonl": "D:\\IJCAI_TPC\\semantic_library_lab\\generated\\v9_semantic_alignment\\codex_v10_hardfail13\\CODEX_V10B_TPCLLM_en\\semantic_hard_alignment.jsonl"
+}

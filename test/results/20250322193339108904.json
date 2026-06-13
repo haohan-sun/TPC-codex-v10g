@@ -1,0 +1,435 @@
+{
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "06:43",
+          "end_time": "09:30",
+          "cost": 290.4,
+          "price": 72.6,
+          "transports": [],
+          "tickets": 4,
+          "start": "Suzhou Station",
+          "end": "Hangzhou Railway Station",
+          "TrainID": "D181"
+        },
+        {
+          "type": "attraction",
+          "start_time": "17:00",
+          "end_time": "21:08",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Hangzhou Railway Station",
+              "end": "City Station-Metro Station",
+              "mode": "walk",
+              "start_time": "10:00",
+              "end_time": "10:02",
+              "cost": 0.0,
+              "distance": 0.21,
+              "price": 0.0
+            },
+            {
+              "start": "City Station-Metro Station",
+              "end": "Jiangling Road-Metro Station",
+              "mode": "metro",
+              "start_time": "10:02",
+              "end_time": "10:12",
+              "cost": 12.0,
+              "distance": 5.24,
+              "tickets": 4,
+              "price": 3.0
+            },
+            {
+              "start": "Jiangling Road-Metro Station",
+              "end": "Hangzhou Qiantang River Night Cruise",
+              "mode": "walk",
+              "start_time": "10:12",
+              "end_time": "10:27",
+              "cost": 0.0,
+              "distance": 1.27,
+              "price": 0.0
+            }
+          ],
+          "position": "Hangzhou Qiantang River Night Cruise",
+          "tickets": 4
+        },
+        {
+          "type": "attraction",
+          "start_time": "21:23",
+          "end_time": "21:53",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Hangzhou Qiantang River Night Cruise",
+              "end": "Qiantang River Night Cruise (Wulinmen Dock)",
+              "mode": "metro",
+              "start_time": "21:18",
+              "end_time": "21:23",
+              "cost": 16.0,
+              "price": 4.0,
+              "distance": 0.0,
+              "tickets": 4
+            }
+          ],
+          "position": "Qiantang River Night Cruise (Wulinmen Dock)",
+          "tickets": 4
+        },
+        {
+          "type": "accommodation",
+          "start_time": "22:21",
+          "end_time": "22:51",
+          "cost": 298.0,
+          "price": 149.0,
+          "transports": [
+            {
+              "start": "Qiantang River Night Cruise (Wulinmen Dock)",
+              "end": "Baiye Homestay (West Lake Branch)",
+              "mode": "taxi",
+              "start_time": "22:03",
+              "end_time": "22:21",
+              "cost": 28.64,
+              "price": 28.64,
+              "distance": 9.32,
+              "cars": 1
+            }
+          ],
+          "position": "Baiye Homestay (West Lake Branch)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:06",
+          "end_time": "16:16",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Baiye Homestay (West Lake Branch)",
+              "end": "Spring Dawn at Su Causeway Stele Pavilion",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:06",
+              "cost": 26.72,
+              "price": 6.68,
+              "distance": 2.68,
+              "tickets": 4
+            }
+          ],
+          "position": "Spring Dawn at Su Causeway Stele Pavilion",
+          "tickets": 4
+        },
+        {
+          "type": "attraction",
+          "start_time": "18:01",
+          "end_time": "13:36",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Spring Dawn at Su Causeway Stele Pavilion",
+              "end": "Jingshan Temple",
+              "mode": "metro",
+              "start_time": "16:26",
+              "end_time": "18:01",
+              "cost": 175.24,
+              "price": 43.81,
+              "distance": 39.81,
+              "tickets": 4
+            }
+          ],
+          "position": "Jingshan Temple",
+          "tickets": 4
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:38",
+          "end_time": "18:38",
+          "cost": 56.0,
+          "price": 14.0,
+          "transports": [
+            {
+              "start": "Spring Dawn at Su Causeway Stele Pavilion",
+              "end": "CoCo Fresh Tea & Juice (Hangzhou Wulin D11 Store)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:38",
+              "cost": 29.88,
+              "price": 7.47,
+              "distance": 3.47,
+              "tickets": 4
+            }
+          ],
+          "position": "CoCo Fresh Tea & Juice (Hangzhou Wulin D11 Store)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:12",
+          "end_time": "21:12",
+          "cost": 298.0,
+          "price": 149.0,
+          "transports": [
+            {
+              "start": "CoCo Fresh Tea & Juice (Hangzhou Wulin D11 Store)",
+              "end": "Baiye Homestay (West Lake Branch)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:12",
+              "cost": 22.23,
+              "price": 22.23,
+              "distance": 6.12,
+              "cars": 1
+            }
+          ],
+          "position": "Baiye Homestay (West Lake Branch)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:07",
+          "end_time": "12:23",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Baiye Homestay (West Lake Branch)",
+              "end": "Leifeng Pagoda in the Glow of the Setting Sun",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:07",
+              "cost": 27.68,
+              "price": 6.92,
+              "distance": 2.92,
+              "tickets": 4
+            }
+          ],
+          "position": "Leifeng Pagoda in the Glow of the Setting Sun",
+          "tickets": 4
+        },
+        {
+          "type": "lunch",
+          "start_time": "12:48",
+          "end_time": "13:48",
+          "cost": 60.0,
+          "price": 15.0,
+          "transports": [
+            {
+              "start": "Leifeng Pagoda in the Glow of the Setting Sun",
+              "end": "Jiangnan Spring (Zhongshan Middle Road Branch)",
+              "mode": "metro",
+              "start_time": "12:43",
+              "end_time": "12:48",
+              "cost": 24.88,
+              "price": 6.22,
+              "distance": 2.22,
+              "tickets": 4
+            }
+          ],
+          "position": "Jiangnan Spring (Zhongshan Middle Road Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:08",
+          "end_time": "15:08",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Jiangnan Spring (Zhongshan Middle Road Branch)",
+              "end": "Longjing Branch of the China National Tea Museum",
+              "mode": "metro",
+              "start_time": "13:58",
+              "end_time": "14:08",
+              "cost": 33.56,
+              "price": 8.39,
+              "distance": 4.39,
+              "tickets": 4
+            }
+          ],
+          "position": "Longjing Branch of the China National Tea Museum",
+          "tickets": 4
+        },
+        {
+          "type": "attraction",
+          "start_time": "15:33",
+          "end_time": "16:18",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Longjing Branch of the China National Tea Museum",
+              "end": "Hangzhou West Lake Scenic Area - First Park",
+              "mode": "metro",
+              "start_time": "15:28",
+              "end_time": "15:33",
+              "cost": 20.36,
+              "price": 5.09,
+              "distance": 1.09,
+              "tickets": 4
+            }
+          ],
+          "position": "Hangzhou West Lake Scenic Area - First Park",
+          "tickets": 4
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:41",
+          "end_time": "18:41",
+          "cost": 68.0,
+          "price": 17.0,
+          "transports": [
+            {
+              "start": "Hangzhou West Lake Scenic Area - First Park",
+              "end": "Xinfeng Snacks (Qingchun Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:41",
+              "cost": 35.08,
+              "price": 8.77,
+              "distance": 4.77,
+              "tickets": 4
+            }
+          ],
+          "position": "Xinfeng Snacks (Qingchun Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:10",
+          "end_time": "21:10",
+          "cost": 298.0,
+          "price": 149.0,
+          "transports": [
+            {
+              "start": "Xinfeng Snacks (Qingchun Branch)",
+              "end": "Baiye Homestay (West Lake Branch)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:10",
+              "cost": 20.64,
+              "price": 20.64,
+              "distance": 5.32,
+              "cars": 1
+            }
+          ],
+          "position": "Baiye Homestay (West Lake Branch)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:22",
+          "end_time": "10:24",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Baiye Homestay (West Lake Branch)",
+              "end": "Qiantang River Bridge",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:22",
+              "cost": 53.28,
+              "price": 13.32,
+              "distance": 9.32,
+              "tickets": 4
+            }
+          ],
+          "position": "Qiantang River Bridge",
+          "tickets": 4
+        },
+        {
+          "type": "lunch",
+          "start_time": "11:44",
+          "end_time": "12:44",
+          "cost": 72.0,
+          "price": 18.0,
+          "transports": [
+            {
+              "start": "Qiantang River Bridge",
+              "end": "Ershao (Gongyuan Road Branch)",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:44",
+              "cost": 89.84,
+              "price": 22.46,
+              "distance": 18.46,
+              "tickets": 4
+            }
+          ],
+          "position": "Ershao (Gongyuan Road Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "13:07",
+          "end_time": "13:52",
+          "cost": 180.0,
+          "price": 45.0,
+          "transports": [
+            {
+              "start": "Ershao (Gongyuan Road Branch)",
+              "end": "Lingyin Feilai Peak Scenic Area",
+              "mode": "metro",
+              "start_time": "12:54",
+              "end_time": "13:07",
+              "cost": 39.04,
+              "price": 9.76,
+              "distance": 5.76,
+              "tickets": 4
+            }
+          ],
+          "position": "Lingyin Feilai Peak Scenic Area",
+          "tickets": 4
+        },
+        {
+          "type": "train",
+          "start_time": "19:05",
+          "end_time": "20:35",
+          "cost": 314.6,
+          "price": 78.65,
+          "transports": [
+            {
+              "start": "Lingyin Feilai Peak Scenic Area",
+              "end": "Hangzhou East Railway Station",
+              "mode": "taxi",
+              "start_time": "14:02",
+              "end_time": "14:23",
+              "cost": 31.13,
+              "price": 31.13,
+              "distance": 10.57,
+              "cars": 1
+            }
+          ],
+          "tickets": 4,
+          "start": "Hangzhou East Railway Station",
+          "end": "Suzhou Station",
+          "TrainID": "G7588"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.615
+}

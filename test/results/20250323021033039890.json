@@ -1,0 +1,350 @@
+{
+  "people_number": 3,
+  "start_city": "Chengdu",
+  "target_city": "Suzhou",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "06:12",
+          "end_time": "20:43",
+          "cost": 2836.59,
+          "price": 945.53,
+          "transports": [],
+          "tickets": 3,
+          "start": "Chengdu East Railway Station",
+          "end": "Suzhou Station",
+          "TrainID": "D3058"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:41",
+          "end_time": "22:41",
+          "cost": 412.0,
+          "price": 206.0,
+          "transports": [
+            {
+              "start": "Suzhou Station",
+              "end": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "mode": "taxi",
+              "start_time": "21:13",
+              "end_time": "21:41",
+              "cost": 79.31,
+              "distance": 18.8,
+              "cars": 1,
+              "price": 79.31
+            }
+          ],
+          "position": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:49",
+          "end_time": "15:00",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "end": "Tiger Hill Scenic Area - Tiger Hill Pagoda",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:49",
+              "cost": 73.92,
+              "price": 24.64,
+              "distance": 20.64,
+              "tickets": 3
+            }
+          ],
+          "position": "Tiger Hill Scenic Area - Tiger Hill Pagoda",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "16:02",
+          "end_time": "16:32",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Tiger Hill Scenic Area - Tiger Hill Pagoda",
+              "end": "Yangcheng Lake Peninsula Tourism Resort",
+              "mode": "metro",
+              "start_time": "15:10",
+              "end_time": "16:02",
+              "cost": 78.0,
+              "price": 26.0,
+              "distance": 22.0,
+              "tickets": 3
+            }
+          ],
+          "position": "Yangcheng Lake Peninsula Tourism Resort",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "18:05",
+          "end_time": "19:15",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Yangcheng Lake Peninsula Tourism Resort",
+              "end": "Zhang Hall in Zhouzhuang",
+              "mode": "metro",
+              "start_time": "16:42",
+              "end_time": "18:05",
+              "cost": 116.4,
+              "price": 38.8,
+              "distance": 34.8,
+              "tickets": 3
+            }
+          ],
+          "position": "Zhang Hall in Zhouzhuang",
+          "tickets": 3
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:41",
+          "end_time": "21:41",
+          "cost": 412.0,
+          "price": 206.0,
+          "transports": [
+            {
+              "start": "Zhang Hall in Zhouzhuang",
+              "end": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:41",
+              "cost": 51.34,
+              "price": 51.34,
+              "distance": 20.67,
+              "cars": 1
+            }
+          ],
+          "position": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:11",
+          "end_time": "09:56",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "end": "China Kunqu Opera Museum",
+              "mode": "metro",
+              "start_time": "08:30",
+              "end_time": "09:11",
+              "cost": 64.08,
+              "price": 21.36,
+              "distance": 17.36,
+              "tickets": 3
+            }
+          ],
+          "position": "China Kunqu Opera Museum",
+          "tickets": 3
+        },
+        {
+          "type": "lunch",
+          "start_time": "11:09",
+          "end_time": "12:09",
+          "cost": 36.0,
+          "price": 12.0,
+          "transports": [
+            {
+              "start": "China Kunqu Opera Museum",
+              "end": "Yiming Fresh Milk Bar (Shilu Metro Exit 12 Store)",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:09",
+              "cost": 24.06,
+              "price": 8.02,
+              "distance": 4.02,
+              "tickets": 3
+            }
+          ],
+          "position": "Yiming Fresh Milk Bar (Shilu Metro Exit 12 Store)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:23",
+          "end_time": "16:53",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Yiming Fresh Milk Bar (Shilu Metro Exit 12 Store)",
+              "end": "South Garden Teahouse",
+              "mode": "metro",
+              "start_time": "12:19",
+              "end_time": "14:23",
+              "cost": 167.61,
+              "price": 55.87,
+              "distance": 51.87,
+              "tickets": 3
+            }
+          ],
+          "position": "South Garden Teahouse",
+          "tickets": 3
+        },
+        {
+          "type": "dinner",
+          "start_time": "19:28",
+          "end_time": "20:00",
+          "cost": 39.0,
+          "price": 13.0,
+          "transports": [
+            {
+              "start": "South Garden Teahouse",
+              "end": "Dududud Sweet Congee (Shiquan Street Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "19:28",
+              "cost": 160.26,
+              "price": 53.42,
+              "distance": 49.42,
+              "tickets": 3
+            }
+          ],
+          "position": "Dududud Sweet Congee (Shiquan Street Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:40",
+          "end_time": "21:40",
+          "cost": 412.0,
+          "price": 206.0,
+          "transports": [
+            {
+              "start": "Dududud Sweet Congee (Shiquan Street Branch)",
+              "end": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "mode": "taxi",
+              "start_time": "20:10",
+              "end_time": "20:40",
+              "cost": 40.39,
+              "price": 40.39,
+              "distance": 15.2,
+              "cars": 1
+            }
+          ],
+          "position": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:38",
+          "end_time": "13:46",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "end": "Mudu Ancient Town Boat Tour",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:38",
+              "cost": 60.0,
+              "price": 20.0,
+              "distance": 16.0,
+              "tickets": 3
+            }
+          ],
+          "position": "Mudu Ancient Town Boat Tour",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:01",
+          "end_time": "14:31",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Mudu Ancient Town Boat Tour",
+              "end": "Lingyan Mountain Temple",
+              "mode": "metro",
+              "start_time": "13:56",
+              "end_time": "14:01",
+              "cost": 18.39,
+              "price": 6.13,
+              "distance": 2.13,
+              "tickets": 3
+            }
+          ],
+          "position": "Lingyan Mountain Temple",
+          "tickets": 3
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:58",
+          "end_time": "18:57",
+          "cost": 42.0,
+          "price": 14.0,
+          "transports": [
+            {
+              "start": "Lingyan Mountain Temple",
+              "end": "Yiming Fresh Milk Bar (Leqiao Subway Station Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:58",
+              "cost": 48.18,
+              "price": 16.06,
+              "distance": 12.06,
+              "tickets": 3
+            }
+          ],
+          "position": "Yiming Fresh Milk Bar (Leqiao Subway Station Branch)"
+        },
+        {
+          "type": "train",
+          "start_time": "21:43",
+          "end_time": "08:44",
+          "cost": 1891.05,
+          "price": 630.35,
+          "transports": [
+            {
+              "start": "Yiming Fresh Milk Bar (Leqiao Subway Station Branch)",
+              "end": "Suzhou Station",
+              "mode": "taxi",
+              "start_time": "19:07",
+              "end_time": "19:11",
+              "cost": 14.27,
+              "distance": 2.73,
+              "cars": 1,
+              "price": 14.27
+            }
+          ],
+          "tickets": 3,
+          "start": "Suzhou Station",
+          "end": "Chengdu West Railway Station",
+          "TrainID": "K282"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.232
+}

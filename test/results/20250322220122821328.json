@@ -1,0 +1,168 @@
+{
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:45",
+          "end_time": "08:16",
+          "cost": 2546.44,
+          "price": 636.61,
+          "transports": [],
+          "tickets": 4,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "FlightID": "FL165"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:56",
+          "end_time": "22:56",
+          "cost": 606.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Blue Forest Huangpu River Cruise Ship",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "metro",
+              "start_time": "21:16",
+              "end_time": "21:56",
+              "cost": 24.32,
+              "price": 6.08,
+              "distance": 20.26,
+              "tickets": 4
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "dinner",
+          "start_time": "19:36",
+          "end_time": "20:00",
+          "cost": 124.0,
+          "price": 31.0,
+          "transports": [
+            {
+              "start": "Oriental Pearl Tower 259-Meter Fully Transparent Suspended Sightseeing Corridor",
+              "end": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)",
+              "mode": "metro",
+              "start_time": "19:18",
+              "end_time": "19:36",
+              "cost": 46.32,
+              "price": 11.58,
+              "distance": 7.58,
+              "tickets": 4
+            }
+          ],
+          "position": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:01",
+          "end_time": "22:01",
+          "cost": 606.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "metro",
+              "start_time": "20:10",
+              "end_time": "21:01",
+              "cost": 30.88,
+              "price": 7.72,
+              "distance": 25.75,
+              "tickets": 4
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:49",
+          "end_time": "12:49",
+          "cost": 148.0,
+          "price": 37.0,
+          "transports": [
+            {
+              "start": "Lujiazui Central Green Space",
+              "end": "Cafe del Volcan (Yongkang Road Branch)",
+              "mode": "metro",
+              "start_time": "11:35",
+              "end_time": "11:49",
+              "cost": 40.64,
+              "price": 10.16,
+              "distance": 6.16,
+              "tickets": 4
+            }
+          ],
+          "position": "Cafe del Volcan (Yongkang Road Branch)"
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:35",
+          "end_time": "18:35",
+          "cost": 156.0,
+          "price": 39.0,
+          "transports": [
+            {
+              "start": "The Bund Architectural Complex",
+              "end": "Haling Noodle House (Guangxi North Road Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:35",
+              "cost": 24.4,
+              "price": 6.1,
+              "distance": 2.1,
+              "tickets": 4
+            }
+          ],
+          "position": "Haling Noodle House (Guangxi North Road Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "20:30",
+          "end_time": "22:01",
+          "cost": 2583.84,
+          "price": 645.96,
+          "transports": [
+            {
+              "start": "Haling Noodle House (Guangxi North Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "metro",
+              "start_time": "18:45",
+              "end_time": "19:27",
+              "cost": 25.24,
+              "price": 6.31,
+              "distance": 21.02,
+              "tickets": 4
+            }
+          ],
+          "tickets": 4,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL015"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.177
+}

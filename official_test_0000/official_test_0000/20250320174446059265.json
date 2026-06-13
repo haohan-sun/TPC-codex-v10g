@@ -1,0 +1,990 @@
+{
+    "people_number": 2,
+    "start_city": "Shanghai",
+    "target_city": "Chengdu",
+    "itinerary": [
+        {
+            "day": 1,
+            "activities": [
+                {
+                    "start_time": "00:14",
+                    "end_time": "02:18",
+                    "start": "Shanghai Pudong International Airport",
+                    "end": "Chengdu Shuangliu International Airport",
+                    "price": 800.01,
+                    "cost": 1600.02,
+                    "tickets": 2,
+                    "transports": [],
+                    "FlightID": "FL041",
+                    "type": "airplane"
+                },
+                {
+                    "position": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                    "type": "accommodation",
+                    "price": 167,
+                    "cost": 167,
+                    "start_time": "02:56",
+                    "end_time": "24:00",
+                    "transports": [
+                        {
+                            "start": "Chengdu Shuangliu International Airport",
+                            "end": "Shuangliu Airport Terminal 2 East-Metro Station",
+                            "mode": "walk",
+                            "start_time": "02:18",
+                            "end_time": "02:33",
+                            "cost": 0,
+                            "distance": 1.25,
+                            "price": 0
+                        },
+                        {
+                            "start": "Shuangliu Airport Terminal 2 East-Metro Station",
+                            "end": "Cuqiao-Metro Station",
+                            "mode": "metro",
+                            "start_time": "02:33",
+                            "end_time": "02:43",
+                            "cost": 6,
+                            "distance": 5.28,
+                            "price": 3,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Cuqiao-Metro Station",
+                            "end": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                            "mode": "walk",
+                            "start_time": "02:43",
+                            "end_time": "02:56",
+                            "cost": 0,
+                            "distance": 1.16,
+                            "price": 0
+                        }
+                    ],
+                    "room_type": 2,
+                    "rooms": 1
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "activities": [
+                {
+                    "position": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                    "type": "breakfast",
+                    "price": 0,
+                    "cost": 0,
+                    "start_time": "08:00",
+                    "end_time": "08:30",
+                    "transports": []
+                },
+                {
+                    "position": "Iron Statue Temple Water Street",
+                    "type": "attraction",
+                    "price": 0,
+                    "cost": 0,
+                    "start_time": "09:07",
+                    "end_time": "10:37",
+                    "transports": [
+                        {
+                            "start": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                            "end": "Cuqiao-Metro Station",
+                            "mode": "walk",
+                            "start_time": "08:30",
+                            "end_time": "08:43",
+                            "cost": 0,
+                            "distance": 1.16,
+                            "price": 0
+                        },
+                        {
+                            "start": "Cuqiao-Metro Station",
+                            "end": "Jincheng Lake-Metro Station",
+                            "mode": "metro",
+                            "start_time": "08:43",
+                            "end_time": "08:57",
+                            "cost": 6,
+                            "distance": 7.26,
+                            "price": 3,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Jincheng Lake-Metro Station",
+                            "end": "Iron Statue Temple Water Street",
+                            "mode": "walk",
+                            "start_time": "08:57",
+                            "end_time": "09:07",
+                            "cost": 0,
+                            "distance": 0.9,
+                            "price": 0
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "Mawangzi (Taikoo Li Branch)",
+                    "type": "lunch",
+                    "price": 140,
+                    "cost": 280,
+                    "start_time": "11:30",
+                    "end_time": "12:30",
+                    "transports": [
+                        {
+                            "start": "Iron Statue Temple Water Street",
+                            "end": "Jincheng Lake-Metro Station",
+                            "mode": "walk",
+                            "start_time": "10:37",
+                            "end_time": "10:47",
+                            "cost": 0,
+                            "distance": 0.9,
+                            "price": 0
+                        },
+                        {
+                            "start": "Jincheng Lake-Metro Station",
+                            "end": "Chunxi Road-Metro Station",
+                            "mode": "metro",
+                            "start_time": "10:47",
+                            "end_time": "11:07",
+                            "cost": 8,
+                            "distance": 10.45,
+                            "price": 4,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Chunxi Road-Metro Station",
+                            "end": "Mawangzi (Taikoo Li Branch)",
+                            "mode": "walk",
+                            "start_time": "11:07",
+                            "end_time": "11:12",
+                            "cost": 0,
+                            "distance": 0.44,
+                            "price": 0
+                        }
+                    ]
+                },
+                {
+                    "position": "The Bridge Corridor",
+                    "type": "dinner",
+                    "price": 709,
+                    "cost": 1418,
+                    "start_time": "17:30",
+                    "end_time": "18:30",
+                    "transports": [
+                        {
+                            "start": "Mawangzi (Taikoo Li Branch)",
+                            "end": "Chunxi Road-Metro Station",
+                            "mode": "walk",
+                            "start_time": "12:30",
+                            "end_time": "12:35",
+                            "cost": 0,
+                            "distance": 0.44,
+                            "price": 0
+                        },
+                        {
+                            "start": "Chunxi Road-Metro Station",
+                            "end": "Dongmen Bridge-Metro Station",
+                            "mode": "metro",
+                            "start_time": "12:35",
+                            "end_time": "12:36",
+                            "cost": 4,
+                            "distance": 0.91,
+                            "price": 2,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Dongmen Bridge-Metro Station",
+                            "end": "The Bridge Corridor",
+                            "mode": "walk",
+                            "start_time": "12:36",
+                            "end_time": "12:44",
+                            "cost": 0,
+                            "distance": 0.73,
+                            "price": 0
+                        }
+                    ]
+                },
+                {
+                    "position": "Wuhou Shrine",
+                    "type": "attraction",
+                    "price": 50,
+                    "cost": 100,
+                    "start_time": "18:52",
+                    "end_time": "19:00",
+                    "transports": [
+                        {
+                            "start": "The Bridge Corridor",
+                            "end": "Dongmen Bridge-Metro Station",
+                            "mode": "walk",
+                            "start_time": "18:30",
+                            "end_time": "18:38",
+                            "cost": 0,
+                            "distance": 0.73,
+                            "price": 0
+                        },
+                        {
+                            "start": "Dongmen Bridge-Metro Station",
+                            "end": "People's Park-Metro Station",
+                            "mode": "metro",
+                            "start_time": "18:38",
+                            "end_time": "18:44",
+                            "cost": 4,
+                            "distance": 3.18,
+                            "price": 2,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "People's Park-Metro Station",
+                            "end": "Wuhou Shrine",
+                            "mode": "walk",
+                            "start_time": "18:44",
+                            "end_time": "18:52",
+                            "cost": 0,
+                            "distance": 0.74,
+                            "price": 0
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "Jinli Ancient Street",
+                    "type": "attraction",
+                    "price": 0,
+                    "cost": 0,
+                    "start_time": "19:00",
+                    "end_time": "20:30",
+                    "transports": [
+                        {
+                            "start": "Wuhou Shrine",
+                            "end": "Jinli Ancient Street",
+                            "mode": "taxi",
+                            "start_time": "19:00",
+                            "end_time": "19:00",
+                            "cost": 11.0,
+                            "distance": 0.19,
+                            "price": 11.0,
+                            "cars": 1
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                    "type": "accommodation",
+                    "price": 167,
+                    "cost": 167,
+                    "start_time": "21:09",
+                    "end_time": "24:00",
+                    "transports": [
+                        {
+                            "start": "Jinli Ancient Street",
+                            "end": "People's Park-Metro Station",
+                            "mode": "walk",
+                            "start_time": "20:30",
+                            "end_time": "20:39",
+                            "cost": 0,
+                            "distance": 0.82,
+                            "price": 0
+                        },
+                        {
+                            "start": "People's Park-Metro Station",
+                            "end": "Cuqiao-Metro Station",
+                            "mode": "metro",
+                            "start_time": "20:39",
+                            "end_time": "20:56",
+                            "cost": 6,
+                            "distance": 8.59,
+                            "price": 3,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Cuqiao-Metro Station",
+                            "end": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                            "mode": "walk",
+                            "start_time": "20:56",
+                            "end_time": "21:09",
+                            "cost": 0,
+                            "distance": 1.16,
+                            "price": 0
+                        }
+                    ],
+                    "room_type": 2,
+                    "rooms": 1
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "activities": [
+                {
+                    "position": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                    "type": "breakfast",
+                    "price": 0,
+                    "cost": 0,
+                    "start_time": "08:00",
+                    "end_time": "08:30",
+                    "transports": []
+                },
+                {
+                    "position": "Chengdu Research Base of Giant Panda Breeding",
+                    "type": "attraction",
+                    "price": 55,
+                    "cost": 110,
+                    "start_time": "10:00",
+                    "end_time": "11:30",
+                    "transports": [
+                        {
+                            "start": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                            "end": "Cuqiao-Metro Station",
+                            "mode": "walk",
+                            "start_time": "08:30",
+                            "end_time": "08:43",
+                            "cost": 0,
+                            "distance": 1.16,
+                            "price": 0
+                        },
+                        {
+                            "start": "Cuqiao-Metro Station",
+                            "end": "Botanical Garden-Metro Station",
+                            "mode": "metro",
+                            "start_time": "08:43",
+                            "end_time": "09:25",
+                            "cost": 12,
+                            "distance": 21.36,
+                            "price": 6,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Botanical Garden-Metro Station",
+                            "end": "Chengdu Research Base of Giant Panda Breeding",
+                            "mode": "walk",
+                            "start_time": "09:25",
+                            "end_time": "10:00",
+                            "cost": 0,
+                            "distance": 2.95,
+                            "price": 0
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "St. Regis Chengdu · Yan Ting Chinese Restaurant",
+                    "type": "lunch",
+                    "price": 233,
+                    "cost": 466,
+                    "start_time": "12:33",
+                    "end_time": "13:33",
+                    "transports": [
+                        {
+                            "start": "Chengdu Research Base of Giant Panda Breeding",
+                            "end": "Botanical Garden-Metro Station",
+                            "mode": "walk",
+                            "start_time": "11:30",
+                            "end_time": "12:05",
+                            "cost": 0,
+                            "distance": 2.95,
+                            "price": 0
+                        },
+                        {
+                            "start": "Botanical Garden-Metro Station",
+                            "end": "Taisheng South Road-Metro Station",
+                            "mode": "metro",
+                            "start_time": "12:05",
+                            "end_time": "12:28",
+                            "cost": 8,
+                            "distance": 11.74,
+                            "price": 4,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Taisheng South Road-Metro Station",
+                            "end": "St. Regis Chengdu · Yan Ting Chinese Restaurant",
+                            "mode": "walk",
+                            "start_time": "12:28",
+                            "end_time": "12:33",
+                            "cost": 0,
+                            "distance": 0.46,
+                            "price": 0
+                        }
+                    ]
+                },
+                {
+                    "position": "Du Fu Thatched Cottage",
+                    "type": "attraction",
+                    "price": 50,
+                    "cost": 100,
+                    "start_time": "13:50",
+                    "end_time": "15:20",
+                    "transports": [
+                        {
+                            "start": "St. Regis Chengdu · Yan Ting Chinese Restaurant",
+                            "end": "Taisheng South Road-Metro Station",
+                            "mode": "walk",
+                            "start_time": "13:33",
+                            "end_time": "13:38",
+                            "cost": 0,
+                            "distance": 0.46,
+                            "price": 0
+                        },
+                        {
+                            "start": "Taisheng South Road-Metro Station",
+                            "end": "University of Traditional Chinese Medicine · Provincial Hospital-Metro Station",
+                            "mode": "metro",
+                            "start_time": "13:38",
+                            "end_time": "13:44",
+                            "cost": 4,
+                            "distance": 3.45,
+                            "price": 2,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "University of Traditional Chinese Medicine · Provincial Hospital-Metro Station",
+                            "end": "Du Fu Thatched Cottage",
+                            "mode": "walk",
+                            "start_time": "13:44",
+                            "end_time": "13:50",
+                            "cost": 0,
+                            "distance": 0.55,
+                            "price": 0
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "Kuanzhai Alley",
+                    "type": "attraction",
+                    "price": 0,
+                    "cost": 0,
+                    "start_time": "15:38",
+                    "end_time": "17:08",
+                    "transports": [
+                        {
+                            "start": "Du Fu Thatched Cottage",
+                            "end": "University of Traditional Chinese Medicine · Provincial Hospital-Metro Station",
+                            "mode": "walk",
+                            "start_time": "15:20",
+                            "end_time": "15:26",
+                            "cost": 0,
+                            "distance": 0.55,
+                            "price": 0
+                        },
+                        {
+                            "start": "University of Traditional Chinese Medicine · Provincial Hospital-Metro Station",
+                            "end": "Luomashi-Metro Station",
+                            "mode": "metro",
+                            "start_time": "15:26",
+                            "end_time": "15:30",
+                            "cost": 4,
+                            "distance": 2.4,
+                            "price": 2,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Luomashi-Metro Station",
+                            "end": "Kuanzhai Alley",
+                            "mode": "walk",
+                            "start_time": "15:30",
+                            "end_time": "15:38",
+                            "cost": 0,
+                            "distance": 0.68,
+                            "price": 0
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "Crane's Call Tea House (People's Park Branch)",
+                    "type": "dinner",
+                    "price": 45,
+                    "cost": 90,
+                    "start_time": "17:21",
+                    "end_time": "18:21",
+                    "transports": [
+                        {
+                            "start": "Kuanzhai Alley",
+                            "end": "Luomashi-Metro Station",
+                            "mode": "walk",
+                            "start_time": "17:08",
+                            "end_time": "17:16",
+                            "cost": 0,
+                            "distance": 0.68,
+                            "price": 0
+                        },
+                        {
+                            "start": "Luomashi-Metro Station",
+                            "end": "People's Park-Metro Station",
+                            "mode": "metro",
+                            "start_time": "17:16",
+                            "end_time": "17:18",
+                            "cost": 4,
+                            "distance": 1.16,
+                            "price": 2,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "People's Park-Metro Station",
+                            "end": "Crane's Call Tea House (People's Park Branch)",
+                            "mode": "walk",
+                            "start_time": "17:18",
+                            "end_time": "17:21",
+                            "cost": 0,
+                            "distance": 0.32,
+                            "price": 0
+                        }
+                    ]
+                },
+                {
+                    "position": "Tianfu Square",
+                    "type": "attraction",
+                    "price": 0,
+                    "cost": 0,
+                    "start_time": "18:32",
+                    "end_time": "20:02",
+                    "transports": [
+                        {
+                            "start": "Crane's Call Tea House (People's Park Branch)",
+                            "end": "People's Park-Metro Station",
+                            "mode": "walk",
+                            "start_time": "18:21",
+                            "end_time": "18:24",
+                            "cost": 0,
+                            "distance": 0.32,
+                            "price": 0
+                        },
+                        {
+                            "start": "People's Park-Metro Station",
+                            "end": "Taisheng South Road-Metro Station",
+                            "mode": "metro",
+                            "start_time": "18:24",
+                            "end_time": "18:27",
+                            "cost": 4,
+                            "distance": 1.99,
+                            "price": 2,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Taisheng South Road-Metro Station",
+                            "end": "Tianfu Square",
+                            "mode": "walk",
+                            "start_time": "18:27",
+                            "end_time": "18:32",
+                            "cost": 0,
+                            "distance": 0.42,
+                            "price": 0
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                    "type": "accommodation",
+                    "price": 167,
+                    "cost": 167,
+                    "start_time": "20:40",
+                    "end_time": "24:00",
+                    "transports": [
+                        {
+                            "start": "Tianfu Square",
+                            "end": "Taisheng South Road-Metro Station",
+                            "mode": "walk",
+                            "start_time": "20:02",
+                            "end_time": "20:07",
+                            "cost": 0,
+                            "distance": 0.42,
+                            "price": 0
+                        },
+                        {
+                            "start": "Taisheng South Road-Metro Station",
+                            "end": "Cuqiao-Metro Station",
+                            "mode": "metro",
+                            "start_time": "20:07",
+                            "end_time": "20:27",
+                            "cost": 8,
+                            "distance": 10.44,
+                            "price": 4,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Cuqiao-Metro Station",
+                            "end": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                            "mode": "walk",
+                            "start_time": "20:27",
+                            "end_time": "20:40",
+                            "cost": 0,
+                            "distance": 1.16,
+                            "price": 0
+                        }
+                    ],
+                    "room_type": 2,
+                    "rooms": 1
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "activities": [
+                {
+                    "position": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                    "type": "breakfast",
+                    "price": 0,
+                    "cost": 0,
+                    "start_time": "08:00",
+                    "end_time": "08:30",
+                    "transports": []
+                },
+                {
+                    "position": "People's Park",
+                    "type": "attraction",
+                    "price": 0,
+                    "cost": 0,
+                    "start_time": "09:59",
+                    "end_time": "11:29",
+                    "transports": [
+                        {
+                            "start": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                            "end": "People's Park",
+                            "mode": "taxi",
+                            "start_time": "08:30",
+                            "end_time": "09:59",
+                            "cost": 263.34,
+                            "distance": 59.7,
+                            "price": 263.34,
+                            "cars": 1
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "Hilton Canopy TC Cafe Yurong Sky High Restaurant",
+                    "type": "lunch",
+                    "price": 250,
+                    "cost": 500,
+                    "start_time": "12:50",
+                    "end_time": "13:50",
+                    "transports": [
+                        {
+                            "start": "People's Park",
+                            "end": "Hilton Canopy TC Cafe Yurong Sky High Restaurant",
+                            "mode": "taxi",
+                            "start_time": "11:29",
+                            "end_time": "12:50",
+                            "cost": 240.63,
+                            "distance": 54.65,
+                            "price": 240.63,
+                            "cars": 1
+                        }
+                    ]
+                },
+                {
+                    "position": "Jinsha Site Museum",
+                    "type": "attraction",
+                    "price": 66,
+                    "cost": 132,
+                    "start_time": "14:04",
+                    "end_time": "15:34",
+                    "transports": [
+                        {
+                            "start": "Hilton Canopy TC Cafe Yurong Sky High Restaurant",
+                            "end": "Tianfu Square-Metro Station",
+                            "mode": "walk",
+                            "start_time": "13:50",
+                            "end_time": "13:52",
+                            "cost": 0,
+                            "distance": 0.22,
+                            "price": 0
+                        },
+                        {
+                            "start": "Tianfu Square-Metro Station",
+                            "end": "Yipintianxia-Metro Station",
+                            "mode": "metro",
+                            "start_time": "13:52",
+                            "end_time": "14:03",
+                            "cost": 6,
+                            "distance": 5.63,
+                            "price": 3,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Yipintianxia-Metro Station",
+                            "end": "Jinsha Site Museum",
+                            "mode": "walk",
+                            "start_time": "14:03",
+                            "end_time": "14:04",
+                            "cost": 0,
+                            "distance": 0.14,
+                            "price": 0
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "Sichuan Museum",
+                    "type": "attraction",
+                    "price": 0,
+                    "cost": 0,
+                    "start_time": "15:41",
+                    "end_time": "17:00",
+                    "transports": [
+                        {
+                            "start": "Jinsha Site Museum",
+                            "end": "Yipintianxia-Metro Station",
+                            "mode": "walk",
+                            "start_time": "15:34",
+                            "end_time": "15:35",
+                            "cost": 0,
+                            "distance": 0.14,
+                            "price": 0
+                        },
+                        {
+                            "start": "Yipintianxia-Metro Station",
+                            "end": "University of Traditional Chinese Medicine · Provincial Hospital-Metro Station",
+                            "mode": "metro",
+                            "start_time": "15:35",
+                            "end_time": "15:41",
+                            "cost": 4,
+                            "distance": 3.23,
+                            "price": 2,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "University of Traditional Chinese Medicine · Provincial Hospital-Metro Station",
+                            "end": "Sichuan Museum",
+                            "mode": "walk",
+                            "start_time": "15:41",
+                            "end_time": "15:41",
+                            "cost": 0,
+                            "distance": 0.08,
+                            "price": 0
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "Chengdu Zoo",
+                    "type": "attraction",
+                    "price": 20,
+                    "cost": 40,
+                    "start_time": "17:26",
+                    "end_time": "17:30",
+                    "transports": [
+                        {
+                            "start": "Sichuan Museum",
+                            "end": "University of Traditional Chinese Medicine · Provincial Hospital-Metro Station",
+                            "mode": "walk",
+                            "start_time": "17:00",
+                            "end_time": "17:00",
+                            "cost": 0,
+                            "distance": 0.08,
+                            "price": 0
+                        },
+                        {
+                            "start": "University of Traditional Chinese Medicine · Provincial Hospital-Metro Station",
+                            "end": "Zoo-Metro Station",
+                            "mode": "metro",
+                            "start_time": "17:00",
+                            "end_time": "17:15",
+                            "cost": 6,
+                            "distance": 7.98,
+                            "price": 3,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Zoo-Metro Station",
+                            "end": "Chengdu Zoo",
+                            "mode": "walk",
+                            "start_time": "17:15",
+                            "end_time": "17:26",
+                            "cost": 0,
+                            "distance": 0.92,
+                            "price": 0
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "Chengdu Botanical Garden",
+                    "type": "attraction",
+                    "price": 10,
+                    "cost": 20,
+                    "start_time": "18:05",
+                    "end_time": "19:00",
+                    "transports": [
+                        {
+                            "start": "Chengdu Zoo",
+                            "end": "Zoo-Metro Station",
+                            "mode": "walk",
+                            "start_time": "17:30",
+                            "end_time": "17:41",
+                            "cost": 0,
+                            "distance": 0.92,
+                            "price": 0
+                        },
+                        {
+                            "start": "Zoo-Metro Station",
+                            "end": "Jinhuasi East Road-Metro Station",
+                            "mode": "metro",
+                            "start_time": "17:41",
+                            "end_time": "17:54",
+                            "cost": 6,
+                            "distance": 6.65,
+                            "price": 3,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Jinhuasi East Road-Metro Station",
+                            "end": "Chengdu Botanical Garden",
+                            "mode": "walk",
+                            "start_time": "17:54",
+                            "end_time": "18:05",
+                            "cost": 0,
+                            "distance": 0.95,
+                            "price": 0
+                        }
+                    ],
+                    "tickets": 2
+                },
+                {
+                    "position": "Zhulian Yakiniku (COFCO Hongyun Yuejie Branch)",
+                    "type": "dinner",
+                    "price": 130,
+                    "cost": 260,
+                    "start_time": "19:48",
+                    "end_time": "20:48",
+                    "transports": [
+                        {
+                            "start": "Chengdu Botanical Garden",
+                            "end": "Jinhuasi East Road-Metro Station",
+                            "mode": "walk",
+                            "start_time": "19:00",
+                            "end_time": "19:11",
+                            "cost": 0,
+                            "distance": 0.95,
+                            "price": 0
+                        },
+                        {
+                            "start": "Jinhuasi East Road-Metro Station",
+                            "end": "Dongda Road-Metro Station",
+                            "mode": "metro",
+                            "start_time": "19:11",
+                            "end_time": "19:41",
+                            "cost": 10,
+                            "distance": 15.26,
+                            "price": 5,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Dongda Road-Metro Station",
+                            "end": "Zhulian Yakiniku (COFCO Hongyun Yuejie Branch)",
+                            "mode": "walk",
+                            "start_time": "19:41",
+                            "end_time": "19:48",
+                            "cost": 0,
+                            "distance": 0.64,
+                            "price": 0
+                        }
+                    ]
+                },
+                {
+                    "position": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                    "type": "accommodation",
+                    "price": 167,
+                    "cost": 167,
+                    "start_time": "21:32",
+                    "end_time": "24:00",
+                    "transports": [
+                        {
+                            "start": "Zhulian Yakiniku (COFCO Hongyun Yuejie Branch)",
+                            "end": "Dongda Road-Metro Station",
+                            "mode": "walk",
+                            "start_time": "20:48",
+                            "end_time": "20:55",
+                            "cost": 0,
+                            "distance": 0.64,
+                            "price": 0
+                        },
+                        {
+                            "start": "Dongda Road-Metro Station",
+                            "end": "Cuqiao-Metro Station",
+                            "mode": "metro",
+                            "start_time": "20:55",
+                            "end_time": "21:19",
+                            "cost": 8,
+                            "distance": 12.12,
+                            "price": 4,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Cuqiao-Metro Station",
+                            "end": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                            "mode": "walk",
+                            "start_time": "21:19",
+                            "end_time": "21:32",
+                            "cost": 0,
+                            "distance": 1.16,
+                            "price": 0
+                        }
+                    ],
+                    "room_type": 2,
+                    "rooms": 1
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "activities": [
+                {
+                    "start_time": "15:10",
+                    "end_time": "17:14",
+                    "start": "Chengdu Tianfu International Airport",
+                    "end": "Shanghai Hongqiao International Airport",
+                    "price": 783.76,
+                    "cost": 1567.52,
+                    "tickets": 2,
+                    "transports": [
+                        {
+                            "start": "Quigg Hotel (Chengdu Shuangliu Airport)",
+                            "end": "Cuqiao-Metro Station",
+                            "mode": "walk",
+                            "start_time": "00:00",
+                            "end_time": "00:13",
+                            "cost": 0,
+                            "distance": 1.16,
+                            "price": 0
+                        },
+                        {
+                            "start": "Cuqiao-Metro Station",
+                            "end": "Tianfu Airport Terminal 1 and 2-Metro Station",
+                            "mode": "metro",
+                            "start_time": "00:13",
+                            "end_time": "02:02",
+                            "cost": 18,
+                            "distance": 54.63,
+                            "price": 9,
+                            "tickets": 2
+                        },
+                        {
+                            "start": "Tianfu Airport Terminal 1 and 2-Metro Station",
+                            "end": "Chengdu Tianfu International Airport",
+                            "mode": "walk",
+                            "start_time": "02:02",
+                            "end_time": "02:46",
+                            "cost": 0,
+                            "distance": 3.72,
+                            "price": 0
+                        }
+                    ],
+                    "FlightID": "FL409",
+                    "type": "airplane"
+                }
+            ]
+        }
+    ],
+    "search_time_sec": 226.01613903045654,
+    "llm_inference_time_sec": 219.1662139892578,
+    "input_token_count": 0,
+    "output_token_count": 0,
+    "input_token_maxx": 0,
+    "llm_rec_count": 29,
+    "llm_rec_format_error_count": 4,
+    "search_nodes": 7116,
+    "backtrack_count": 63,
+    "constraints_validation_count": 1,
+    "commonsense_pass_count": 1,
+    "logical_pass_count": 1,
+    "all_constraints_pass": 1
+}

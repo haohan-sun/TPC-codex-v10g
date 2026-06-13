@@ -1,0 +1,210 @@
+{
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:45",
+          "end_time": "08:16",
+          "cost": 2546.44,
+          "price": 636.61,
+          "transports": [],
+          "tickets": 4,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "FlightID": "FL165"
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:15",
+          "end_time": "19:15",
+          "cost": 112.0,
+          "price": 28.0,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "18:15",
+              "cost": 91.08,
+              "price": 22.77,
+              "distance": 18.77,
+              "tickets": 4
+            }
+          ],
+          "position": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:47",
+          "end_time": "21:47",
+          "cost": 606.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:47",
+              "cost": 57.43,
+              "price": 57.43,
+              "distance": 23.72,
+              "cars": 1
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:54",
+          "end_time": "12:54",
+          "cost": 120.0,
+          "price": 30.0,
+          "transports": [
+            {
+              "start": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "end": "Valley Sand Noodle Shop",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:54",
+              "cost": 107.64,
+              "price": 26.91,
+              "distance": 22.91,
+              "tickets": 4
+            }
+          ],
+          "position": "Valley Sand Noodle Shop"
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:42",
+          "end_time": "18:42",
+          "cost": 124.0,
+          "price": 31.0,
+          "transports": [
+            {
+              "start": "Valley Sand Noodle Shop",
+              "end": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:42",
+              "cost": 37.36,
+              "price": 9.34,
+              "distance": 5.34,
+              "tickets": 4
+            }
+          ],
+          "position": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:51",
+          "end_time": "21:51",
+          "cost": 606.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:51",
+              "cost": 61.5,
+              "price": 61.5,
+              "distance": 25.75,
+              "cars": 1
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:55",
+          "end_time": "12:55",
+          "cost": 148.0,
+          "price": 37.0,
+          "transports": [
+            {
+              "start": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "end": "Cafe del Volcan (Yongkang Road Branch)",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:55",
+              "cost": 109.28,
+              "price": 27.32,
+              "distance": 23.32,
+              "tickets": 4
+            }
+          ],
+          "position": "Cafe del Volcan (Yongkang Road Branch)"
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:38",
+          "end_time": "18:38",
+          "cost": 156.0,
+          "price": 39.0,
+          "transports": [
+            {
+              "start": "Cafe del Volcan (Yongkang Road Branch)",
+              "end": "Haling Noodle House (Guangxi North Road Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:38",
+              "cost": 29.44,
+              "price": 7.36,
+              "distance": 3.36,
+              "tickets": 4
+            }
+          ],
+          "position": "Haling Noodle House (Guangxi North Road Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "20:30",
+          "end_time": "22:01",
+          "cost": 2583.84,
+          "price": 645.96,
+          "transports": [
+            {
+              "start": "Haling Noodle House (Guangxi North Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "taxi",
+              "start_time": "18:48",
+              "end_time": "19:30",
+              "cost": 52.04,
+              "price": 52.04,
+              "distance": 21.02,
+              "cars": 1
+            }
+          ],
+          "tickets": 4,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL015"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.179
+}

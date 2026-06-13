@@ -1,0 +1,250 @@
+{
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:45",
+          "end_time": "08:16",
+          "cost": 636.61,
+          "price": 636.61,
+          "transports": [],
+          "tickets": 1,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "FlightID": "FL165"
+        },
+        {
+          "type": "attraction",
+          "start_time": "10:17",
+          "end_time": "12:17",
+          "cost": 399.0,
+          "price": 399.0,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "Shanghai Disney Resort",
+              "mode": "metro",
+              "start_time": "08:46",
+              "end_time": "10:17",
+              "cost": 42.15,
+              "price": 42.15,
+              "distance": 38.15,
+              "tickets": 1
+            }
+          ],
+          "position": "Shanghai Disney Resort",
+          "tickets": 1
+        },
+        {
+          "type": "lunch",
+          "start_time": "13:48",
+          "end_time": "14:00",
+          "cost": 18.0,
+          "price": 18.0,
+          "transports": [
+            {
+              "start": "Shanghai Disney Resort",
+              "end": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "mode": "metro",
+              "start_time": "12:37",
+              "end_time": "13:48",
+              "cost": 33.62,
+              "price": 33.62,
+              "distance": 29.62,
+              "tickets": 1
+            }
+          ],
+          "position": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:50",
+          "end_time": "15:35",
+          "cost": 199.0,
+          "price": 199.0,
+          "transports": [
+            {
+              "start": "Shunchang Renshou Stuffed Egg (Qibao Old Street Branch)",
+              "end": "Oriental Pearl Tower",
+              "mode": "metro",
+              "start_time": "14:10",
+              "end_time": "14:50",
+              "cost": 20.85,
+              "price": 20.85,
+              "distance": 16.85,
+              "tickets": 1
+            }
+          ],
+          "position": "Oriental Pearl Tower",
+          "tickets": 1
+        },
+        {
+          "type": "attraction",
+          "start_time": "16:00",
+          "end_time": "17:30",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Oriental Pearl Tower",
+              "end": "The Bund",
+              "mode": "metro",
+              "start_time": "15:55",
+              "end_time": "16:00",
+              "cost": 4.9,
+              "price": 4.9,
+              "distance": 0.9,
+              "tickets": 1
+            }
+          ],
+          "position": "The Bund",
+          "tickets": 1
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:00",
+          "end_time": "19:00",
+          "cost": 28.0,
+          "price": 28.0,
+          "transports": [
+            {
+              "start": "The Bund",
+              "end": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "mode": "metro",
+              "start_time": "17:50",
+              "end_time": "18:00",
+              "cost": 8.37,
+              "price": 8.37,
+              "distance": 4.37,
+              "tickets": 1
+            }
+          ],
+          "position": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:47",
+          "end_time": "21:47",
+          "cost": 303.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Mei Xin Dim Sum Shop (North Shaanxi Road Branch)",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:47",
+              "cost": 57.43,
+              "price": 57.43,
+              "distance": 23.72,
+              "cars": 1
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 1,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "10:55",
+          "end_time": "11:55",
+          "cost": 149.0,
+          "price": 149.0,
+          "transports": [
+            {
+              "start": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "end": "Shanghai Haichang Ocean Park",
+              "mode": "metro",
+              "start_time": "09:30",
+              "end_time": "10:55",
+              "cost": 39.47,
+              "price": 39.47,
+              "distance": 35.47,
+              "tickets": 1
+            }
+          ],
+          "position": "Shanghai Haichang Ocean Park",
+          "tickets": 1
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:20",
+          "end_time": "15:05",
+          "cost": 40.0,
+          "price": 40.0,
+          "transports": [
+            {
+              "start": "Shanghai Haichang Ocean Park",
+              "end": "Yu Garden",
+              "mode": "metro",
+              "start_time": "12:15",
+              "end_time": "14:20",
+              "cost": 56.32,
+              "price": 56.32,
+              "distance": 52.32,
+              "tickets": 1
+            }
+          ],
+          "position": "Yu Garden",
+          "tickets": 1
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:45",
+          "end_time": "18:45",
+          "cost": 31.0,
+          "price": 31.0,
+          "transports": [
+            {
+              "start": "Yu Garden",
+              "end": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:45",
+              "cost": 10.46,
+              "price": 10.46,
+              "distance": 6.46,
+              "tickets": 1
+            }
+          ],
+          "position": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "20:30",
+          "end_time": "22:01",
+          "cost": 645.96,
+          "price": 645.96,
+          "transports": [
+            {
+              "start": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "taxi",
+              "start_time": "18:55",
+              "end_time": "19:27",
+              "cost": 42.88,
+              "price": 42.88,
+              "distance": 16.44,
+              "cars": 1
+            }
+          ],
+          "tickets": 1,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL015"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.188
+}

@@ -1,0 +1,207 @@
+{
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Beijing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "07:53",
+          "end_time": "09:00",
+          "cost": 2351.55,
+          "price": 470.31,
+          "transports": [],
+          "tickets": 5,
+          "start": "Nanjing Lukou International Airport",
+          "end": "Beijing Daxing International Airport",
+          "FlightID": "FL657"
+        },
+        {
+          "type": "attraction",
+          "start_time": "11:44",
+          "end_time": "18:00",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Beijing Daxing International Airport",
+              "end": "Marble Boat in the Summer Palace, Beijing",
+              "mode": "metro",
+              "start_time": "09:30",
+              "end_time": "11:44",
+              "cost": 299.75,
+              "price": 59.95,
+              "distance": 55.95,
+              "tickets": 5
+            }
+          ],
+          "position": "Marble Boat in the Summer Palace, Beijing",
+          "tickets": 5
+        },
+        {
+          "type": "attraction",
+          "start_time": "20:19",
+          "end_time": "15:08",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Marble Boat in the Summer Palace, Beijing",
+              "end": "Mutianyu Great Wall Cable Car and Toboggan",
+              "mode": "metro",
+              "start_time": "18:10",
+              "end_time": "20:19",
+              "cost": 290.65,
+              "price": 58.13,
+              "distance": 54.13,
+              "tickets": 5
+            }
+          ],
+          "position": "Mutianyu Great Wall Cable Car and Toboggan",
+          "tickets": 5
+        },
+        {
+          "type": "dinner",
+          "start_time": "19:33",
+          "end_time": "20:00",
+          "cost": 70.0,
+          "price": 14.0,
+          "transports": [
+            {
+              "start": "Marble Boat in the Summer Palace, Beijing",
+              "end": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+              "mode": "metro",
+              "start_time": "18:57",
+              "end_time": "19:33",
+              "cost": 96.65,
+              "price": 19.33,
+              "distance": 15.33,
+              "tickets": 5
+            }
+          ],
+          "position": "Imperial Crispy Beef Pancake - Niujie Gourmet"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:02",
+          "end_time": "22:02",
+          "cost": 807.0,
+          "price": 269.0,
+          "transports": [
+            {
+              "start": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+              "end": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+              "mode": "taxi",
+              "start_time": "20:10",
+              "end_time": "21:02",
+              "cost": 125.58,
+              "price": 62.79,
+              "distance": 26.4,
+              "cars": 2
+            }
+          ],
+          "position": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+          "rooms": 3,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:49",
+          "end_time": "10:34",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+              "end": "Tsinghua University Art Museum",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:49",
+              "cost": 122.45,
+              "price": 24.49,
+              "distance": 20.49,
+              "tickets": 5
+            }
+          ],
+          "position": "Tsinghua University Art Museum",
+          "tickets": 5
+        },
+        {
+          "type": "lunch",
+          "start_time": "11:25",
+          "end_time": "12:25",
+          "cost": 80.0,
+          "price": 16.0,
+          "transports": [
+            {
+              "start": "Tsinghua University Art Museum",
+              "end": "Zengshengkui Snack Shop",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:25",
+              "cost": 73.25,
+              "price": 14.65,
+              "distance": 10.65,
+              "tickets": 5
+            }
+          ],
+          "position": "Zengshengkui Snack Shop"
+        },
+        {
+          "type": "attraction",
+          "start_time": "12:45",
+          "end_time": "13:30",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Zengshengkui Snack Shop",
+              "end": "Sanlitun Bar Street",
+              "mode": "metro",
+              "start_time": "12:35",
+              "end_time": "12:45",
+              "cost": 41.4,
+              "price": 8.28,
+              "distance": 4.28,
+              "tickets": 5
+            }
+          ],
+          "position": "Sanlitun Bar Street",
+          "tickets": 5
+        },
+        {
+          "type": "airplane",
+          "start_time": "23:22",
+          "end_time": "00:29",
+          "cost": 2084.55,
+          "price": 416.91,
+          "transports": [
+            {
+              "start": "Sanlitun Bar Street",
+              "end": "Beijing Daxing International Airport",
+              "mode": "taxi",
+              "start_time": "17:30",
+              "end_time": "19:04",
+              "cost": 209.2,
+              "price": 104.6,
+              "distance": 47.3,
+              "cars": 2
+            }
+          ],
+          "tickets": 5,
+          "start": "Beijing Daxing International Airport",
+          "end": "Nanjing Lukou International Airport",
+          "FlightID": "FL154"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.097
+}

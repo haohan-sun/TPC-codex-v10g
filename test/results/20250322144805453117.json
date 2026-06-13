@@ -1,0 +1,364 @@
+{
+  "people_number": 2,
+  "start_city": "Shanghai",
+  "target_city": "Nanjing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "07:58",
+          "end_time": "08:18",
+          "cost": 555.66,
+          "price": 277.83,
+          "transports": [],
+          "tickets": 2,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Nanjing Lukou International Airport",
+          "FlightID": "FL071"
+        },
+        {
+          "type": "attraction",
+          "start_time": "10:07",
+          "end_time": "11:07",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Nanjing Lukou International Airport",
+              "end": "Confucius Temple and Qinhuai River Scenic Area",
+              "mode": "metro",
+              "start_time": "08:48",
+              "end_time": "10:07",
+              "cost": 74.2,
+              "price": 37.1,
+              "distance": 33.1,
+              "tickets": 2
+            }
+          ],
+          "position": "Confucius Temple and Qinhuai River Scenic Area",
+          "tickets": 2
+        },
+        {
+          "type": "lunch",
+          "start_time": "11:35",
+          "end_time": "12:35",
+          "cost": 12.0,
+          "price": 6.0,
+          "transports": [
+            {
+              "start": "Confucius Temple and Qinhuai River Scenic Area",
+              "end": "Zhu's Plum Blossom Cake",
+              "mode": "metro",
+              "start_time": "11:27",
+              "end_time": "11:35",
+              "cost": 15.34,
+              "price": 7.67,
+              "distance": 3.67,
+              "tickets": 2
+            }
+          ],
+          "position": "Zhu's Plum Blossom Cake"
+        },
+        {
+          "type": "attraction",
+          "start_time": "12:50",
+          "end_time": "15:50",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Zhu's Plum Blossom Cake",
+              "end": "Nanjing Love Museum (Xinjiekou Branch)",
+              "mode": "metro",
+              "start_time": "12:45",
+              "end_time": "12:50",
+              "cost": 11.46,
+              "price": 5.73,
+              "distance": 1.73,
+              "tickets": 2
+            }
+          ],
+          "position": "Nanjing Love Museum (Xinjiekou Branch)",
+          "tickets": 2
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:39",
+          "end_time": "18:39",
+          "cost": 18.0,
+          "price": 9.0,
+          "transports": [
+            {
+              "start": "Nanjing Love Museum (Xinjiekou Branch)",
+              "end": "Lu's Plum Blossom Cake (Laomendong Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:39",
+              "cost": 15.94,
+              "price": 7.97,
+              "distance": 3.97,
+              "tickets": 2
+            }
+          ],
+          "position": "Lu's Plum Blossom Cake (Laomendong Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:30",
+          "end_time": "21:30",
+          "cost": 76.0,
+          "price": 76.0,
+          "transports": [
+            {
+              "start": "Lu's Plum Blossom Cake (Laomendong Branch)",
+              "end": "Nanjing BuildHome Cinema apartment",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:30",
+              "cost": 40.7,
+              "price": 40.7,
+              "distance": 15.35,
+              "cars": 1
+            }
+          ],
+          "position": "Nanjing BuildHome Cinema apartment",
+          "rooms": 1,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:26",
+          "end_time": "13:24",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Nanjing BuildHome Cinema apartment",
+              "end": "Memorial Hall of the Victims in Nanjing Massacre by Japanese Invaders",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:26",
+              "cost": 30.22,
+              "price": 15.11,
+              "distance": 11.11,
+              "tickets": 2
+            }
+          ],
+          "position": "Memorial Hall of the Victims in Nanjing Massacre by Japanese Invaders",
+          "tickets": 2
+        },
+        {
+          "type": "attraction",
+          "start_time": "13:45",
+          "end_time": "14:15",
+          "cost": 90.0,
+          "price": 45.0,
+          "transports": [
+            {
+              "start": "Memorial Hall of the Victims in Nanjing Massacre by Japanese Invaders",
+              "end": "Outer Qinhuai River Painted Boat",
+              "mode": "metro",
+              "start_time": "13:34",
+              "end_time": "13:45",
+              "cost": 17.34,
+              "price": 8.67,
+              "distance": 4.67,
+              "tickets": 2
+            }
+          ],
+          "position": "Outer Qinhuai River Painted Boat",
+          "tickets": 2
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:43",
+          "end_time": "15:13",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Outer Qinhuai River Painted Boat",
+              "end": "WeLope Purple Mountain Adventure Park",
+              "mode": "metro",
+              "start_time": "14:25",
+              "end_time": "14:43",
+              "cost": 23.18,
+              "price": 11.59,
+              "distance": 7.59,
+              "tickets": 2
+            }
+          ],
+          "position": "WeLope Purple Mountain Adventure Park",
+          "tickets": 2
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:57",
+          "end_time": "18:57",
+          "cost": 24.0,
+          "price": 12.0,
+          "transports": [
+            {
+              "start": "WeLope Purple Mountain Adventure Park",
+              "end": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:57",
+              "cost": 31.06,
+              "price": 15.53,
+              "distance": 11.53,
+              "tickets": 2
+            }
+          ],
+          "position": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:24",
+          "end_time": "21:24",
+          "cost": 76.0,
+          "price": 76.0,
+          "transports": [
+            {
+              "start": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)",
+              "end": "Nanjing BuildHome Cinema apartment",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:24",
+              "cost": 34.39,
+              "price": 34.39,
+              "distance": 12.2,
+              "cars": 1
+            }
+          ],
+          "position": "Nanjing BuildHome Cinema apartment",
+          "rooms": 1,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:35",
+          "end_time": "11:35",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Nanjing BuildHome Cinema apartment",
+              "end": "Ming Xiaoling Mausoleum Museum",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:35",
+              "cost": 37.54,
+              "price": 18.77,
+              "distance": 14.77,
+              "tickets": 2
+            }
+          ],
+          "position": "Ming Xiaoling Mausoleum Museum",
+          "tickets": 2
+        },
+        {
+          "type": "lunch",
+          "start_time": "12:12",
+          "end_time": "13:12",
+          "cost": 24.0,
+          "price": 12.0,
+          "transports": [
+            {
+              "start": "Ming Xiaoling Mausoleum Museum",
+              "end": "Wang's Wonton (Jiqing Road Branch)",
+              "mode": "metro",
+              "start_time": "11:55",
+              "end_time": "12:12",
+              "cost": 22.54,
+              "price": 11.27,
+              "distance": 7.27,
+              "tickets": 2
+            }
+          ],
+          "position": "Wang's Wonton (Jiqing Road Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "13:27",
+          "end_time": "14:27",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Wang's Wonton (Jiqing Road Branch)",
+              "end": "Yuhuatai Martyrs' Cemetery",
+              "mode": "metro",
+              "start_time": "13:22",
+              "end_time": "13:27",
+              "cost": 12.28,
+              "price": 6.14,
+              "distance": 2.14,
+              "tickets": 2
+            }
+          ],
+          "position": "Yuhuatai Martyrs' Cemetery",
+          "tickets": 2
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:39",
+          "end_time": "18:39",
+          "cost": 26.0,
+          "price": 13.0,
+          "transports": [
+            {
+              "start": "Yuhuatai Martyrs' Cemetery",
+              "end": "National Football Team Stinky Tofu (Mingwalang Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:39",
+              "cost": 15.56,
+              "price": 7.78,
+              "distance": 3.78,
+              "tickets": 2
+            }
+          ],
+          "position": "National Football Team Stinky Tofu (Mingwalang Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "22:30",
+          "end_time": "22:50",
+          "cost": 613.68,
+          "price": 306.84,
+          "transports": [
+            {
+              "start": "National Football Team Stinky Tofu (Mingwalang Branch)",
+              "end": "Nanjing Lukou International Airport",
+              "mode": "taxi",
+              "start_time": "18:49",
+              "end_time": "19:57",
+              "cost": 78.85,
+              "price": 78.85,
+              "distance": 34.43,
+              "cars": 1
+            }
+          ],
+          "tickets": 2,
+          "start": "Nanjing Lukou International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "FlightID": "FL647"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.161
+}

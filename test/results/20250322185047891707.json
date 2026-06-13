@@ -1,0 +1,77 @@
+{
+  "people_number": 2,
+  "start_city": "Suzhou",
+  "target_city": "Chongqing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "06:49",
+          "end_time": "18:09",
+          "cost": 1629.74,
+          "price": 814.87,
+          "transports": [],
+          "tickets": 2,
+          "start": "Suzhou Station",
+          "end": "Chongqing North Railway Station",
+          "TrainID": "D353"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:11",
+          "end_time": "21:16",
+          "cost": 31.0,
+          "price": 31.0,
+          "transports": [
+            {
+              "start": "Chongqing North Railway Station",
+              "end": "Yachao Capsule Apartment",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:11",
+              "cost": 21.22,
+              "price": 21.22,
+              "distance": 5.61,
+              "cars": 1
+            }
+          ],
+          "position": "Yachao Capsule Apartment",
+          "rooms": 1,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "10:07",
+          "end_time": "21:45",
+          "cost": 1629.74,
+          "price": 814.87,
+          "transports": [
+            {
+              "start": "Yachao Capsule Apartment",
+              "end": "Chongqing North Railway Station",
+              "mode": "taxi",
+              "start_time": "09:00",
+              "end_time": "09:11",
+              "cost": 21.22,
+              "price": 21.22,
+              "distance": 5.61,
+              "cars": 1
+            }
+          ],
+          "tickets": 2,
+          "start": "Chongqing North Railway Station",
+          "end": "Suzhou Station",
+          "TrainID": "D354"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.231
+}

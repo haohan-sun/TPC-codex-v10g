@@ -1,0 +1,98 @@
+{
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:45",
+          "end_time": "08:16",
+          "cost": 636.61,
+          "price": 636.61,
+          "transports": [],
+          "tickets": 1,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "FlightID": "FL165"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:56",
+          "end_time": "22:56",
+          "cost": 303.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Blue Forest Huangpu River Cruise Ship",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "metro",
+              "start_time": "21:16",
+              "end_time": "21:56",
+              "cost": 6.08,
+              "price": 6.08,
+              "distance": 20.26,
+              "tickets": 1
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 1,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "dinner",
+          "start_time": "17:46",
+          "end_time": "18:46",
+          "cost": 31.0,
+          "price": 31.0,
+          "transports": [
+            {
+              "start": "Huangpu River Cruise (Jinling East Road Pier)",
+              "end": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:46",
+              "cost": 10.93,
+              "price": 10.93,
+              "distance": 6.93,
+              "tickets": 1
+            }
+          ],
+          "position": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "20:30",
+          "end_time": "22:01",
+          "cost": 645.96,
+          "price": 645.96,
+          "transports": [
+            {
+              "start": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "metro",
+              "start_time": "18:56",
+              "end_time": "19:28",
+              "cost": 4.93,
+              "price": 4.93,
+              "distance": 16.44,
+              "tickets": 1
+            }
+          ],
+          "tickets": 1,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL015"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.175
+}

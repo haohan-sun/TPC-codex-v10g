@@ -1,0 +1,121 @@
+{
+  "people_number": 3,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:45",
+          "end_time": "08:16",
+          "cost": 1909.83,
+          "price": 636.61,
+          "transports": [],
+          "tickets": 3,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "FlightID": "FL165"
+        },
+        {
+          "type": "attraction",
+          "start_time": "19:56",
+          "end_time": "20:56",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "Blue Forest Huangpu River Cruise Ship",
+              "mode": "metro",
+              "start_time": "19:00",
+              "end_time": "19:56",
+              "cost": 82.08,
+              "price": 27.36,
+              "distance": 23.36,
+              "tickets": 3
+            }
+          ],
+          "position": "Blue Forest Huangpu River Cruise Ship",
+          "tickets": 3
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:56",
+          "end_time": "22:56",
+          "cost": 606.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Blue Forest Huangpu River Cruise Ship",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "taxi",
+              "start_time": "21:16",
+              "end_time": "21:56",
+              "cost": 50.53,
+              "price": 50.53,
+              "distance": 20.26,
+              "cars": 1
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "19:33",
+          "end_time": "20:45",
+          "cost": 1125.0,
+          "price": 375.0,
+          "transports": [
+            {
+              "start": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "end": "Crystal Princess Huangpu River Cruise",
+              "mode": "metro",
+              "start_time": "18:45",
+              "end_time": "19:33",
+              "cost": 72.78,
+              "price": 24.26,
+              "distance": 20.26,
+              "tickets": 3
+            }
+          ],
+          "position": "Crystal Princess Huangpu River Cruise",
+          "tickets": 3
+        },
+        {
+          "type": "airplane",
+          "start_time": "23:48",
+          "end_time": "01:19",
+          "cost": 1922.79,
+          "price": 640.93,
+          "transports": [
+            {
+              "start": "Crystal Princess Huangpu River Cruise",
+              "end": "Shanghai Pudong International Airport",
+              "mode": "taxi",
+              "start_time": "20:55",
+              "end_time": "21:55",
+              "cost": 70.08,
+              "price": 70.08,
+              "distance": 30.04,
+              "cars": 1
+            }
+          ],
+          "tickets": 3,
+          "start": "Shanghai Pudong International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL014"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.204
+}

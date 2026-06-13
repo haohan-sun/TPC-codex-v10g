@@ -1,0 +1,39 @@
+{
+  "best": {
+    "epoch": 71,
+    "train_loss": 0.05630802363157272,
+    "valid_loss": 0.20594516396522522,
+    "precision": 0.785,
+    "recall": 0.6369168356997972,
+    "f1": 0.7032474804031354,
+    "threshold": 0.5
+  },
+  "best_valid_loss": 0.18288619816303253,
+  "final": {
+    "epoch": 72,
+    "train_loss": 0.05499308928847313,
+    "valid_loss": 0.20733439922332764,
+    "precision": 0.7913486005089059,
+    "recall": 0.6308316430020284,
+    "f1": 0.7020316027088037,
+    "threshold": 0.5
+  },
+  "recent_valid_loss": [
+    0.20228399336338043,
+    0.20324473083019257,
+    0.20445343852043152,
+    0.20594516396522522,
+    0.20733439922332764
+  ],
+  "device": "cuda",
+  "torch_version": "2.12.0+cu130",
+  "torch_cuda": "13.0",
+  "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "labels": 174,
+  "words": 7000,
+  "ngram_max": 2,
+  "train_rows": 3278,
+  "valid_rows": 148,
+  "dataset_dir": "generated\\ml_augmented_dataset",
+  "seed": 20260612
+}

@@ -1,0 +1,259 @@
+{
+  "people_number": 4,
+  "start_city": "Wuhan",
+  "target_city": "Beijing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "09:02",
+          "end_time": "10:21",
+          "cost": 2187.48,
+          "price": 546.87,
+          "transports": [],
+          "tickets": 4,
+          "start": "Wuhan Tianhe International Airport",
+          "end": "Beijing Daxing International Airport",
+          "FlightID": "FL578"
+        },
+        {
+          "type": "dinner",
+          "start_time": "19:09",
+          "end_time": "20:00",
+          "cost": 56.0,
+          "price": 14.0,
+          "transports": [
+            {
+              "start": "Beijing Daxing International Airport",
+              "end": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "19:09",
+              "cost": 181.64,
+              "price": 45.41,
+              "distance": 41.41,
+              "tickets": 4
+            }
+          ],
+          "position": "Imperial Crispy Beef Pancake - Niujie Gourmet"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:02",
+          "end_time": "22:02",
+          "cost": 538.0,
+          "price": 269.0,
+          "transports": [
+            {
+              "start": "Imperial Crispy Beef Pancake - Niujie Gourmet",
+              "end": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+              "mode": "taxi",
+              "start_time": "20:10",
+              "end_time": "21:02",
+              "cost": 62.79,
+              "price": 62.79,
+              "distance": 26.4,
+              "cars": 1
+            }
+          ],
+          "position": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:48",
+          "end_time": "12:48",
+          "cost": 64.0,
+          "price": 16.0,
+          "transports": [
+            {
+              "start": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+              "end": "Zengshengkui Snack Shop",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:48",
+              "cost": 97.32,
+              "price": 24.33,
+              "distance": 20.33,
+              "tickets": 4
+            }
+          ],
+          "position": "Zengshengkui Snack Shop"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:40",
+          "end_time": "21:46",
+          "cost": 538.0,
+          "price": 269.0,
+          "transports": [
+            {
+              "start": "Zengshengkui Snack Shop",
+              "end": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:40",
+              "cost": 50.65,
+              "price": 50.65,
+              "distance": 20.33,
+              "cars": 1
+            }
+          ],
+          "position": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:46",
+          "end_time": "12:46",
+          "cost": 88.0,
+          "price": 22.0,
+          "transports": [
+            {
+              "start": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+              "end": "Wenyu Dairy Shop (Nanluoguxiang Branch)",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:46",
+              "cost": 92.72,
+              "price": 23.18,
+              "distance": 19.18,
+              "tickets": 4
+            }
+          ],
+          "position": "Wenyu Dairy Shop (Nanluoguxiang Branch)"
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:47",
+          "end_time": "18:47",
+          "cost": 92.0,
+          "price": 23.0,
+          "transports": [
+            {
+              "start": "Wenyu Dairy Shop (Nanluoguxiang Branch)",
+              "end": "Heiyaochang Sugar Oil Cake and Lamb Spine Hot Pot (Heiyaochang Street Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:47",
+              "cost": 44.96,
+              "price": 11.24,
+              "distance": 7.24,
+              "tickets": 4
+            }
+          ],
+          "position": "Heiyaochang Sugar Oil Cake and Lamb Spine Hot Pot (Heiyaochang Street Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:51",
+          "end_time": "21:51",
+          "cost": 538.0,
+          "price": 269.0,
+          "transports": [
+            {
+              "start": "Heiyaochang Sugar Oil Cake and Lamb Spine Hot Pot (Heiyaochang Street Branch)",
+              "end": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:51",
+              "cost": 61.7,
+              "price": 61.7,
+              "distance": 25.85,
+              "cars": 1
+            }
+          ],
+          "position": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "12:03",
+          "end_time": "13:03",
+          "cost": 100.0,
+          "price": 25.0,
+          "transports": [
+            {
+              "start": "Beijing LanWan International Hotel (Capital Airport Xinguozhan Branch)",
+              "end": "Ma's Baked Flatbread (Shuru Hutong Branch)",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "12:03",
+              "cost": 121.36,
+              "price": 30.34,
+              "distance": 26.34,
+              "tickets": 4
+            }
+          ],
+          "position": "Ma's Baked Flatbread (Shuru Hutong Branch)"
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:35",
+          "end_time": "18:35",
+          "cost": 104.0,
+          "price": 26.0,
+          "transports": [
+            {
+              "start": "Ma's Baked Flatbread (Shuru Hutong Branch)",
+              "end": "Gongmenkou Steamed Bun Shop (Founder's Flagship Store)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:35",
+              "cost": 25.92,
+              "price": 6.48,
+              "distance": 2.48,
+              "tickets": 4
+            }
+          ],
+          "position": "Gongmenkou Steamed Bun Shop (Founder's Flagship Store)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "21:18",
+          "end_time": "22:37",
+          "cost": 2272.76,
+          "price": 568.19,
+          "transports": [
+            {
+              "start": "Gongmenkou Steamed Bun Shop (Founder's Flagship Store)",
+              "end": "Beijing Capital International Airport",
+              "mode": "taxi",
+              "start_time": "18:45",
+              "end_time": "19:26",
+              "cost": 119.85,
+              "distance": 27.81,
+              "cars": 1,
+              "price": 119.85
+            }
+          ],
+          "tickets": 4,
+          "start": "Beijing Capital International Airport",
+          "end": "Wuhan Tianhe International Airport",
+          "FlightID": "FL142"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 3.9
+}

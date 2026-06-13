@@ -1,0 +1,259 @@
+{
+  "people_number": 3,
+  "start_city": "Shanghai",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "07:28",
+          "end_time": "08:59",
+          "cost": 1858.98,
+          "price": 619.66,
+          "transports": [],
+          "tickets": 3,
+          "start": "Shanghai Pudong International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL011"
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:21",
+          "end_time": "19:21",
+          "cost": 66.0,
+          "price": 22.0,
+          "transports": [
+            {
+              "start": "Shenzhen Bao'an International Airport",
+              "end": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "18:21",
+              "cost": 76.02,
+              "price": 25.34,
+              "distance": 21.34,
+              "tickets": 3
+            }
+          ],
+          "position": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:19",
+          "end_time": "21:19",
+          "cost": 1158.0,
+          "price": 579.0,
+          "transports": [
+            {
+              "start": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "end": "Shenzhen Bay Super Headquarters Feria Hotel",
+              "mode": "metro",
+              "start_time": "20:00",
+              "end_time": "20:19",
+              "cost": 8.91,
+              "price": 2.97,
+              "distance": 9.9,
+              "tickets": 3
+            }
+          ],
+          "position": "Shenzhen Bay Super Headquarters Feria Hotel",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:22",
+          "end_time": "12:22",
+          "cost": 72.0,
+          "price": 24.0,
+          "transports": [
+            {
+              "start": "Shenzhen Bay Super Headquarters Feria Hotel",
+              "end": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:22",
+              "cost": 40.38,
+              "price": 13.46,
+              "distance": 9.46,
+              "tickets": 3
+            }
+          ],
+          "position": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)"
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:04",
+          "end_time": "19:04",
+          "cost": 78.0,
+          "price": 26.0,
+          "transports": [
+            {
+              "start": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "end": "Delicious Noodle House (Taoyuan Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "18:04",
+              "cost": 54.93,
+              "price": 18.31,
+              "distance": 14.31,
+              "tickets": 3
+            }
+          ],
+          "position": "Delicious Noodle House (Taoyuan Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:10",
+          "end_time": "21:10",
+          "cost": 1158.0,
+          "price": 579.0,
+          "transports": [
+            {
+              "start": "Delicious Noodle House (Taoyuan Branch)",
+              "end": "Shenzhen Bay Super Headquarters Feria Hotel",
+              "mode": "metro",
+              "start_time": "20:00",
+              "end_time": "20:10",
+              "cost": 4.65,
+              "price": 1.55,
+              "distance": 5.15,
+              "tickets": 3
+            }
+          ],
+          "position": "Shenzhen Bay Super Headquarters Feria Hotel",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:45",
+          "end_time": "12:34",
+          "cost": 81.0,
+          "price": 27.0,
+          "transports": [
+            {
+              "start": "Shenzhen Bay Super Headquarters Feria Hotel",
+              "end": "Hundred Herbs Hall Ancestral Herbal Tea Shop (Shekou Branch)",
+              "mode": "metro",
+              "start_time": "11:30",
+              "end_time": "11:45",
+              "cost": 31.65,
+              "price": 10.55,
+              "distance": 6.55,
+              "tickets": 3
+            }
+          ],
+          "position": "Hundred Herbs Hall Ancestral Herbal Tea Shop (Shekou Branch)"
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:12",
+          "end_time": "19:12",
+          "cost": 84.0,
+          "price": 28.0,
+          "transports": [
+            {
+              "start": "Hundred Herbs Hall Ancestral Herbal Tea Shop (Shekou Branch)",
+              "end": "Joyful Gathering (Jingtian Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "18:12",
+              "cost": 65.34,
+              "price": 21.78,
+              "distance": 17.78,
+              "tickets": 3
+            }
+          ],
+          "position": "Joyful Gathering (Jingtian Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:24",
+          "end_time": "21:24",
+          "cost": 1158.0,
+          "price": 579.0,
+          "transports": [
+            {
+              "start": "Joyful Gathering (Jingtian Branch)",
+              "end": "Shenzhen Bay Super Headquarters Feria Hotel",
+              "mode": "metro",
+              "start_time": "20:00",
+              "end_time": "20:24",
+              "cost": 11.19,
+              "price": 3.73,
+              "distance": 12.42,
+              "tickets": 3
+            }
+          ],
+          "position": "Shenzhen Bay Super Headquarters Feria Hotel",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:46",
+          "end_time": "12:16",
+          "cost": 87.0,
+          "price": 29.0,
+          "transports": [
+            {
+              "start": "Shenzhen Bay Super Headquarters Feria Hotel",
+              "end": "Niujiazhuang Beef Noodles (Shekou Old Street Branch)",
+              "mode": "metro",
+              "start_time": "11:30",
+              "end_time": "11:46",
+              "cost": 32.31,
+              "price": 10.77,
+              "distance": 6.77,
+              "tickets": 3
+            }
+          ],
+          "position": "Niujiazhuang Beef Noodles (Shekou Old Street Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "19:25",
+          "end_time": "20:56",
+          "cost": 1916.37,
+          "price": 638.79,
+          "transports": [
+            {
+              "start": "Niujiazhuang Beef Noodles (Shekou Old Street Branch)",
+              "end": "Shenzhen Bao'an International Airport",
+              "mode": "metro",
+              "start_time": "12:26",
+              "end_time": "12:59",
+              "cost": 15.21,
+              "price": 5.07,
+              "distance": 16.9,
+              "tickets": 3
+            }
+          ],
+          "tickets": 3,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "FlightID": "FL163"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.219
+}

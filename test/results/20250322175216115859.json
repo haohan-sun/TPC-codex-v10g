@@ -1,0 +1,131 @@
+{
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "12:07",
+          "end_time": "14:32",
+          "cost": 949.32,
+          "price": 949.32,
+          "transports": [],
+          "tickets": 1,
+          "start": "Beijing Capital International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL096"
+        },
+        {
+          "type": "attraction",
+          "start_time": "16:53",
+          "end_time": "18:53",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Shenzhen Bao'an International Airport",
+              "end": "Dameisha Seaside Park",
+              "mode": "metro",
+              "start_time": "15:02",
+              "end_time": "16:53",
+              "cost": 50.66,
+              "price": 50.66,
+              "distance": 46.66,
+              "tickets": 1
+            }
+          ],
+          "position": "Dameisha Seaside Park",
+          "tickets": 1
+        },
+        {
+          "type": "dinner",
+          "start_time": "19:03",
+          "end_time": "20:00",
+          "cost": 50.0,
+          "price": 50.0,
+          "transports": []
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:54",
+          "end_time": "21:24",
+          "cost": 231.0,
+          "price": 231.0,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "mode": "taxi",
+              "start_time": "20:10",
+              "end_time": "20:54",
+              "cost": 54.43,
+              "price": 54.43,
+              "distance": 22.22,
+              "cars": 1
+            }
+          ],
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "rooms": 1,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "dinner",
+          "start_time": "17:30",
+          "end_time": "18:30",
+          "cost": 50.0,
+          "price": 50.0,
+          "transports": []
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:00",
+          "end_time": "21:00",
+          "cost": 231.0,
+          "price": 231.0,
+          "transports": [],
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "rooms": 1,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "18:52",
+          "end_time": "21:17",
+          "cost": 935.69,
+          "price": 935.69,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "end": "Shenzhen Bao'an International Airport",
+              "mode": "taxi",
+              "start_time": "09:00",
+              "end_time": "09:51",
+              "cost": 61.9,
+              "price": 61.9,
+              "distance": 25.95,
+              "cars": 1
+            }
+          ],
+          "tickets": 1,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Beijing Daxing International Airport",
+          "FlightID": "FL177"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.111
+}

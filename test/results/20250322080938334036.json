@@ -1,0 +1,365 @@
+{
+  "people_number": 2,
+  "start_city": "Shanghai",
+  "target_city": "Nanjing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "07:58",
+          "end_time": "08:18",
+          "cost": 555.66,
+          "price": 277.83,
+          "transports": [],
+          "tickets": 2,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Nanjing Lukou International Airport",
+          "FlightID": "FL071"
+        },
+        {
+          "type": "attraction",
+          "start_time": "10:07",
+          "end_time": "14:58",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Nanjing Lukou International Airport",
+              "end": "Confucius Temple",
+              "mode": "metro",
+              "start_time": "08:48",
+              "end_time": "10:07",
+              "cost": 74.2,
+              "price": 37.1,
+              "distance": 33.1,
+              "tickets": 2
+            }
+          ],
+          "position": "Confucius Temple",
+          "tickets": 2
+        },
+        {
+          "type": "attraction",
+          "start_time": "15:23",
+          "end_time": "16:23",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Confucius Temple",
+              "end": "Confucius Temple and Qinhuai River Scenic Area",
+              "mode": "metro",
+              "start_time": "15:18",
+              "end_time": "15:23",
+              "cost": 8.0,
+              "price": 4.0,
+              "distance": 0.0,
+              "tickets": 2
+            }
+          ],
+          "position": "Confucius Temple and Qinhuai River Scenic Area",
+          "tickets": 2
+        },
+        {
+          "type": "attraction",
+          "start_time": "17:05",
+          "end_time": "17:35",
+          "cost": 290.0,
+          "price": 145.0,
+          "transports": [
+            {
+              "start": "Confucius Temple and Qinhuai River Scenic Area",
+              "end": "Niushou Mountain Cultural Tourism Area",
+              "mode": "metro",
+              "start_time": "16:33",
+              "end_time": "17:05",
+              "cost": 35.28,
+              "price": 17.64,
+              "distance": 13.64,
+              "tickets": 2
+            }
+          ],
+          "position": "Niushou Mountain Cultural Tourism Area",
+          "tickets": 2
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:13",
+          "end_time": "18:43",
+          "cost": 18.0,
+          "price": 9.0,
+          "transports": [
+            {
+              "start": "Niushou Mountain Cultural Tourism Area",
+              "end": "Lu's Plum Blossom Cake (Laomendong Branch)",
+              "mode": "metro",
+              "start_time": "17:45",
+              "end_time": "18:13",
+              "cost": 31.54,
+              "price": 15.77,
+              "distance": 11.77,
+              "tickets": 2
+            }
+          ],
+          "position": "Lu's Plum Blossom Cake (Laomendong Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:30",
+          "end_time": "21:30",
+          "cost": 76.0,
+          "price": 76.0,
+          "transports": [
+            {
+              "start": "Lu's Plum Blossom Cake (Laomendong Branch)",
+              "end": "Nanjing BuildHome Cinema apartment",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:30",
+              "cost": 40.7,
+              "price": 40.7,
+              "distance": 15.35,
+              "cars": 1
+            }
+          ],
+          "position": "Nanjing BuildHome Cinema apartment",
+          "rooms": 1,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "08:52",
+          "end_time": "11:22",
+          "cost": 78.0,
+          "price": 39.0,
+          "transports": [
+            {
+              "start": "Nanjing BuildHome Cinema apartment",
+              "end": "Hongshan Forest Zoo",
+              "mode": "metro",
+              "start_time": "08:30",
+              "end_time": "08:52",
+              "cost": 26.64,
+              "price": 13.32,
+              "distance": 9.32,
+              "tickets": 2
+            }
+          ],
+          "position": "Hongshan Forest Zoo",
+          "tickets": 2
+        },
+        {
+          "type": "attraction",
+          "start_time": "11:45",
+          "end_time": "17:41",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Hongshan Forest Zoo",
+              "end": "Zhongshan Scenic Area",
+              "mode": "metro",
+              "start_time": "11:32",
+              "end_time": "11:45",
+              "cost": 19.6,
+              "price": 9.8,
+              "distance": 5.8,
+              "tickets": 2
+            }
+          ],
+          "position": "Zhongshan Scenic Area",
+          "tickets": 2
+        },
+        {
+          "type": "attraction",
+          "start_time": "17:57",
+          "end_time": "18:27",
+          "cost": 130.0,
+          "price": 65.0,
+          "transports": [
+            {
+              "start": "Zhongshan Scenic Area",
+              "end": "Ming Xiaoling Mausoleum",
+              "mode": "metro",
+              "start_time": "17:51",
+              "end_time": "17:57",
+              "cost": 13.04,
+              "price": 6.52,
+              "distance": 2.52,
+              "tickets": 2
+            }
+          ],
+          "position": "Ming Xiaoling Mausoleum",
+          "tickets": 2
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:58",
+          "end_time": "19:28",
+          "cost": 24.0,
+          "price": 12.0,
+          "transports": [
+            {
+              "start": "Ming Xiaoling Mausoleum",
+              "end": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)",
+              "mode": "metro",
+              "start_time": "18:37",
+              "end_time": "18:58",
+              "cost": 26.08,
+              "price": 13.04,
+              "distance": 9.04,
+              "tickets": 2
+            }
+          ],
+          "position": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:24",
+          "end_time": "21:24",
+          "cost": 76.0,
+          "price": 76.0,
+          "transports": [
+            {
+              "start": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)",
+              "end": "Nanjing BuildHome Cinema apartment",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:24",
+              "cost": 34.39,
+              "price": 34.39,
+              "distance": 12.2,
+              "cars": 1
+            }
+          ],
+          "position": "Nanjing BuildHome Cinema apartment",
+          "rooms": 1,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:34",
+          "end_time": "11:04",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Nanjing BuildHome Cinema apartment",
+              "end": "Nanjing Museum",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:34",
+              "cost": 37.08,
+              "price": 18.54,
+              "distance": 14.54,
+              "tickets": 2
+            }
+          ],
+          "position": "Nanjing Museum",
+          "tickets": 2
+        },
+        {
+          "type": "lunch",
+          "start_time": "11:38",
+          "end_time": "12:38",
+          "cost": 24.0,
+          "price": 12.0,
+          "transports": [
+            {
+              "start": "Nanjing Museum",
+              "end": "Wang's Wonton (Jiqing Road Branch)",
+              "mode": "metro",
+              "start_time": "11:24",
+              "end_time": "11:38",
+              "cost": 20.32,
+              "price": 10.16,
+              "distance": 6.16,
+              "tickets": 2
+            }
+          ],
+          "position": "Wang's Wonton (Jiqing Road Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "12:58",
+          "end_time": "15:58",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Wang's Wonton (Jiqing Road Branch)",
+              "end": "Nanjing Presidential Palace",
+              "mode": "metro",
+              "start_time": "12:48",
+              "end_time": "12:58",
+              "cost": 16.88,
+              "price": 8.44,
+              "distance": 4.44,
+              "tickets": 2
+            }
+          ],
+          "position": "Nanjing Presidential Palace",
+          "tickets": 2
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:35",
+          "end_time": "18:35",
+          "cost": 26.0,
+          "price": 13.0,
+          "transports": [
+            {
+              "start": "Nanjing Presidential Palace",
+              "end": "National Football Team Stinky Tofu (Mingwalang Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:35",
+              "cost": 12.98,
+              "price": 6.49,
+              "distance": 2.49,
+              "tickets": 2
+            }
+          ],
+          "position": "National Football Team Stinky Tofu (Mingwalang Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "22:30",
+          "end_time": "22:50",
+          "cost": 613.68,
+          "price": 306.84,
+          "transports": [
+            {
+              "start": "National Football Team Stinky Tofu (Mingwalang Branch)",
+              "end": "Nanjing Lukou International Airport",
+              "mode": "taxi",
+              "start_time": "18:45",
+              "end_time": "19:53",
+              "cost": 78.85,
+              "price": 78.85,
+              "distance": 34.43,
+              "cars": 1
+            }
+          ],
+          "tickets": 2,
+          "start": "Nanjing Lukou International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "FlightID": "FL647"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.132
+}

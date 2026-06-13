@@ -1,0 +1,235 @@
+{
+  "people_number": 4,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:45",
+          "end_time": "08:16",
+          "cost": 2546.44,
+          "price": 636.61,
+          "transports": [],
+          "tickets": 4,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "FlightID": "FL165"
+        },
+        {
+          "type": "attraction",
+          "start_time": "19:56",
+          "end_time": "20:56",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "Blue Forest Huangpu River Cruise Ship",
+              "mode": "metro",
+              "start_time": "19:00",
+              "end_time": "19:56",
+              "cost": 109.44,
+              "price": 27.36,
+              "distance": 23.36,
+              "tickets": 4
+            }
+          ],
+          "position": "Blue Forest Huangpu River Cruise Ship",
+          "tickets": 4
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:56",
+          "end_time": "22:56",
+          "cost": 606.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Blue Forest Huangpu River Cruise Ship",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "taxi",
+              "start_time": "21:16",
+              "end_time": "21:56",
+              "cost": 50.53,
+              "price": 50.53,
+              "distance": 20.26,
+              "cars": 1
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "19:33",
+          "end_time": "20:45",
+          "cost": 1500.0,
+          "price": 375.0,
+          "transports": [
+            {
+              "start": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "end": "Crystal Princess Huangpu River Cruise",
+              "mode": "metro",
+              "start_time": "18:45",
+              "end_time": "19:33",
+              "cost": 97.04,
+              "price": 24.26,
+              "distance": 20.26,
+              "tickets": 4
+            }
+          ],
+          "position": "Crystal Princess Huangpu River Cruise",
+          "tickets": 4
+        },
+        {
+          "type": "accommodation",
+          "start_time": "22:33",
+          "end_time": "23:33",
+          "cost": 606.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Crystal Princess Huangpu River Cruise",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "taxi",
+              "start_time": "21:53",
+              "end_time": "22:33",
+              "cost": 50.53,
+              "price": 50.53,
+              "distance": 20.26,
+              "cars": 1
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "10:48",
+          "end_time": "11:33",
+          "cost": 360.0,
+          "price": 90.0,
+          "transports": [
+            {
+              "start": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "end": "Huangpu River Cruise (Oriental Pearl Pier)",
+              "mode": "metro",
+              "start_time": "10:00",
+              "end_time": "10:48",
+              "cost": 97.04,
+              "price": 24.26,
+              "distance": 20.26,
+              "tickets": 4
+            }
+          ],
+          "position": "Huangpu River Cruise (Oriental Pearl Pier)",
+          "tickets": 4
+        },
+        {
+          "type": "lunch",
+          "start_time": "12:06",
+          "end_time": "13:06",
+          "cost": 148.0,
+          "price": 37.0,
+          "transports": [
+            {
+              "start": "Huangpu River Cruise (Oriental Pearl Pier)",
+              "end": "Cafe del Volcan (Yongkang Road Branch)",
+              "mode": "metro",
+              "start_time": "11:53",
+              "end_time": "12:06",
+              "cost": 37.72,
+              "price": 9.43,
+              "distance": 5.43,
+              "tickets": 4
+            }
+          ],
+          "position": "Cafe del Volcan (Yongkang Road Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "15:43",
+          "end_time": "16:28",
+          "cost": 352.0,
+          "price": 88.0,
+          "transports": [
+            {
+              "start": "Cafe del Volcan (Yongkang Road Branch)",
+              "end": "Huangpu River Cruise (Jinling East Road Pier)",
+              "mode": "metro",
+              "start_time": "15:30",
+              "end_time": "15:43",
+              "cost": 37.72,
+              "price": 9.43,
+              "distance": 5.43,
+              "tickets": 4
+            }
+          ],
+          "position": "Huangpu River Cruise (Jinling East Road Pier)",
+          "tickets": 4
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:35",
+          "end_time": "18:35",
+          "cost": 156.0,
+          "price": 39.0,
+          "transports": [
+            {
+              "start": "Huangpu River Cruise (Jinling East Road Pier)",
+              "end": "Haling Noodle House (Guangxi North Road Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:35",
+              "cost": 25.36,
+              "price": 6.34,
+              "distance": 2.34,
+              "tickets": 4
+            }
+          ],
+          "position": "Haling Noodle House (Guangxi North Road Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "20:30",
+          "end_time": "22:01",
+          "cost": 2583.84,
+          "price": 645.96,
+          "transports": [
+            {
+              "start": "Haling Noodle House (Guangxi North Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "taxi",
+              "start_time": "18:45",
+              "end_time": "19:27",
+              "cost": 52.04,
+              "price": 52.04,
+              "distance": 21.02,
+              "cars": 1
+            }
+          ],
+          "tickets": 4,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL015"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.162
+}

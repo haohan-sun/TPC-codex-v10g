@@ -1,0 +1,2 @@
+# 本地 training split：每行一个 uid
+# 留空则 run_tpc.py --splits training 会扫描 data/training data/ 下全部 json

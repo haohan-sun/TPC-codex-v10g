@@ -1,0 +1,438 @@
+{
+  "people_number": 3,
+  "start_city": "Shanghai",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "07:28",
+          "end_time": "08:59",
+          "cost": 1858.98,
+          "price": 619.66,
+          "transports": [],
+          "tickets": 3,
+          "start": "Shanghai Pudong International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL011"
+        },
+        {
+          "type": "attraction",
+          "start_time": "10:23",
+          "end_time": "14:47",
+          "cost": 540.0,
+          "price": 180.0,
+          "transports": [
+            {
+              "start": "Shenzhen Bao'an International Airport",
+              "end": "Ping An Finance Centre Sky-High Observation Deck in Shenzhen",
+              "mode": "metro",
+              "start_time": "09:29",
+              "end_time": "10:23",
+              "cost": 80.43,
+              "price": 26.81,
+              "distance": 22.81,
+              "tickets": 3
+            }
+          ],
+          "position": "Ping An Finance Centre Sky-High Observation Deck in Shenzhen",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "15:25",
+          "end_time": "16:10",
+          "cost": 390.0,
+          "price": 130.0,
+          "transports": [
+            {
+              "start": "Ping An Finance Centre Sky-High Observation Deck in Shenzhen",
+              "end": "Shenzhen Happy Valley",
+              "mode": "metro",
+              "start_time": "15:07",
+              "end_time": "15:25",
+              "cost": 35.37,
+              "price": 11.79,
+              "distance": 7.79,
+              "tickets": 3
+            }
+          ],
+          "position": "Shenzhen Happy Valley",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "16:25",
+          "end_time": "16:55",
+          "cost": 345.0,
+          "price": 115.0,
+          "transports": [
+            {
+              "start": "Shenzhen Happy Valley",
+              "end": "Window of the World",
+              "mode": "metro",
+              "start_time": "16:20",
+              "end_time": "16:25",
+              "cost": 15.36,
+              "price": 5.12,
+              "distance": 1.12,
+              "tickets": 3
+            }
+          ],
+          "position": "Window of the World",
+          "tickets": 3
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:50",
+          "end_time": "18:48",
+          "cost": 66.0,
+          "price": 22.0,
+          "transports": [
+            {
+              "start": "Window of the World",
+              "end": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:50",
+              "cost": 38.16,
+              "price": 12.72,
+              "distance": 8.72,
+              "tickets": 3
+            }
+          ],
+          "position": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:23",
+          "end_time": "21:23",
+          "cost": 462.0,
+          "price": 231.0,
+          "transports": [
+            {
+              "start": "Huang's Wellness Dessert Experts (Meilin Joy Park Branch)",
+              "end": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:23",
+              "cost": 33.69,
+              "price": 33.69,
+              "distance": 11.84,
+              "cars": 1
+            }
+          ],
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "10:02",
+          "end_time": "18:30",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "end": "Happy Harbor",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "10:02",
+              "cost": 89.88,
+              "price": 29.96,
+              "distance": 25.96,
+              "tickets": 3
+            }
+          ],
+          "position": "Happy Harbor",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "19:05",
+          "end_time": "19:35",
+          "cost": 297.0,
+          "price": 99.0,
+          "transports": [
+            {
+              "start": "Happy Harbor",
+              "end": "Shenzhen Safari Park",
+              "mode": "metro",
+              "start_time": "18:40",
+              "end_time": "19:05",
+              "cost": 44.37,
+              "price": 14.79,
+              "distance": 10.79,
+              "tickets": 3
+            }
+          ],
+          "position": "Shenzhen Safari Park",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "21:03",
+          "end_time": "21:33",
+          "cost": 600.0,
+          "price": 200.0,
+          "transports": [
+            {
+              "start": "Shenzhen Safari Park",
+              "end": "Overseas Chinese Town East",
+              "mode": "metro",
+              "start_time": "19:45",
+              "end_time": "21:03",
+              "cost": 110.19,
+              "price": 36.73,
+              "distance": 32.73,
+              "tickets": 3
+            }
+          ],
+          "position": "Overseas Chinese Town East",
+          "tickets": 3
+        },
+        {
+          "type": "accommodation",
+          "start_time": "22:21",
+          "end_time": "22:51",
+          "cost": 462.0,
+          "price": 231.0,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town East",
+              "end": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "mode": "taxi",
+              "start_time": "21:43",
+              "end_time": "22:21",
+              "cost": 48.54,
+              "price": 48.54,
+              "distance": 19.27,
+              "cars": 1
+            }
+          ],
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:23",
+          "end_time": "11:23",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "end": "Dameisha Seaside Park",
+              "mode": "metro",
+              "start_time": "08:30",
+              "end_time": "09:23",
+              "cost": 78.66,
+              "price": 26.22,
+              "distance": 22.22,
+              "tickets": 3
+            }
+          ],
+          "position": "Dameisha Seaside Park",
+          "tickets": 3
+        },
+        {
+          "type": "lunch",
+          "start_time": "13:22",
+          "end_time": "14:00",
+          "cost": 81.0,
+          "price": 27.0,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Hundred Herbs Hall Ancestral Herbal Tea Shop (Shekou Branch)",
+              "mode": "metro",
+              "start_time": "11:43",
+              "end_time": "13:22",
+              "cost": 136.32,
+              "price": 45.44,
+              "distance": 41.44,
+              "tickets": 3
+            }
+          ],
+          "position": "Hundred Herbs Hall Ancestral Herbal Tea Shop (Shekou Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:59",
+          "end_time": "19:27",
+          "cost": 237.0,
+          "price": 79.0,
+          "transports": [
+            {
+              "start": "Hundred Herbs Hall Ancestral Herbal Tea Shop (Shekou Branch)",
+              "end": "Dìwáng Sightseeing · Shenzhen-Hong Kong Window",
+              "mode": "metro",
+              "start_time": "14:10",
+              "end_time": "14:59",
+              "cost": 73.41,
+              "price": 24.47,
+              "distance": 20.47,
+              "tickets": 3
+            }
+          ],
+          "position": "Dìwáng Sightseeing · Shenzhen-Hong Kong Window",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "20:29",
+          "end_time": "20:59",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Dìwáng Sightseeing · Shenzhen-Hong Kong Window",
+              "end": "China Merchants Shekou Cruise Home Port Tour",
+              "mode": "metro",
+              "start_time": "19:37",
+              "end_time": "20:29",
+              "cost": 77.43,
+              "price": 25.81,
+              "distance": 21.81,
+              "tickets": 3
+            }
+          ],
+          "position": "China Merchants Shekou Cruise Home Port Tour",
+          "tickets": 3
+        },
+        {
+          "type": "accommodation",
+          "start_time": "22:06",
+          "end_time": "22:36",
+          "cost": 462.0,
+          "price": 231.0,
+          "transports": [
+            {
+              "start": "China Merchants Shekou Cruise Home Port Tour",
+              "end": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "mode": "taxi",
+              "start_time": "21:09",
+              "end_time": "22:06",
+              "cost": 67.31,
+              "price": 67.31,
+              "distance": 28.66,
+              "cars": 1
+            }
+          ],
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:38",
+          "end_time": "11:38",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "end": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "mode": "metro",
+              "start_time": "08:30",
+              "end_time": "09:38",
+              "cost": 97.98,
+              "price": 32.66,
+              "distance": 28.66,
+              "tickets": 3
+            }
+          ],
+          "position": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+          "tickets": 3
+        },
+        {
+          "type": "lunch",
+          "start_time": "12:03",
+          "end_time": "13:03",
+          "cost": 87.0,
+          "price": 29.0,
+          "transports": [
+            {
+              "start": "Greater Bay Area No. 1 (Hong Kong-Zhuhai-Macao Bridge Route)",
+              "end": "Niujiazhuang Beef Noodles (Shekou Old Street Branch)",
+              "mode": "metro",
+              "start_time": "11:58",
+              "end_time": "12:03",
+              "cost": 16.41,
+              "price": 5.47,
+              "distance": 1.47,
+              "tickets": 3
+            }
+          ],
+          "position": "Niujiazhuang Beef Noodles (Shekou Old Street Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "13:27",
+          "end_time": "16:27",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Niujiazhuang Beef Noodles (Shekou Old Street Branch)",
+              "end": "Shenzhen Bay Park",
+              "mode": "metro",
+              "start_time": "13:13",
+              "end_time": "13:27",
+              "cost": 30.27,
+              "price": 10.09,
+              "distance": 6.09,
+              "tickets": 3
+            }
+          ],
+          "position": "Shenzhen Bay Park",
+          "tickets": 3
+        },
+        {
+          "type": "airplane",
+          "start_time": "19:25",
+          "end_time": "20:56",
+          "cost": 1916.37,
+          "price": 638.79,
+          "transports": [
+            {
+              "start": "Shenzhen Bay Park",
+              "end": "Shenzhen Bao'an International Airport",
+              "mode": "taxi",
+              "start_time": "16:37",
+              "end_time": "17:08",
+              "cost": 41.5,
+              "price": 41.5,
+              "distance": 15.75,
+              "cars": 1
+            }
+          ],
+          "tickets": 3,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "FlightID": "FL163"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.203
+}

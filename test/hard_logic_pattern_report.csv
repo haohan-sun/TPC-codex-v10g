@@ -1,0 +1,263 @@
+category,subtype,value,count
+budget_accommodation,,,90
+budget_dining,,,104
+budget_total,,,99
+cuisine_restaurant,,,158
+day_count,,,526
+forbidden_type,,,180
+free_attraction,,,59
+has_hard_logic,,,1000
+hotel_type,,,84
+innercity_transport,,,1164
+intercity_transport,,,73
+must_visit_name,,,5
+people_count,,,526
+required_type,,,37
+total_snippets,,,3568
+unparsed,,,463
+transport_mode,train,,52
+transport_mode,airplane,,43
+hotel_type,Free parking,,34
+hotel_type,Swimming pool,,8
+hotel_type,Sauna,,7
+hotel_type,Parking lot,,5
+hotel_type,Family Room,,4
+hotel_type,Charging station,,3
+hotel_type,Instagrammable swimming pool,,3
+hotel_type,Butler Service,,3
+hotel_type,24-hour front desk,,2
+hotel_type,SPA,,2
+hotel_type,River view room,,2
+hotel_type,Mountain View Room,,1
+hotel_type,homestay,,1
+hotel_type,Fitness Room,,1
+hotel_type,Self-operated entertainment room,,1
+hotel_type,Media Room,,1
+hotel_type,Multifunction Hall,,1
+hotel_type,Family-themed Room,,1
+hotel_type,Laundry room,,1
+hotel_type,Great view from the window,,1
+hotel_type,Conference Hall,,1
+hotel_type,Lakeside Residence,,1
+must_visit_name,,Iron Statue Temple Water Street,1
+must_visit_name,,Chongqing Haichang Caribbean Water World,1
+must_visit_name,,Four Seasons Ski Resort,1
+must_visit_name,,Tianfu Hibiscus Garden,1
+must_visit_name,,Four Seasons Ski Resort,1
+required_type,,Museum/Memorial Hall,1
+required_type,,park,1
+required_type,,park,1
+required_type,,Cultural Landscape,1
+required_type,,Cultural Landscape,1
+required_type,,Amusement Park/Sports Entertainment,1
+required_type,,Museum/Memorial Hall,1
+required_type,,commercial district,1
+required_type,,historical site,1
+required_type,,Amusement Park/Sports Entertainment,1
+required_type,,commercial district,1
+required_type,,park,1
+required_type,,park,1
+required_type,,Art Museum,1
+required_type,,Cultural Landscape,1
+required_type,,park,1
+required_type,,Museum/Memorial Hall,1
+required_type,,Amusement Park/Sports Entertainment,1
+required_type,,Museum/Memorial Hall,1
+required_type,,Amusement Park/Sports Entertainment,1
+required_type,,historical site,1
+required_type,,Art Museum,1
+required_type,,Amusement Park/Sports Entertainment,1
+required_type,,park,1
+required_type,,Amusement Park/Sports Entertainment,1
+required_type,,red tourism sites,1
+required_type,,Amusement Park/Sports Entertainment,1
+required_type,,Cultural Landscape,1
+required_type,,Cultural Tourism Area,1
+required_type,,park,1
+required_type,,Cultural Landscape,1
+required_type,,park,1
+required_type,,Cultural Landscape,1
+required_type,,historical site,1
+required_type,,Art Museum,1
+required_type,,natural scenery,1
+required_type,,Cultural Tourism Area,1
+forbidden_type,,red tourism sites,1
+forbidden_type,,Museum/Memorial Hall,1
+forbidden_type,,All the Way Eating · Old Hangzhou Cuisine (Music Fountain Branch),1
+forbidden_type,,West Dyke Thick Steak (Yuanrong Branch),1
+forbidden_type,,Snacks,1
+forbidden_type,,Mercure Shenzhen Nanshan Shenzhen Bay,1
+forbidden_type,,taxi,1
+forbidden_type,,Qianhai Performance Park,1
+forbidden_type,,Holy Name Happy Water World,1
+forbidden_type,,Shenzhen Bay Park,1
+forbidden_type,,Wuhan Zoo,1
+forbidden_type,,Taiping Heavenly Kingdom History Museum (Zhan Garden),1
+forbidden_type,,Shenzhen Museum of History and Folklore,1
+forbidden_type,,Shanghai Tower Observation Deck,1
+forbidden_type,,Shenzhen Bay Park,1
+forbidden_type,,fusion cuisine,1
+forbidden_type,,Taiping Heavenly Kingdom History Museum (Zhan Garden),1
+forbidden_type,,Shenzhen Bay Park,1
+forbidden_type,,Han Show Theater,1
+forbidden_type,,Manjushri Temple,1
+forbidden_type,,Manjushri Temple,1
+forbidden_type,,Sunbathing area,1
+forbidden_type,,Sunbathing area,1
+forbidden_type,,Sunbathing area,1
+forbidden_type,,Taiping Heavenly Kingdom History Museum (Zhan Garden),1
+forbidden_type,,walk,1
+forbidden_type,,Shenzhen Bay Park,1
+forbidden_type,,Nanjing Train Paradise,1
+forbidden_type,,Squirrel Kaka Forest Park,1
+forbidden_type,,Taiping Heavenly Kingdom History Museum (Zhan Garden),1
+forbidden_type,,Chongqing Happy Valley,1
+forbidden_type,,Taiping Heavenly Kingdom History Museum (Zhan Garden),1
+forbidden_type,,Shenzhen Bay Park,1
+forbidden_type,,Manjushri Temple,1
+forbidden_type,,Shenzhen Museum of History and Folklore,1
+forbidden_type,,university campus,1
+forbidden_type,,red tourism sites,1
+forbidden_type,,Cultural Landscape,1
+forbidden_type,,red tourism sites,1
+forbidden_type,,Cultural Tourism Area,1
+forbidden_type,,university campus,1
+forbidden_type,,Taiping Heavenly Kingdom History Museum (Zhan Garden),1
+forbidden_type,,Museum/Memorial Hall,1
+forbidden_type,,commercial district,1
+forbidden_type,,Baguang Beach,1
+forbidden_type,,Xiyue Mountain Residence Artisan Creative Cuisine (Yiyuan Road Branch),1
+forbidden_type,,taxi,1
+forbidden_type,,"The Ritz-Carlton Shanghai, Pudong - Scena di Angelo",1
+forbidden_type,,commercial district,1
+forbidden_type,,Museum/Memorial Hall,1
+forbidden_type,,Cultural Tourism Area,1
+forbidden_type,,Chongqing International Trade Grandview Hotel - Grand Tea House,1
+forbidden_type,,Cultural Tourism Area,1
+forbidden_type,,Museum/Memorial Hall,1
+forbidden_type,,Cultural Tourism Area,1
+forbidden_type,,Cultural Tourism Area,1
+forbidden_type,,Rongchu Hubei Cuisine: Rib and Lotus Root Soup in a Clay Pot (Jianghan Road Branch 1),1
+forbidden_type,,Museum/Memorial Hall,1
+forbidden_type,,taxi,1
+forbidden_type,,URBN Boutique Shanghai,1
+forbidden_type,,metro,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,Yue Bai Wei · Premium Sichuan Cuisine (UPARK Park Branch),1
+forbidden_type,,Amusement Park/Sports Entertainment,1
+forbidden_type,,Sichuan cuisine,1
+forbidden_type,,commercial district,1
+forbidden_type,,Shenzhen Bay Park,1
+forbidden_type,,Catch Fish to Eat (South Ring New Village Branch),1
+forbidden_type,,Free parking,1
+forbidden_type,,commercial district,1
+forbidden_type,,Cultural Tourism Area,1
+forbidden_type,,buffet,1
+forbidden_type,,Yue Bai Wei · Premium Sichuan Cuisine (UPARK Park Branch),1
+forbidden_type,,cafe,1
+forbidden_type,,taxi,1
+forbidden_type,,Da Wu Yakiniku (Zhuoyue Center Branch),1
+forbidden_type,,S Kitchen,1
+forbidden_type,,taxi,1
+forbidden_type,,Da Wu Yakiniku (Zhuoyue Center Branch),1
+forbidden_type,,Lu's Soup Dumpling King (Changbai Street Branch),1
+forbidden_type,,taxi,1
+forbidden_type,,walk,1
+forbidden_type,,Shenzhen Penghui Raffles Hotel · Cloud View,1
+forbidden_type,,Shenzhen Park Hyatt Hotel · Yue Ting,1
+forbidden_type,,taxi,1
+forbidden_type,,Osmanthus Garden (Manjuelong Branch),1
+forbidden_type,,Kapok - Enchanting Cantonese Flavors (COCO Park Branch),1
+forbidden_type,,taxi,1
+forbidden_type,,Da Wu Yakiniku (Zhuoyue Center Branch),1
+forbidden_type,,Eighteen Trees Imperial Tea Garden (Old Dragon Well Store),1
+forbidden_type,,Yue Bai Wei · Premium Sichuan Cuisine (UPARK Park Branch),1
+forbidden_type,,Nanxing Garden,1
+forbidden_type,,Shenzhen Penghui Raffles Hotel · Cloud View,1
+forbidden_type,,Sichuan cuisine,1
+forbidden_type,,Korean cuisine,1
+forbidden_type,,Shenzhen Penghui Raffles Hotel · Cloud View,1
+forbidden_type,,South Pavilion Tea House Private Custom Tea Banquet,1
+forbidden_type,,Hot pot,1
+forbidden_type,,taxi,1
+forbidden_type,,Sichuan cuisine,1
+forbidden_type,,Osmanthus Garden (Manjuelong Branch),1
+forbidden_type,,Chengdu Ritz-Carlton Hotel · FLAIR Restaurant and Bar,1
+forbidden_type,,Other Chinese Cuisine,1
+forbidden_type,,Sichuan cuisine,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,Korean cuisine,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,Other Chinese Cuisine,1
+forbidden_type,,taxi,1
+forbidden_type,,Oriental Green Boat Resort (Garden Hotel),1
+forbidden_type,,taxi,1
+forbidden_type,,Seafood,1
+forbidden_type,,taxi,1
+forbidden_type,,Free parking,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,Self-operated family room,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,walk,1
+forbidden_type,,walk,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,metro,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,walk,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,Cultural Tourism Area,1
+forbidden_type,,Sichuan cuisine,1
+forbidden_type,,Manjushri Temple,1
+forbidden_type,,walk,1
+forbidden_type,,walk,1
+forbidden_type,,walk,1
+forbidden_type,,walk,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,Other,1
+forbidden_type,,university campus,1
+forbidden_type,,Wuhan Zoo,1
+forbidden_type,,Manjushri Temple,1
+forbidden_type,,Manjushri Temple,1
+forbidden_type,,Shenzhen Bay Park,1
+forbidden_type,,Wuhan Zoo,1
+forbidden_type,,Manjushri Temple,1
+forbidden_type,,Gankeng Ancient Town,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,taxi,1
+forbidden_type,,Yunnan cuisine,1
+forbidden_type,,Smart toilet,1
+forbidden_type,,Hotel Apartment,1
+forbidden_type,,Art Museum,1

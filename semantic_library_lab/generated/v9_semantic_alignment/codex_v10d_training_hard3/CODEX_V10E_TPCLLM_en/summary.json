@@ -1,0 +1,26 @@
+{
+  "split": "codex_v10d_training_hard3",
+  "method": "CODEX_V10E_TPCLLM_en",
+  "schema_rate": 100.0,
+  "micro_commonsense": 100.0,
+  "macro_commonsense": 100.0,
+  "hard_micro": 94.44444444444444,
+  "hard_macro": 66.66666666666666,
+  "conditional_hard_micro": 94.44444444444444,
+  "conditional_hard_macro": 66.66666666666666,
+  "schema_pass": 3,
+  "commonsense_pass": 3,
+  "hard_pass": 2,
+  "all_pass": 2,
+  "total": 3,
+  "category_counts": {
+    "attraction_name": 1
+  },
+  "semantic_family_hit_rate": 0.0,
+  "semantic_hits": 0,
+  "semantic_checks": 1,
+  "model": "D:\\IJCAI_TPC\\semantic_library_lab\\generated\\models\\constraint_bow_mlp_hotel_budget_v3_bigram_cu13_lr0015_h512",
+  "threshold": 0.5,
+  "csv": "D:\\IJCAI_TPC\\semantic_library_lab\\generated\\v9_semantic_alignment\\codex_v10d_training_hard3\\CODEX_V10E_TPCLLM_en\\semantic_hard_alignment.csv",
+  "jsonl": "D:\\IJCAI_TPC\\semantic_library_lab\\generated\\v9_semantic_alignment\\codex_v10d_training_hard3\\CODEX_V10E_TPCLLM_en\\semantic_hard_alignment.jsonl"
+}

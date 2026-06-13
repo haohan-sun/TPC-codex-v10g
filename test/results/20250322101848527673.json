@@ -1,0 +1,383 @@
+{
+  "people_number": 5,
+  "start_city": "Beijing",
+  "target_city": "Wuhan",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "11:21",
+          "end_time": "12:40",
+          "cost": 2410.55,
+          "price": 482.11,
+          "transports": [],
+          "tickets": 5,
+          "start": "Beijing Capital International Airport",
+          "end": "Wuhan Tianhe International Airport",
+          "FlightID": "FL141"
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:15",
+          "end_time": "17:29",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Wuhan Tianhe International Airport",
+              "end": "Qingchuan Pavilion",
+              "mode": "metro",
+              "start_time": "13:10",
+              "end_time": "14:15",
+              "cost": 157.4,
+              "price": 31.48,
+              "distance": 27.48,
+              "tickets": 5
+            }
+          ],
+          "position": "Qingchuan Pavilion",
+          "tickets": 5
+        },
+        {
+          "type": "attraction",
+          "start_time": "17:44",
+          "end_time": "18:14",
+          "cost": 325.0,
+          "price": 65.0,
+          "transports": [
+            {
+              "start": "Qingchuan Pavilion",
+              "end": "Yellow Crane Tower",
+              "mode": "metro",
+              "start_time": "17:39",
+              "end_time": "17:44",
+              "cost": 30.45,
+              "price": 6.09,
+              "distance": 2.09,
+              "tickets": 5
+            }
+          ],
+          "position": "Yellow Crane Tower",
+          "tickets": 5
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:33",
+          "end_time": "19:03",
+          "cost": 30.0,
+          "price": 6.0,
+          "transports": [
+            {
+              "start": "Yellow Crane Tower",
+              "end": "Tu's Crispy Pancake (Jianghan Third Road Branch)",
+              "mode": "metro",
+              "start_time": "18:24",
+              "end_time": "18:33",
+              "cost": 40.4,
+              "price": 8.08,
+              "distance": 4.08,
+              "tickets": 5
+            }
+          ],
+          "position": "Tu's Crispy Pancake (Jianghan Third Road Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:18",
+          "end_time": "21:18",
+          "cost": 111.0,
+          "price": 37.0,
+          "transports": [
+            {
+              "start": "Tu's Crispy Pancake (Jianghan Third Road Branch)",
+              "end": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:18",
+              "cost": 56.26,
+              "price": 28.13,
+              "distance": 9.07,
+              "cars": 2
+            }
+          ],
+          "position": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+          "rooms": 3,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:15",
+          "end_time": "12:26",
+          "cost": 1000.0,
+          "price": 200.0,
+          "transports": [
+            {
+              "start": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+              "end": "Wuhan Happy Valley",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:15",
+              "cost": 52.75,
+              "price": 10.55,
+              "distance": 6.55,
+              "tickets": 5
+            }
+          ],
+          "position": "Wuhan Happy Valley",
+          "tickets": 5
+        },
+        {
+          "type": "attraction",
+          "start_time": "12:54",
+          "end_time": "15:12",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Wuhan Happy Valley",
+              "end": "Hankou Riverside Park",
+              "mode": "metro",
+              "start_time": "12:36",
+              "end_time": "12:54",
+              "cost": 58.2,
+              "price": 11.64,
+              "distance": 7.64,
+              "tickets": 5
+            }
+          ],
+          "position": "Hankou Riverside Park",
+          "tickets": 5
+        },
+        {
+          "type": "attraction",
+          "start_time": "18:05",
+          "end_time": "18:50",
+          "cost": 340.0,
+          "price": 68.0,
+          "transports": [
+            {
+              "start": "Hankou Riverside Park",
+              "end": "Wuhan Cultural Tourism Group: Night Cruise on the Yangtze River",
+              "mode": "metro",
+              "start_time": "18:00",
+              "end_time": "18:05",
+              "cost": 30.8,
+              "price": 6.16,
+              "distance": 2.16,
+              "tickets": 5
+            }
+          ],
+          "position": "Wuhan Cultural Tourism Group: Night Cruise on the Yangtze River",
+          "tickets": 5
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:15",
+          "end_time": "21:29",
+          "cost": 111.0,
+          "price": 37.0,
+          "transports": [
+            {
+              "start": "Wuhan Cultural Tourism Group: Night Cruise on the Yangtze River",
+              "end": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:15",
+              "cost": 51.24,
+              "price": 25.62,
+              "distance": 7.81,
+              "cars": 2
+            }
+          ],
+          "position": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+          "rooms": 3,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:11",
+          "end_time": "10:37",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+              "end": "East Lake",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:11",
+              "cost": 44.15,
+              "price": 8.83,
+              "distance": 4.83,
+              "tickets": 5
+            }
+          ],
+          "position": "East Lake",
+          "tickets": 5
+        },
+        {
+          "type": "lunch",
+          "start_time": "11:30",
+          "end_time": "12:30",
+          "cost": 45.0,
+          "price": 9.0,
+          "transports": [
+            {
+              "start": "East Lake",
+              "end": "Old Yang's Fresh Fish Paste Noodles",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:30",
+              "cost": 83.65,
+              "price": 16.73,
+              "distance": 12.73,
+              "tickets": 5
+            }
+          ],
+          "position": "Old Yang's Fresh Fish Paste Noodles"
+        },
+        {
+          "type": "attraction",
+          "start_time": "13:01",
+          "end_time": "17:26",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Old Yang's Fresh Fish Paste Noodles",
+              "end": "Wuhan University",
+              "mode": "metro",
+              "start_time": "12:40",
+              "end_time": "13:01",
+              "cost": 65.0,
+              "price": 13.0,
+              "distance": 9.0,
+              "tickets": 5
+            }
+          ],
+          "position": "Wuhan University",
+          "tickets": 5
+        },
+        {
+          "type": "attraction",
+          "start_time": "17:55",
+          "end_time": "18:25",
+          "cost": 1340.0,
+          "price": 268.0,
+          "transports": [
+            {
+              "start": "Wuhan University",
+              "end": "The Zhiyin Cruise",
+              "mode": "metro",
+              "start_time": "17:36",
+              "end_time": "17:55",
+              "cost": 61.45,
+              "price": 12.29,
+              "distance": 8.29,
+              "tickets": 5
+            }
+          ],
+          "position": "The Zhiyin Cruise",
+          "tickets": 5
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:16",
+          "end_time": "21:18",
+          "cost": 111.0,
+          "price": 37.0,
+          "transports": [
+            {
+              "start": "The Zhiyin Cruise",
+              "end": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:16",
+              "cost": 53.14,
+              "price": 26.57,
+              "distance": 8.29,
+              "cars": 2
+            }
+          ],
+          "position": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+          "rooms": 3,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:14",
+          "end_time": "22:14",
+          "cost": 600.0,
+          "price": 120.0,
+          "transports": [
+            {
+              "start": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+              "end": "Yellow Crane Tower at Night",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:14",
+              "cost": 50.4,
+              "price": 10.08,
+              "distance": 6.08,
+              "tickets": 5
+            }
+          ],
+          "position": "Yellow Crane Tower at Night",
+          "tickets": 5
+        },
+        {
+          "type": "attraction",
+          "start_time": "22:56",
+          "end_time": "23:26",
+          "cost": 1375.0,
+          "price": 275.0,
+          "transports": [
+            {
+              "start": "Yellow Crane Tower at Night",
+              "end": "Wuhan Polar Ocean Park",
+              "mode": "metro",
+              "start_time": "22:24",
+              "end_time": "22:56",
+              "cost": 87.7,
+              "price": 17.54,
+              "distance": 13.54,
+              "tickets": 5
+            }
+          ],
+          "position": "Wuhan Polar Ocean Park",
+          "tickets": 5
+        },
+        {
+          "type": "airplane",
+          "start_time": "23:48",
+          "end_time": "01:07",
+          "cost": 2609.5,
+          "price": 521.9,
+          "transports": [],
+          "tickets": 5,
+          "start": "Wuhan Tianhe International Airport",
+          "end": "Beijing Daxing International Airport",
+          "FlightID": "FL580"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.219
+}

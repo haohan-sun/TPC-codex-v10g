@@ -1,0 +1,395 @@
+{
+  "people_number": 3,
+  "start_city": "Shanghai",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "07:28",
+          "end_time": "08:59",
+          "cost": 1858.98,
+          "price": 619.66,
+          "transports": [],
+          "tickets": 3,
+          "start": "Shanghai Pudong International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL011"
+        },
+        {
+          "type": "attraction",
+          "start_time": "11:20",
+          "end_time": "13:20",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Shenzhen Bao'an International Airport",
+              "end": "Dameisha Seaside Park",
+              "mode": "metro",
+              "start_time": "09:29",
+              "end_time": "11:20",
+              "cost": 151.98,
+              "price": 50.66,
+              "distance": 46.66,
+              "tickets": 3
+            }
+          ],
+          "position": "Dameisha Seaside Park",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "15:10",
+          "end_time": "18:32",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Sea World Culture and Arts Center",
+              "mode": "metro",
+              "start_time": "13:30",
+              "end_time": "15:10",
+              "cost": 137.67,
+              "price": 45.89,
+              "distance": 41.89,
+              "tickets": 3
+            }
+          ],
+          "position": "Sea World Culture and Arts Center",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "18:47",
+          "end_time": "19:17",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Sea World Culture and Arts Center",
+              "end": "Shekou Port Zhuhai Cruise",
+              "mode": "metro",
+              "start_time": "18:42",
+              "end_time": "18:47",
+              "cost": 16.83,
+              "price": 5.61,
+              "distance": 1.61,
+              "tickets": 3
+            }
+          ],
+          "position": "Shekou Port Zhuhai Cruise",
+          "tickets": 3
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:57",
+          "end_time": "21:33",
+          "cost": 462.0,
+          "price": 231.0,
+          "transports": [
+            {
+              "start": "Shekou Port Zhuhai Cruise",
+              "end": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:57",
+              "cost": 67.31,
+              "price": 67.31,
+              "distance": 28.66,
+              "cars": 1
+            }
+          ],
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:35",
+          "end_time": "10:35",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "end": "Nanshan Park",
+              "mode": "metro",
+              "start_time": "08:30",
+              "end_time": "09:35",
+              "cost": 93.75,
+              "price": 31.25,
+              "distance": 27.25,
+              "tickets": 3
+            }
+          ],
+          "position": "Nanshan Park",
+          "tickets": 3
+        },
+        {
+          "type": "lunch",
+          "start_time": "11:39",
+          "end_time": "12:39",
+          "cost": 72.0,
+          "price": 24.0,
+          "transports": [
+            {
+              "start": "Nanshan Park",
+              "end": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:39",
+              "cost": 61.29,
+              "price": 20.43,
+              "distance": 16.43,
+              "tickets": 3
+            }
+          ],
+          "position": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:54",
+          "end_time": "15:39",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "end": "Xichong Seaside Tourism Resort",
+              "mode": "metro",
+              "start_time": "12:49",
+              "end_time": "14:54",
+              "cost": 168.57,
+              "price": 56.19,
+              "distance": 52.19,
+              "tickets": 3
+            }
+          ],
+          "position": "Xichong Seaside Tourism Resort",
+          "tickets": 3
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:39",
+          "end_time": "22:39",
+          "cost": 462.0,
+          "price": 231.0,
+          "transports": [
+            {
+              "start": "Xichong Seaside Tourism Resort",
+              "end": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "21:39",
+              "cost": 109.88,
+              "price": 109.88,
+              "distance": 49.94,
+              "cars": 1
+            }
+          ],
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:54",
+          "end_time": "16:07",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "end": "Maluan Mountain Country Park",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:54",
+              "cost": 80.7,
+              "price": 26.9,
+              "distance": 22.9,
+              "tickets": 3
+            }
+          ],
+          "position": "Maluan Mountain Country Park",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "17:46",
+          "end_time": "18:46",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Maluan Mountain Country Park",
+              "end": "Honey Lake Park",
+              "mode": "metro",
+              "start_time": "16:27",
+              "end_time": "17:46",
+              "cost": 111.03,
+              "price": 37.01,
+              "distance": 33.01,
+              "tickets": 3
+            }
+          ],
+          "position": "Honey Lake Park",
+          "tickets": 3
+        },
+        {
+          "type": "attraction",
+          "start_time": "19:04",
+          "end_time": "19:34",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Honey Lake Park",
+              "end": "Splendid China - Ethnic Minority Folk Houses",
+              "mode": "metro",
+              "start_time": "18:56",
+              "end_time": "19:04",
+              "cost": 22.71,
+              "price": 7.57,
+              "distance": 3.57,
+              "tickets": 3
+            }
+          ],
+          "position": "Splendid China - Ethnic Minority Folk Houses",
+          "tickets": 3
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:36",
+          "end_time": "21:37",
+          "cost": 462.0,
+          "price": 231.0,
+          "transports": [
+            {
+              "start": "Splendid China - Ethnic Minority Folk Houses",
+              "end": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:36",
+              "cost": 46.08,
+              "price": 46.08,
+              "distance": 18.04,
+              "cars": 1
+            }
+          ],
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "10:11",
+          "end_time": "10:56",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "end": "Jiaochangwei Longqi Bay Yacht Club",
+              "mode": "metro",
+              "start_time": "08:30",
+              "end_time": "10:11",
+              "cost": 139.02,
+              "price": 46.34,
+              "distance": 42.34,
+              "tickets": 3
+            }
+          ],
+          "position": "Jiaochangwei Longqi Bay Yacht Club",
+          "tickets": 3
+        },
+        {
+          "type": "lunch",
+          "start_time": "13:43",
+          "end_time": "14:00",
+          "cost": 87.0,
+          "price": 29.0,
+          "transports": [
+            {
+              "start": "Jiaochangwei Longqi Bay Yacht Club",
+              "end": "Niujiazhuang Beef Noodles (Shekou Old Street Branch)",
+              "mode": "metro",
+              "start_time": "11:16",
+              "end_time": "13:43",
+              "cost": 196.77,
+              "price": 65.59,
+              "distance": 61.59,
+              "tickets": 3
+            }
+          ],
+          "position": "Niujiazhuang Beef Noodles (Shekou Old Street Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:15",
+          "end_time": "15:00",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Niujiazhuang Beef Noodles (Shekou Old Street Branch)",
+              "end": "Sea World Beach Town (Sea World Hui Gang Shopping Center Phase II)",
+              "mode": "metro",
+              "start_time": "14:10",
+              "end_time": "14:15",
+              "cost": 13.65,
+              "price": 4.55,
+              "distance": 0.55,
+              "tickets": 3
+            }
+          ],
+          "position": "Sea World Beach Town (Sea World Hui Gang Shopping Center Phase II)",
+          "tickets": 3
+        },
+        {
+          "type": "airplane",
+          "start_time": "19:25",
+          "end_time": "20:56",
+          "cost": 1916.37,
+          "price": 638.79,
+          "transports": [
+            {
+              "start": "Sea World Beach Town (Sea World Hui Gang Shopping Center Phase II)",
+              "end": "Shenzhen Bao'an International Airport",
+              "mode": "taxi",
+              "start_time": "15:10",
+              "end_time": "15:42",
+              "cost": 42.84,
+              "price": 42.84,
+              "distance": 16.42,
+              "cars": 1
+            }
+          ],
+          "tickets": 3,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "FlightID": "FL163"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.242
+}

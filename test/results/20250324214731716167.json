@@ -1,0 +1,280 @@
+{
+  "people_number": 1,
+  "start_city": "Guangzhou",
+  "target_city": "Wuhan",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "08:59",
+          "end_time": "10:02",
+          "cost": 463.17,
+          "price": 463.17,
+          "transports": [],
+          "tickets": 1,
+          "start": "Guangzhou Baiyun International Airport",
+          "end": "Wuhan Tianhe International Airport",
+          "FlightID": "FL305"
+        },
+        {
+          "type": "attraction",
+          "start_time": "13:30",
+          "end_time": "17:38",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Wuhan Tianhe International Airport",
+              "end": "East Lake Ocean Paradise Happy Water World",
+              "mode": "metro",
+              "start_time": "10:32",
+              "end_time": "11:51",
+              "cost": 36.96,
+              "price": 36.96,
+              "distance": 32.96,
+              "tickets": 1
+            }
+          ],
+          "position": "East Lake Ocean Paradise Happy Water World",
+          "tickets": 1
+        },
+        {
+          "type": "attraction",
+          "start_time": "17:53",
+          "end_time": "12:36",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "East Lake Ocean Paradise Happy Water World",
+              "end": "East Lake Greenway Sightseeing Car",
+              "mode": "metro",
+              "start_time": "17:48",
+              "end_time": "17:53",
+              "cost": 4.0,
+              "price": 4.0,
+              "distance": 0.0,
+              "tickets": 1
+            }
+          ],
+          "position": "East Lake Greenway Sightseeing Car",
+          "tickets": 1
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:28",
+          "end_time": "19:28",
+          "cost": 6.0,
+          "price": 6.0,
+          "transports": [
+            {
+              "start": "East Lake Ocean Paradise Happy Water World",
+              "end": "Tu's Crispy Pancake (Jianghan Third Road Branch)",
+              "mode": "metro",
+              "start_time": "17:58",
+              "end_time": "18:28",
+              "cost": 16.88,
+              "price": 16.88,
+              "distance": 12.88,
+              "tickets": 1
+            }
+          ],
+          "position": "Tu's Crispy Pancake (Jianghan Third Road Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:18",
+          "end_time": "21:18",
+          "cost": 37.0,
+          "price": 37.0,
+          "transports": [
+            {
+              "start": "Tu's Crispy Pancake (Jianghan Third Road Branch)",
+              "end": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:18",
+              "cost": 28.13,
+              "price": 28.13,
+              "distance": 9.07,
+              "cars": 1
+            }
+          ],
+          "position": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+          "rooms": 1,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:11",
+          "end_time": "17:40",
+          "cost": 45.0,
+          "price": 45.0,
+          "transports": [
+            {
+              "start": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+              "end": "East Lake Ocean Paradise East Lake Circus",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:11",
+              "cost": 8.83,
+              "price": 8.83,
+              "distance": 4.83,
+              "tickets": 1
+            }
+          ],
+          "position": "East Lake Ocean Paradise East Lake Circus",
+          "tickets": 1
+        },
+        {
+          "type": "attraction",
+          "start_time": "17:55",
+          "end_time": "15:15",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "East Lake Ocean Paradise East Lake Circus",
+              "end": "East Lake Cruise Sunset Pavilion Pier",
+              "mode": "metro",
+              "start_time": "17:50",
+              "end_time": "17:55",
+              "cost": 4.0,
+              "price": 4.0,
+              "distance": 0.0,
+              "tickets": 1
+            }
+          ],
+          "position": "East Lake Cruise Sunset Pavilion Pier",
+          "tickets": 1
+        },
+        {
+          "type": "attraction",
+          "start_time": "17:55",
+          "end_time": "10:55",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "East Lake Ocean Paradise East Lake Circus",
+              "end": "East Lake Cruise Xingyin Pavilion Pier",
+              "mode": "metro",
+              "start_time": "17:50",
+              "end_time": "17:55",
+              "cost": 4.0,
+              "price": 4.0,
+              "distance": 0.0,
+              "tickets": 1
+            }
+          ],
+          "position": "East Lake Cruise Xingyin Pavilion Pier",
+          "tickets": 1
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:09",
+          "end_time": "21:19",
+          "cost": 37.0,
+          "price": 37.0,
+          "transports": [
+            {
+              "start": "East Lake Ocean Paradise East Lake Circus",
+              "end": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:09",
+              "cost": 19.66,
+              "price": 19.66,
+              "distance": 4.83,
+              "cars": 1
+            }
+          ],
+          "position": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+          "rooms": 1,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:13",
+          "end_time": "14:32",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Ivory International Youth Hostel (Wuhan University Huazhong Normal University Shop)",
+              "end": "Tanhualin Historical and Cultural Street",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:13",
+              "cost": 9.61,
+              "price": 9.61,
+              "distance": 5.61,
+              "tickets": 1
+            }
+          ],
+          "position": "Tanhualin Historical and Cultural Street",
+          "tickets": 1
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:49",
+          "end_time": "15:19",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Tanhualin Historical and Cultural Street",
+              "end": "Chu River Han Street",
+              "mode": "metro",
+              "start_time": "14:42",
+              "end_time": "14:49",
+              "cost": 6.99,
+              "price": 6.99,
+              "distance": 2.99,
+              "tickets": 1
+            }
+          ],
+          "position": "Chu River Han Street",
+          "tickets": 1
+        },
+        {
+          "type": "airplane",
+          "start_time": "19:10",
+          "end_time": "20:13",
+          "cost": 449.77,
+          "price": 449.77,
+          "transports": [
+            {
+              "start": "Chu River Han Street",
+              "end": "Wuhan Tianhe International Airport",
+              "mode": "taxi",
+              "start_time": "15:29",
+              "end_time": "16:26",
+              "cost": 67.83,
+              "price": 67.83,
+              "distance": 28.92,
+              "cars": 1
+            }
+          ],
+          "tickets": 1,
+          "start": "Wuhan Tianhe International Airport",
+          "end": "Guangzhou Baiyun International Airport",
+          "FlightID": "FL593"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.163
+}

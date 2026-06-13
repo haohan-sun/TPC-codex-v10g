@@ -1,0 +1,119 @@
+{
+  "people_number": 2,
+  "start_city": "Wuhan",
+  "target_city": "Chengdu",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:03",
+          "end_time": "07:16",
+          "cost": 1059.2,
+          "price": 529.6,
+          "transports": [],
+          "tickets": 2,
+          "start": "Wuhan Tianhe International Airport",
+          "end": "Chengdu Tianfu International Airport",
+          "FlightID": "FL613"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:24",
+          "end_time": "22:24",
+          "cost": 158.0,
+          "price": 158.0,
+          "transports": [
+            {
+              "start": "Chengdu Tianfu International Airport",
+              "end": "Chengdu Yuehuimei Hotel",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "21:24",
+              "cost": 247.25,
+              "distance": 56.12,
+              "cars": 1,
+              "price": 247.25
+            }
+          ],
+          "position": "Chengdu Yuehuimei Hotel",
+          "rooms": 1,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:35",
+          "end_time": "12:05",
+          "cost": 20.0,
+          "price": 10.0,
+          "transports": [
+            {
+              "start": "Chengdu Yuehuimei Hotel",
+              "end": "Grandma Yan's Crispy Pancake (Wenshu Temple Branch)",
+              "mode": "metro",
+              "start_time": "11:30",
+              "end_time": "11:35",
+              "cost": 8.42,
+              "price": 4.21,
+              "distance": 0.21,
+              "tickets": 2
+            }
+          ],
+          "position": "Grandma Yan's Crispy Pancake (Wenshu Temple Branch)"
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:37",
+          "end_time": "18:37",
+          "cost": 22.0,
+          "price": 11.0,
+          "transports": [
+            {
+              "start": "Grandma Yan's Crispy Pancake (Wenshu Temple Branch)",
+              "end": "Crispy and Fragrant Family's Guokui and Liangfen (Gengjia Alley Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:37",
+              "cost": 14.0,
+              "price": 7.0,
+              "distance": 3.0,
+              "tickets": 2
+            }
+          ],
+          "position": "Crispy and Fragrant Family's Guokui and Liangfen (Gengjia Alley Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "20:18",
+          "end_time": "21:31",
+          "cost": 895.44,
+          "price": 447.72,
+          "transports": [
+            {
+              "start": "Crispy and Fragrant Family's Guokui and Liangfen (Gengjia Alley Branch)",
+              "end": "Chengdu Shuangliu International Airport",
+              "mode": "taxi",
+              "start_time": "18:47",
+              "end_time": "19:20",
+              "cost": 43.71,
+              "price": 43.71,
+              "distance": 16.86,
+              "cars": 1
+            }
+          ],
+          "tickets": 2,
+          "start": "Chengdu Shuangliu International Airport",
+          "end": "Wuhan Tianhe International Airport",
+          "FlightID": "FL467"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.284
+}

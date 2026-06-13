@@ -1,0 +1,118 @@
+"""景点类型词汇表（中英文 + ChinaTravel 数据字段对齐）。"""
+
+# 官方 ChinaTravel 景点类型标签（英文）
+ATTRACTION_TYPE_EN = [
+    "park",
+    "museum",
+    "museum/memorial hall",
+    "memorial hall",
+    "red tourism sites",
+    "natural scenery",
+    "amusement park",
+    "historical site",
+    "cultural site",
+    "temple",
+    "zoo",
+    "aquarium",
+    "botanical garden",
+    "art gallery",
+    "shopping area",
+    "square",
+    "mountain",
+    "lake",
+    "river",
+    "beach",
+    "island",
+    "ancient town",
+    "modern architecture",
+    "theater",
+    "stadium",
+    # Extended from training data hard_logic analysis
+    "commercial district",
+    "commercial street",
+    "pedestrian street",
+    "food street",
+    "night market",
+    "water town",
+    "hot spring",
+    "ski resort",
+    "viewpoint",
+    "observation deck",
+    "cable car",
+    "cruise",
+    "performance",
+    "exhibition",
+    "garden",
+    "university",
+    "library",
+    "church",
+    "mosque",
+    "palace",
+    "tomb",
+    "cave",
+    "waterfall",
+    "wetland",
+    "forest",
+    "grassland",
+    "desert",
+    "canyon",
+    "grotto",
+    "pagoda",
+    "bridge",
+    "tower",
+    "wall",
+    "gate",
+    "street",
+    "alley",
+    "road",
+    "avenue",
+]
+
+# 中文别名 → 英文类型
+ATTRACTION_TYPE_ZH_MAP = {
+    "公园": "park",
+    "博物馆": "museum",
+    "纪念馆": "memorial hall",
+    "红色旅游": "red tourism sites",
+    "自然风光": "natural scenery",
+    "游乐园": "amusement park",
+    "古迹": "historical site",
+    "文化遗址": "cultural site",
+    "寺庙": "temple",
+    "动物园": "zoo",
+    "水族馆": "aquarium",
+    "植物园": "botanical garden",
+    "美术馆": "art gallery",
+    "购物": "shopping area",
+    "广场": "square",
+    "山": "mountain",
+    "湖": "lake",
+    "河": "river",
+    "海滩": "beach",
+    "岛屿": "island",
+    "古镇": "ancient town",
+    "现代建筑": "modern architecture",
+    "剧院": "theater",
+    "体育场": "stadium",
+}
+
+# 禁用/不感兴趣的表达（中英文）
+FORBIDDEN_MARKERS_EN = [
+    "do not", "don't", "do not wish to", "do not want to",
+    "not to", "avoid", "exclude", "without", "dislike",
+    "no interest in", "not interested in", "hate",
+]
+FORBIDDEN_MARKERS_ZH = [
+    "不想", "不要", "不希望", "不去", "避免", "排除",
+    "不喜欢", "不感兴趣", "讨厌",
+]
+
+# 必须/想去的表达（中英文）
+MUST_VISIT_MARKERS_EN = [
+    "must visit", "need to visit", "want to visit",
+    "would like to visit", "wish to visit", "hope to visit",
+    "plan to visit", "requirements: visit",
+]
+MUST_VISIT_MARKERS_ZH = [
+    "必须去", "一定要去", "想去", "希望去", "计划去",
+]

@@ -1,0 +1,31 @@
+{
+  "split": "codex_rand10_s13",
+  "method": "CODEX_V10G_TPCLLM_en",
+  "schema_rate": 100.0,
+  "micro_commonsense": 99.6,
+  "macro_commonsense": 90.0,
+  "hard_micro": 82.05128205128204,
+  "hard_macro": 40.0,
+  "conditional_hard_micro": 69.23076923076923,
+  "conditional_hard_macro": 40.0,
+  "schema_pass": 10,
+  "commonsense_pass": 9,
+  "hard_pass": 4,
+  "all_pass": 4,
+  "total": 10,
+  "category_counts": {
+    "room_type": 2,
+    "attraction_type": 1,
+    "hotel_distance": 1,
+    "hotel_name": 1,
+    "innercity_transport": 1,
+    "other": 1
+  },
+  "semantic_family_hit_rate": 0.5714285714285714,
+  "semantic_hits": 4,
+  "semantic_checks": 7,
+  "model": "D:\\IJCAI_TPC\\semantic_library_lab\\generated\\models\\constraint_bow_mlp_hotel_budget_v3_bigram_cu13_lr0015_h512",
+  "threshold": 0.5,
+  "csv": "D:\\IJCAI_TPC\\semantic_library_lab\\generated\\v9_semantic_alignment\\codex_rand10_s13\\CODEX_V10G_TPCLLM_en\\semantic_hard_alignment.csv",
+  "jsonl": "D:\\IJCAI_TPC\\semantic_library_lab\\generated\\v9_semantic_alignment\\codex_rand10_s13\\CODEX_V10G_TPCLLM_en\\semantic_hard_alignment.jsonl"
+}

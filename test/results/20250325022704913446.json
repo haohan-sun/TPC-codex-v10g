@@ -1,0 +1,230 @@
+{
+  "people_number": 5,
+  "start_city": "Nanjing",
+  "target_city": "Suzhou",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "06:09",
+          "end_time": "07:32",
+          "cost": 614.5,
+          "price": 122.9,
+          "transports": [],
+          "tickets": 5,
+          "start": "Nanjing Station",
+          "end": "Suzhou New District Station",
+          "TrainID": "G7101"
+        },
+        {
+          "type": "breakfast",
+          "start_time": "08:39",
+          "end_time": "09:00",
+          "cost": 45.0,
+          "price": 9.0,
+          "transports": [
+            {
+              "start": "Suzhou New District Station",
+              "end": "Suzhou New District Railway Station-Metro Station",
+              "mode": "walk",
+              "start_time": "08:02",
+              "end_time": "08:08",
+              "cost": 0.0,
+              "distance": 0.55,
+              "price": 0.0
+            },
+            {
+              "start": "Suzhou New District Railway Station-Metro Station",
+              "end": "Wangxing Bridge Suzhou University-Metro Station",
+              "mode": "metro",
+              "start_time": "08:08",
+              "end_time": "08:34",
+              "cost": 20.0,
+              "distance": 13.06,
+              "tickets": 5,
+              "price": 4.0
+            },
+            {
+              "start": "Wangxing Bridge Suzhou University-Metro Station",
+              "end": "Wang's Linji Baked Pancake (Shuangta Main Store)",
+              "mode": "walk",
+              "start_time": "08:34",
+              "end_time": "08:39",
+              "cost": 0.0,
+              "distance": 0.42,
+              "price": 0.0
+            }
+          ],
+          "position": "Wang's Linji Baked Pancake (Shuangta Main Store)"
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:35",
+          "end_time": "18:35",
+          "cost": 55.0,
+          "price": 11.0,
+          "transports": [
+            {
+              "start": "Wang's Linji Baked Pancake (Shuangta Main Store)",
+              "end": "Chen's Wonton (Wuqufang Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:35",
+              "cost": 31.95,
+              "price": 6.39,
+              "distance": 2.39,
+              "tickets": 5
+            }
+          ],
+          "position": "Chen's Wonton (Wuqufang Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:33",
+          "end_time": "21:33",
+          "cost": 618.0,
+          "price": 206.0,
+          "transports": [
+            {
+              "start": "Chen's Wonton (Wuqufang Branch)",
+              "end": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "mode": "metro",
+              "start_time": "20:00",
+              "end_time": "20:33",
+              "cost": 25.3,
+              "price": 5.06,
+              "distance": 16.88,
+              "tickets": 5
+            }
+          ],
+          "position": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+          "rooms": 3,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:30",
+          "end_time": "12:30",
+          "cost": 55.0,
+          "price": 11.0,
+          "transports": [
+            {
+              "start": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "end": "Suyang Xu's Mung Bean Soup (Canglang New Town Branch)",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:30",
+              "cost": 84.45,
+              "price": 16.89,
+              "distance": 12.89,
+              "tickets": 5
+            }
+          ],
+          "position": "Suyang Xu's Mung Bean Soup (Canglang New Town Branch)"
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:40",
+          "end_time": "18:40",
+          "cost": 60.0,
+          "price": 12.0,
+          "transports": [
+            {
+              "start": "Suyang Xu's Mung Bean Soup (Canglang New Town Branch)",
+              "end": "Lehui Wonton Shop (Wuqufang Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:40",
+              "cost": 40.9,
+              "price": 8.18,
+              "distance": 4.18,
+              "tickets": 5
+            }
+          ],
+          "position": "Lehui Wonton Shop (Wuqufang Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:33",
+          "end_time": "21:33",
+          "cost": 618.0,
+          "price": 206.0,
+          "transports": [
+            {
+              "start": "Lehui Wonton Shop (Wuqufang Branch)",
+              "end": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "mode": "metro",
+              "start_time": "20:00",
+              "end_time": "20:33",
+              "cost": 25.15,
+              "price": 5.03,
+              "distance": 16.76,
+              "tickets": 5
+            }
+          ],
+          "position": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+          "rooms": 3,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:41",
+          "end_time": "12:41",
+          "cost": 60.0,
+          "price": 12.0,
+          "transports": [
+            {
+              "start": "Suzhou Huaxi Meishi Hotel (Heiyi Wujiang Branch)",
+              "end": "Yiming Fresh Milk Bar (Shilu Metro Exit 12 Store)",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:41",
+              "cost": 106.0,
+              "price": 21.2,
+              "distance": 17.2,
+              "tickets": 5
+            }
+          ],
+          "position": "Yiming Fresh Milk Bar (Shilu Metro Exit 12 Store)"
+        },
+        {
+          "type": "train",
+          "start_time": "19:00",
+          "end_time": "20:50",
+          "cost": 614.5,
+          "price": 122.9,
+          "transports": [
+            {
+              "start": "Yiming Fresh Milk Bar (Shilu Metro Exit 12 Store)",
+              "end": "Suzhou Station",
+              "mode": "metro",
+              "start_time": "12:51",
+              "end_time": "12:54",
+              "cost": 3.2,
+              "distance": 2.14,
+              "price": 0.64,
+              "tickets": 5
+            }
+          ],
+          "tickets": 5,
+          "start": "Suzhou Station",
+          "end": "Nanjing South Railway Station",
+          "TrainID": "G7160"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.24
+}

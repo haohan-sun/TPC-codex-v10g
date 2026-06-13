@@ -1,0 +1,241 @@
+{
+  "people_number": 4,
+  "start_city": "Nanjing",
+  "target_city": "Chongqing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "08:12",
+          "end_time": "09:42",
+          "cost": 2425.16,
+          "price": 606.29,
+          "transports": [],
+          "tickets": 4,
+          "start": "Nanjing Lukou International Airport",
+          "end": "Chongqing Jiangbei International Airport",
+          "FlightID": "FL682"
+        },
+        {
+          "type": "attraction",
+          "start_time": "16:52",
+          "end_time": "17:37",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Chongqing Jiangbei International Airport",
+              "end": "Gongtan Ancient Town Wujiang Gallery",
+              "mode": "metro",
+              "start_time": "10:12",
+              "end_time": "16:52",
+              "cost": 683.36,
+              "price": 170.84,
+              "distance": 166.84,
+              "tickets": 4
+            }
+          ],
+          "position": "Gongtan Ancient Town Wujiang Gallery",
+          "tickets": 4
+        },
+        {
+          "type": "attraction",
+          "start_time": "18:02",
+          "end_time": "20:02",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Gongtan Ancient Town Wujiang Gallery",
+              "end": "Wujiang Gallery (Fuling Section)",
+              "mode": "metro",
+              "start_time": "17:57",
+              "end_time": "18:02",
+              "cost": 16.0,
+              "price": 4.0,
+              "distance": 0.0,
+              "tickets": 4
+            }
+          ],
+          "position": "Wujiang Gallery (Fuling Section)",
+          "tickets": 4
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "13:30",
+          "end_time": "18:24",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Wujiang Gallery (Fuling Section)",
+              "end": "Maxim's Red Wine Town Water Park",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "13:30",
+              "cost": 466.0,
+              "price": 116.5,
+              "distance": 112.5,
+              "tickets": 4
+            }
+          ],
+          "position": "Maxim's Red Wine Town Water Park",
+          "tickets": 4
+        },
+        {
+          "type": "attraction",
+          "start_time": "21:10",
+          "end_time": "21:40",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Maxim's Red Wine Town Water Park",
+              "end": "Chongqing Wulong Natural Three Bridges Scenic Area - Heavenly Dragon Sinkhole",
+              "mode": "metro",
+              "start_time": "18:34",
+              "end_time": "21:10",
+              "cost": 276.48,
+              "price": 69.12,
+              "distance": 65.12,
+              "tickets": 4
+            }
+          ],
+          "position": "Chongqing Wulong Natural Three Bridges Scenic Area - Heavenly Dragon Sinkhole",
+          "tickets": 4
+        },
+        {
+          "type": "accommodation",
+          "start_time": "23:59",
+          "end_time": "23:00",
+          "cost": 62.0,
+          "price": 31.0,
+          "transports": [
+            {
+              "start": "Chongqing Wulong Natural Three Bridges Scenic Area - Heavenly Dragon Sinkhole",
+              "end": "Yachao Capsule Apartment",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "23:59",
+              "cost": 249.87,
+              "price": 249.87,
+              "distance": 119.94,
+              "cars": 1
+            }
+          ],
+          "position": "Yachao Capsule Apartment",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "13:41",
+          "end_time": "19:06",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Yachao Capsule Apartment",
+              "end": "Fengdu Ghost City Mingshan Scenic Area - Yellow Spring Road, Chongqing",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "13:41",
+              "cost": 485.04,
+              "price": 121.26,
+              "distance": 117.26,
+              "tickets": 4
+            }
+          ],
+          "position": "Fengdu Ghost City Mingshan Scenic Area - Yellow Spring Road, Chongqing",
+          "tickets": 4
+        },
+        {
+          "type": "attraction",
+          "start_time": "23:51",
+          "end_time": "10:42",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Fengdu Ghost City Mingshan Scenic Area - Yellow Spring Road, Chongqing",
+              "end": "Nanbin Road Clock Tower",
+              "mode": "metro",
+              "start_time": "19:16",
+              "end_time": "23:51",
+              "cost": 475.8,
+              "price": 118.95,
+              "distance": 114.95,
+              "tickets": 4
+            }
+          ],
+          "position": "Nanbin Road Clock Tower",
+          "tickets": 4
+        },
+        {
+          "type": "attraction",
+          "start_time": "19:21",
+          "end_time": "19:51",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Nanbin Road Clock Tower",
+              "end": "East Water Gate and Ancient City Wall",
+              "mode": "metro",
+              "start_time": "19:16",
+              "end_time": "19:21",
+              "cost": 22.0,
+              "price": 5.5,
+              "distance": 1.5,
+              "tickets": 4
+            }
+          ],
+          "position": "East Water Gate and Ancient City Wall",
+          "tickets": 4
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "19:32",
+          "end_time": "21:02",
+          "cost": 2565.48,
+          "price": 641.37,
+          "transports": [
+            {
+              "start": "East Water Gate and Ancient City Wall",
+              "end": "Chongqing Jiangbei International Airport",
+              "mode": "taxi",
+              "start_time": "09:00",
+              "end_time": "09:34",
+              "cost": 44.34,
+              "price": 44.34,
+              "distance": 17.17,
+              "cars": 1
+            }
+          ],
+          "tickets": 4,
+          "start": "Chongqing Jiangbei International Airport",
+          "end": "Nanjing Lukou International Airport",
+          "FlightID": "FL397"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.248
+}

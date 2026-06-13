@@ -1,0 +1,189 @@
+{
+  "people_number": 3,
+  "start_city": "Chongqing",
+  "target_city": "Nanjing",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "12:37",
+          "end_time": "14:07",
+          "cost": 1670.82,
+          "price": 556.94,
+          "transports": [],
+          "tickets": 3,
+          "start": "Chongqing Jiangbei International Airport",
+          "end": "Nanjing Lukou International Airport",
+          "FlightID": "FL395"
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:45",
+          "end_time": "19:45",
+          "cost": 27.0,
+          "price": 9.0,
+          "transports": [
+            {
+              "start": "Nanjing Lukou International Airport",
+              "end": "Lu's Plum Blossom Cake (Laomendong Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "18:45",
+              "cost": 106.89,
+              "price": 35.63,
+              "distance": 31.63,
+              "tickets": 3
+            }
+          ],
+          "position": "Lu's Plum Blossom Cake (Laomendong Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:30",
+          "end_time": "21:30",
+          "cost": 152.0,
+          "price": 76.0,
+          "transports": [
+            {
+              "start": "Lu's Plum Blossom Cake (Laomendong Branch)",
+              "end": "Nanjing BuildHome Cinema apartment",
+              "mode": "metro",
+              "start_time": "20:00",
+              "end_time": "20:30",
+              "cost": 13.8,
+              "price": 4.6,
+              "distance": 15.35,
+              "tickets": 3
+            }
+          ],
+          "position": "Nanjing BuildHome Cinema apartment",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "dinner",
+          "start_time": "17:59",
+          "end_time": "18:38",
+          "cost": 36.0,
+          "price": 12.0,
+          "transports": [
+            {
+              "start": "Nanjing BuildHome Cinema apartment",
+              "end": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:59",
+              "cost": 48.6,
+              "price": 16.2,
+              "distance": 12.2,
+              "tickets": 3
+            }
+          ],
+          "position": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:24",
+          "end_time": "21:24",
+          "cost": 152.0,
+          "price": 76.0,
+          "transports": [
+            {
+              "start": "Anjia Osmanthus Glutinous Rice Balls (South Tea Branch)",
+              "end": "Nanjing BuildHome Cinema apartment",
+              "mode": "metro",
+              "start_time": "20:00",
+              "end_time": "20:24",
+              "cost": 10.98,
+              "price": 3.66,
+              "distance": 12.2,
+              "tickets": 3
+            }
+          ],
+          "position": "Nanjing BuildHome Cinema apartment",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "lunch",
+          "start_time": "11:34",
+          "end_time": "12:34",
+          "cost": 36.0,
+          "price": 12.0,
+          "transports": [
+            {
+              "start": "Nanjing BuildHome Cinema apartment",
+              "end": "Wang's Wonton (Jiqing Road Branch)",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:34",
+              "cost": 54.57,
+              "price": 18.19,
+              "distance": 14.19,
+              "tickets": 3
+            }
+          ],
+          "position": "Wang's Wonton (Jiqing Road Branch)"
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:35",
+          "end_time": "18:35",
+          "cost": 39.0,
+          "price": 13.0,
+          "transports": [
+            {
+              "start": "Wang's Wonton (Jiqing Road Branch)",
+              "end": "National Football Team Stinky Tofu (Mingwalang Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:35",
+              "cost": 18.39,
+              "price": 6.13,
+              "distance": 2.13,
+              "tickets": 3
+            }
+          ],
+          "position": "National Football Team Stinky Tofu (Mingwalang Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "20:34",
+          "end_time": "22:04",
+          "cost": 1733.04,
+          "price": 577.68,
+          "transports": [
+            {
+              "start": "National Football Team Stinky Tofu (Mingwalang Branch)",
+              "end": "Nanjing Lukou International Airport",
+              "mode": "metro",
+              "start_time": "18:45",
+              "end_time": "19:53",
+              "cost": 30.99,
+              "price": 10.33,
+              "distance": 34.43,
+              "tickets": 3
+            }
+          ],
+          "tickets": 3,
+          "start": "Nanjing Lukou International Airport",
+          "end": "Chongqing Jiangbei International Airport",
+          "FlightID": "FL686"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.091
+}

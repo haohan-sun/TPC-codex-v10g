@@ -1,0 +1,7 @@
+{
+  "people_number": 3,
+  "start_city": "Chengdu",
+  "target_city": "Nanjing",
+  "itinerary": [],
+  "error": "timeout after 120s"
+}

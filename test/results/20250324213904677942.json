@@ -1,0 +1,278 @@
+{
+  "people_number": 1,
+  "start_city": "Beijing",
+  "target_city": "Shenzhen",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "12:07",
+          "end_time": "14:32",
+          "cost": 949.32,
+          "price": 949.32,
+          "transports": [],
+          "tickets": 1,
+          "start": "Beijing Capital International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL096"
+        },
+        {
+          "type": "attraction",
+          "start_time": "16:53",
+          "end_time": "18:53",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Shenzhen Bao'an International Airport",
+              "end": "Dameisha Seaside Park",
+              "mode": "metro",
+              "start_time": "15:02",
+              "end_time": "16:53",
+              "cost": 50.66,
+              "price": 50.66,
+              "distance": 46.66,
+              "tickets": 1
+            }
+          ],
+          "position": "Dameisha Seaside Park",
+          "tickets": 1
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:44",
+          "end_time": "21:44",
+          "cost": 231.0,
+          "price": 231.0,
+          "transports": [
+            {
+              "start": "Dameisha Seaside Park",
+              "end": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "20:44",
+              "cost": 54.43,
+              "price": 54.43,
+              "distance": 22.22,
+              "cars": 1
+            }
+          ],
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "rooms": 1,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "09:35",
+          "end_time": "10:35",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "end": "Nanshan Park",
+              "mode": "metro",
+              "start_time": "08:30",
+              "end_time": "09:35",
+              "cost": 31.25,
+              "price": 31.25,
+              "distance": 27.25,
+              "tickets": 1
+            }
+          ],
+          "position": "Nanshan Park",
+          "tickets": 1
+        },
+        {
+          "type": "lunch",
+          "start_time": "11:39",
+          "end_time": "12:39",
+          "cost": 24.0,
+          "price": 24.0,
+          "transports": [
+            {
+              "start": "Nanshan Park",
+              "end": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "mode": "metro",
+              "start_time": "11:00",
+              "end_time": "11:39",
+              "cost": 20.43,
+              "price": 20.43,
+              "distance": 16.43,
+              "tickets": 1
+            }
+          ],
+          "position": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:54",
+          "end_time": "15:39",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Xinyiwei Chaoshan Rice Noodle King (Meilin Branch)",
+              "end": "Xichong Seaside Tourism Resort",
+              "mode": "metro",
+              "start_time": "12:49",
+              "end_time": "14:54",
+              "cost": 56.19,
+              "price": 56.19,
+              "distance": 52.19,
+              "tickets": 1
+            }
+          ],
+          "position": "Xichong Seaside Tourism Resort",
+          "tickets": 1
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:39",
+          "end_time": "22:39",
+          "cost": 231.0,
+          "price": 231.0,
+          "transports": [
+            {
+              "start": "Xichong Seaside Tourism Resort",
+              "end": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "mode": "taxi",
+              "start_time": "20:00",
+              "end_time": "21:39",
+              "cost": 109.88,
+              "price": 109.88,
+              "distance": 49.94,
+              "cars": 1
+            }
+          ],
+          "position": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+          "rooms": 1,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "10:13",
+          "end_time": "10:58",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Overseas Chinese Town Nanyang Inn (Gankeng Ancient Town Shop)",
+              "end": "Splendid China - Ethnic Minority Folk Houses",
+              "mode": "metro",
+              "start_time": "09:30",
+              "end_time": "10:13",
+              "cost": 22.04,
+              "price": 22.04,
+              "distance": 18.04,
+              "tickets": 1
+            }
+          ],
+          "position": "Splendid China - Ethnic Minority Folk Houses",
+          "tickets": 1
+        },
+        {
+          "type": "lunch",
+          "start_time": "11:39",
+          "end_time": "12:39",
+          "cost": 27.0,
+          "price": 27.0,
+          "transports": [
+            {
+              "start": "Splendid China - Ethnic Minority Folk Houses",
+              "end": "Hundred Herbs Hall Ancestral Herbal Tea Shop (Shekou Branch)",
+              "mode": "metro",
+              "start_time": "11:18",
+              "end_time": "11:39",
+              "cost": 13.07,
+              "price": 13.07,
+              "distance": 9.07,
+              "tickets": 1
+            }
+          ],
+          "position": "Hundred Herbs Hall Ancestral Herbal Tea Shop (Shekou Branch)"
+        },
+        {
+          "type": "attraction",
+          "start_time": "14:37",
+          "end_time": "16:07",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Hundred Herbs Hall Ancestral Herbal Tea Shop (Shekou Branch)",
+              "end": "Maluan Mountain Country Park",
+              "mode": "metro",
+              "start_time": "12:49",
+              "end_time": "14:37",
+              "cost": 49.23,
+              "price": 49.23,
+              "distance": 45.23,
+              "tickets": 1
+            }
+          ],
+          "position": "Maluan Mountain Country Park",
+          "tickets": 1
+        },
+        {
+          "type": "dinner",
+          "start_time": "18:36",
+          "end_time": "19:36",
+          "cost": 28.0,
+          "price": 28.0,
+          "transports": [
+            {
+              "start": "Maluan Mountain Country Park",
+              "end": "Joyful Gathering (Jingtian Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "18:36",
+              "cost": 31.51,
+              "price": 31.51,
+              "distance": 27.51,
+              "tickets": 1
+            }
+          ],
+          "position": "Joyful Gathering (Jingtian Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "23:24",
+          "end_time": "01:49",
+          "cost": 1006.35,
+          "price": 1006.35,
+          "transports": [
+            {
+              "start": "Joyful Gathering (Jingtian Branch)",
+              "end": "Shenzhen Bao'an International Airport",
+              "mode": "taxi",
+              "start_time": "19:46",
+              "end_time": "20:36",
+              "cost": 60.85,
+              "price": 60.85,
+              "distance": 25.42,
+              "cars": 1
+            }
+          ],
+          "tickets": 1,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Beijing Daxing International Airport",
+          "FlightID": "FL174"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.224
+}

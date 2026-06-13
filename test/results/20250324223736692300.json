@@ -1,0 +1,98 @@
+{
+  "people_number": 4,
+  "start_city": "Guangzhou",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:04",
+          "end_time": "07:34",
+          "cost": 2237.72,
+          "price": 559.43,
+          "transports": [],
+          "tickets": 4,
+          "start": "Guangzhou Baiyun International Airport",
+          "end": "Shanghai Pudong International Airport",
+          "FlightID": "FL244"
+        },
+        {
+          "type": "accommodation",
+          "start_time": "22:12",
+          "end_time": "23:12",
+          "cost": 606.0,
+          "price": 303.0,
+          "transports": [
+            {
+              "start": "Blue Forest Huangpu River Cruise Ship",
+              "end": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+              "mode": "metro",
+              "start_time": "21:32",
+              "end_time": "22:12",
+              "cost": 24.32,
+              "price": 6.08,
+              "distance": 20.26,
+              "tickets": 4
+            }
+          ],
+          "position": "Jiahong Hotel (Shanghai Pudong Airport, Chuansha Metro Station)",
+          "rooms": 2,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "dinner",
+          "start_time": "17:35",
+          "end_time": "18:35",
+          "cost": 1160.0,
+          "price": 290.0,
+          "transports": [
+            {
+              "start": "Huangpu River Cruise (Jinling East Road Pier)",
+              "end": "Shanghai Wang Bao He Grand Hotel · Shanghai Restaurant",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:35",
+              "cost": 24.4,
+              "price": 6.1,
+              "distance": 2.1,
+              "tickets": 4
+            }
+          ],
+          "position": "Shanghai Wang Bao He Grand Hotel · Shanghai Restaurant"
+        },
+        {
+          "type": "airplane",
+          "start_time": "21:32",
+          "end_time": "23:02",
+          "cost": 2408.56,
+          "price": 602.14,
+          "transports": [
+            {
+              "start": "Shanghai Wang Bao He Grand Hotel · Shanghai Restaurant",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "metro",
+              "start_time": "18:45",
+              "end_time": "19:27",
+              "cost": 25.52,
+              "price": 6.38,
+              "distance": 21.28,
+              "tickets": 4
+            }
+          ],
+          "tickets": 4,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Guangzhou Baiyun International Airport",
+          "FlightID": "FL027"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.346
+}

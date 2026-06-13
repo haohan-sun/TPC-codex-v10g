@@ -1,0 +1,142 @@
+{
+  "people_number": 1,
+  "start_city": "Shenzhen",
+  "target_city": "Shanghai",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "airplane",
+          "start_time": "06:45",
+          "end_time": "08:16",
+          "cost": 636.61,
+          "price": 636.61,
+          "transports": [],
+          "tickets": 1,
+          "start": "Shenzhen Bao'an International Airport",
+          "end": "Shanghai Hongqiao International Airport",
+          "FlightID": "FL165"
+        },
+        {
+          "type": "attraction",
+          "start_time": "19:56",
+          "end_time": "20:56",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Shanghai Hongqiao International Airport",
+              "end": "Blue Forest Huangpu River Cruise Ship",
+              "mode": "metro",
+              "start_time": "19:00",
+              "end_time": "19:56",
+              "cost": 27.36,
+              "price": 27.36,
+              "distance": 23.36,
+              "tickets": 1
+            }
+          ],
+          "position": "Blue Forest Huangpu River Cruise Ship",
+          "tickets": 1
+        },
+        {
+          "type": "accommodation",
+          "start_time": "21:35",
+          "end_time": "22:35",
+          "cost": 598.0,
+          "price": 598.0,
+          "transports": [
+            {
+              "start": "Blue Forest Huangpu River Cruise Ship",
+              "end": "Frasers Place Wujiaochang Shanghai",
+              "mode": "metro",
+              "start_time": "21:16",
+              "end_time": "21:35",
+              "cost": 2.87,
+              "price": 2.87,
+              "distance": 9.57,
+              "tickets": 1
+            }
+          ],
+          "position": "Frasers Place Wujiaochang Shanghai",
+          "rooms": 1,
+          "room_type": 2
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "attraction",
+          "start_time": "15:30",
+          "end_time": "16:20",
+          "cost": 88.0,
+          "price": 88.0,
+          "transports": [
+            {
+              "start": "Frasers Place Wujiaochang Shanghai",
+              "end": "Huangpu River Cruise (Jinling East Road Pier)",
+              "mode": "metro",
+              "start_time": "09:00",
+              "end_time": "09:22",
+              "cost": 13.57,
+              "price": 13.57,
+              "distance": 9.57,
+              "tickets": 1
+            }
+          ],
+          "position": "Huangpu River Cruise (Jinling East Road Pier)",
+          "tickets": 1
+        },
+        {
+          "type": "dinner",
+          "start_time": "17:46",
+          "end_time": "18:46",
+          "cost": 31.0,
+          "price": 31.0,
+          "transports": [
+            {
+              "start": "Huangpu River Cruise (Jinling East Road Pier)",
+              "end": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)",
+              "mode": "metro",
+              "start_time": "17:30",
+              "end_time": "17:46",
+              "cost": 10.93,
+              "price": 10.93,
+              "distance": 6.93,
+              "tickets": 1
+            }
+          ],
+          "position": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)"
+        },
+        {
+          "type": "airplane",
+          "start_time": "20:30",
+          "end_time": "22:01",
+          "cost": 645.96,
+          "price": 645.96,
+          "transports": [
+            {
+              "start": "Shangmianfang Crispy Duck Noodles (Dongzhu'anbang Road Branch)",
+              "end": "Shanghai Hongqiao International Airport",
+              "mode": "metro",
+              "start_time": "18:56",
+              "end_time": "19:28",
+              "cost": 4.93,
+              "price": 4.93,
+              "distance": 16.44,
+              "tickets": 1
+            }
+          ],
+          "tickets": 1,
+          "start": "Shanghai Hongqiao International Airport",
+          "end": "Shenzhen Bao'an International Airport",
+          "FlightID": "FL015"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.159
+}

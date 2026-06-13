@@ -1,0 +1,189 @@
+{
+  "people_number": 4,
+  "start_city": "Suzhou",
+  "target_city": "Hangzhou",
+  "itinerary": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "06:43",
+          "end_time": "09:30",
+          "cost": 290.4,
+          "price": 72.6,
+          "transports": [],
+          "tickets": 4,
+          "start": "Suzhou Station",
+          "end": "Hangzhou Railway Station",
+          "TrainID": "D181"
+        },
+        {
+          "type": "attraction",
+          "start_time": "17:00",
+          "end_time": "21:08",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Hangzhou Railway Station",
+              "end": "City Station-Metro Station",
+              "mode": "walk",
+              "start_time": "10:00",
+              "end_time": "10:02",
+              "cost": 0.0,
+              "distance": 0.21,
+              "price": 0.0
+            },
+            {
+              "start": "City Station-Metro Station",
+              "end": "Jiangling Road-Metro Station",
+              "mode": "metro",
+              "start_time": "10:02",
+              "end_time": "10:12",
+              "cost": 12.0,
+              "distance": 5.24,
+              "tickets": 4,
+              "price": 3.0
+            },
+            {
+              "start": "Jiangling Road-Metro Station",
+              "end": "Hangzhou Qiantang River Night Cruise",
+              "mode": "walk",
+              "start_time": "10:12",
+              "end_time": "10:27",
+              "cost": 0.0,
+              "distance": 1.27,
+              "price": 0.0
+            }
+          ],
+          "position": "Hangzhou Qiantang River Night Cruise",
+          "tickets": 4
+        },
+        {
+          "type": "attraction",
+          "start_time": "21:23",
+          "end_time": "21:53",
+          "cost": 0.0,
+          "price": 0.0,
+          "transports": [
+            {
+              "start": "Hangzhou Qiantang River Night Cruise",
+              "end": "Qiantang River Night Cruise (Wulinmen Dock)",
+              "mode": "metro",
+              "start_time": "21:18",
+              "end_time": "21:23",
+              "cost": 16.0,
+              "price": 4.0,
+              "distance": 0.0,
+              "tickets": 4
+            }
+          ],
+          "position": "Qiantang River Night Cruise (Wulinmen Dock)",
+          "tickets": 4
+        },
+        {
+          "type": "accommodation",
+          "start_time": "22:21",
+          "end_time": "22:51",
+          "cost": 298.0,
+          "price": 149.0,
+          "transports": [
+            {
+              "start": "Qiantang River Night Cruise (Wulinmen Dock)",
+              "end": "Baiye Homestay (West Lake Branch)",
+              "mode": "taxi",
+              "start_time": "22:03",
+              "end_time": "22:21",
+              "cost": 28.64,
+              "price": 28.64,
+              "distance": 9.32,
+              "cars": 1
+            }
+          ],
+          "position": "Baiye Homestay (West Lake Branch)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "type": "dinner",
+          "start_time": "17:30",
+          "end_time": "18:30",
+          "cost": 200.0,
+          "price": 50.0,
+          "transports": []
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:00",
+          "end_time": "21:00",
+          "cost": 298.0,
+          "price": 149.0,
+          "transports": [],
+          "position": "Baiye Homestay (West Lake Branch)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "activities": [
+        {
+          "type": "dinner",
+          "start_time": "17:30",
+          "end_time": "18:30",
+          "cost": 200.0,
+          "price": 50.0,
+          "transports": []
+        },
+        {
+          "type": "accommodation",
+          "start_time": "20:00",
+          "end_time": "21:00",
+          "cost": 298.0,
+          "price": 149.0,
+          "transports": [],
+          "position": "Baiye Homestay (West Lake Branch)",
+          "rooms": 2,
+          "room_type": 1
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "activities": [
+        {
+          "type": "train",
+          "start_time": "18:30",
+          "end_time": "20:30",
+          "cost": 314.6,
+          "price": 78.65,
+          "transports": [
+            {
+              "start": "Baiye Homestay (West Lake Branch)",
+              "end": "Hangzhou South Railway Station",
+              "mode": "taxi",
+              "start_time": "09:00",
+              "end_time": "09:24",
+              "cost": 67.26,
+              "distance": 16.13,
+              "cars": 1,
+              "price": 67.26
+            }
+          ],
+          "tickets": 4,
+          "start": "Hangzhou South Railway Station",
+          "end": "Suzhou Station",
+          "TrainID": "G7550"
+        }
+      ]
+    }
+  ],
+  "elapsed_time(sec)": 0.547
+}
