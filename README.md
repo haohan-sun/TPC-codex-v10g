@@ -1,161 +1,138 @@
-# TPC Agent — IJCAI 2026 旅行规划挑战赛
+# TPC Agent — Codex V10G
 
-基于约束驱动 + 多策略滚动规划 + Verifier 反馈闭环的旅行行程自动生成 Agent。
+Constraint-driven travel planner for IJCAI 2026 Travel Planning Challenge.
 
-**仓库**: [haohan-sun/TPC-agent](https://github.com/haohan-sun/TPC-agent)
+## V10G Scores (2026-06-13)
 
----
+| Split | N | Schema | MicEPR | C-LPR | FPR | Overall |
+|---|---:|---:|---:|---:|---:|---:|
+| `training_rand10` | 10 | 10/10 | 100.00 | 96.97 | 90.00 | **86.58** |
+| `codex_rand30_s131` | 30 | 30/30 | 100.00 | 92.66 | 76.67 | **80.10** |
+| `codex_rand10_s47` | 10 | 10/10 | 100.00 | 91.11 | 70.00 | **76.85** |
+| `codex_v10_hardfail13` | 13 | 13/13 | 100.00 | 89.71 | 53.85 | **70.85** |
+| `codex_rand10_s29` | 10 | 10/10 | 99.60 | 66.67 | 50.00 | **61.72** |
+| `codex_rand10_s13` | 10 | 10/10 | 99.60 | 69.23 | 40.00 | **59.32** |
 
-## 当前分数（2026-06-12）
+### Comparison
 
-| Split | Overall | Mic.EPR | C-LPR | FPR | DAV | ATT | DDR | all_pass |
-|-------|---------|---------|-------|-----|-----|-----|-----|----------|
-| demo1_training_single | **93.47** | 100 | 100 | 100 | 25.0 | 100 | 44.44 | 1/1 |
-| training_rand10 | **97.52** | 100 | 100 | 100 | 76.25 | 98.68 | 75.56 | 10/10 |
+| Baseline | Split | Overall |
+|---|---:|---:|
+| V9 | `codex_rand30_s131` | 69.83 |
+| V10G | `codex_rand30_s131` | **80.10** (+10.27) |
+| V10C | `training_rand10` | 77.24 |
+| V10G | `training_rand10` | **86.58** (+9.35) |
 
-核心三元 (Mic.EPR + C-LPR + FPR) 占 85% 权重，已全部达到 100。
+## V10G Changes
 
-### 评分公式
+| File | Change |
+|---|---|
+| `src/constraints/nl_parser.py` | Treat named parks/museums as POI unless exact type alias match |
+| `src/constraints/nl_parser.py` | Fix visit-clause boundary so `No. 1 Department Store` is not truncated |
+| `src/constraints/nl_parser.py` | Stop `_clean_entity()` from deleting list items after `and` |
+| `src/constraints/test_nl_parser.py` | 41 regression tests including Zhongshan Park, Exploration Capsule, Fly Over Shanghai / Changle Road |
+| `src/planner/plan_builder.py` | Rebalance must-visit POIs away from arrival/final days onto middle full days |
+| `src/planner/plan_builder.py` | Exact-first name matching; long fuzzy only when exact unavailable |
+| `data/splits/codex_v10d_training_hard3.txt` | Targeted 3-query regression split |
+| `ChinaTravel/chinatravel/evaluation/default_splits/codex_v10d_training_hard3.txt` | Same split for official evaluator |
+
+## Unit Checks
 
 ```
-Overall = 0.20 × Mic.EPR + 0.25 × C-LPR + 0.05 × DAV + 0.05 × ATT + 0.05 × DDR + 0.40 × FPR
+src/constraints/test_nl_parser.py   41/41
+py_compile nl_parser / plan_builder / test_nl_parser   Passed
+codex_v10d_training_hard3   Overall 92.08, C-LPR 100, FPR 100
 ```
 
----
+## Remaining Failure Families
 
-## 架构总流程
+| Split | Categories |
+|---|---|
+| `codex_rand30_s131` | innercity_transport, activity_time_window, attraction_name, hotel_distance, hotel_feature, innercity_transport_budget, restaurant_name |
+| `codex_rand10_s13` | room_type, attraction_type, hotel_distance, hotel_name, innercity_transport |
+| `codex_rand10_s29` | activity_time_window, food_type, innercity_transport_budget, intercity_transport, restaurant_name |
+| `codex_rand10_s47` | hotel_name, innercity_transport_budget |
 
-```
-用户自然语言需求
-  → 约束卡片抽取 (hard_logic DSL + NL parser, 33/33 tests)
-  → 主动约束获取 (风险驱动 Active SLAM)
-  → 语义落地与偏好权重
-  → 候选池构建 (POI/酒店/餐厅/交通, WorldEnv/agent_env/CSV 真实数据)
-  → [多策略] 多日任务分配 → 滚动逐日规划 → 日内路线优化 (GA-TSP + 2-opt)
-  → 时间表生成 → 预算控制 (ResourceState 统一追踪) → 本地检查
-  → 官方格式输出
-  → 官方 verifier → typed repair → 多候选择优 → 最终输出
-```
+## Next Targets
 
-### 关键模块
+1. `room_type`: twin/single-bed exact constraints in hotel ranking and accommodation payload
+2. `hotel_name`: post-selection exact rescue when required hotel exists but fallback used
+3. `restaurant_name`: schedule required restaurants into lunch/dinner windows, not breakfast
+4. `innercity_transport_budget`: budget-aware local transport repair before final output
+5. `activity_time_window`: targeted post-generation insertion for leave-after constraints
 
-| 模块 | 路径 | 职责 |
-|------|------|------|
-| 约束解析 | `src/constraints/` | NL → ConstraintCard, hard_logic DSL, 词典补全 |
-| 主动查询 | `src/active/` | 风险估计 → 选择性 WorldEnv 查询 |
-| 候选构建 | `src/candidates/` | POI/酒店/餐厅候选池, 排名过滤 |
-| 规划 | `src/planner/` | 多日分配, 滚动逐日规划 |
-| 优化 | `src/optimizer/` | GA-TSP + 2-opt 路线排序, 多因素评分 |
-| 调度 | `src/scheduler/` | 时间表, 预算控制, ResourceState 追踪 |
-| 修复 | `src/repair/` | 类型化修复 (FORMAT/TICKET/TRANSPORT/BUDGET/TIME/MEAL/MUST_VISIT/OPENING_HOURS) |
-| 验证 | `src/verifier/` | 本地检查, 官方 verifier bridge |
-| 搜索 | `src/search/` | 多策略生成, best-of-N 择优 |
-| 数据层 | `src/data_layer/` | schema, WorldEnv/agent_env/CSV 统一客户端, 请求级缓存 |
+## Semantic Library
 
----
+`semantic_library_lab/` — independent semantic constraint classifier:
 
-## 快速开始
+- **Model**: `constraint_bow_mlp_hotel_budget_v3_bigram_cu13_lr0015_h512` (F1=0.70, 174 labels)
+- **Active model**: `generated/models/active_constraint_model.json`
+- **Failure corpus**: `generated/v9_semantic_alignment/` — hard-failure alignments for 7 splits
+- **Scripts**: dataset preparation, training, prediction, alignment export
+
+## Quick Start
 
 ```bash
 conda activate dl_env
-cd demo1
 ```
 
-### 跑单条 query
+### Single query
 
 ```bash
-python run_tpc.py --splits training --index 20250324234255286741 --lang en
+python run_tpc.py --splits training --index <query_id> --lang en
 ```
 
-### 批量生成 + 官方评测
+### Batch evaluation
 
 ```bash
-# 生成结果（写入 ChinaTravel/results/）
-python run_tpc.py --splits training_rand10 --lang en \
-  --agent TPCAgent --llm TPCLLM --official-results
-
-# 官方评测
+python run_tpc.py --splits <split_name> --lang en --official-results
 cd ChinaTravel
-python eval_tpc.py --splits training_rand10 --method TPCAgent_TPCLLM --lang en
+python eval_tpc.py --splits <split_name> --method TPCAgent_TPCLLM_en --lang en
 ```
 
-### 评测分析
+### Analysis
 
 ```bash
-python scripts/eval_analyzer.py --splits training_rand10 \
-  --method TPCAgent_TPCLLM --lang en --json
+python scripts/eval_analyzer.py --splits <split_name> --method TPCAgent_TPCLLM_en --lang en --json
 ```
 
----
-
-## 数据源
-
-- **交通**: WorldEnv/agent_env 优先 → CSV 兜底，无真实数据时走坐标估算法
-- **开闭馆**: agent_env → CSV opentime/endtime（含跨夜处理）
-- **价格**: CSV/WorldEnv 真实数据，不用占位价格
-- **请求级缓存**: `goto()` / `poi_distance()` / `is_*_open()` 在同一 query 内自动去重
-
----
-
-## JSON 质量门禁
-
-- 正式 JSON 不得包含: `_internal`, `metadata`, `budget_report`, `debug`, `repair_log`, `skill_result`, `error`
-- 不得伪造 `TR_*` / `FL_*` ID（train/flight ID 必须来自真实数据）
-- `start_time` / `end_time` 必须是 `HH:MM` 两位小时格式
-- timeout/error 空 itinerary 严禁覆盖官方结果目录
-
----
-
-## 测试
+## Tests
 
 ```bash
-python -m compileall .
-python src/skills/test_skills.py          # 9/9
-python src/constraints/test_nl_parser.py   # 33/33
-python src/constraints/test_constraints.py # 5/5
-python src/data_layer/test_data_layer.py   # 8/8
-python src/candidates/test_candidates.py   # 3/3
-python src/active/test_active.py           # 3/3
-python src/adapter/test_adapter.py         # 5/5
+python src/constraints/test_nl_parser.py        # 41/41
+python src/constraints/test_hard_logic_parser.py
+python src/skills/test_skills.py                 # 9/9
+python src/constraints/test_constraints.py       # 5/5
+python src/data_layer/test_data_layer.py         # 8/8
+python src/candidates/test_candidates.py         # 3/3
+python src/active/test_active.py                 # 3/3
+python src/adapter/test_adapter.py               # 5/5
 ```
 
----
-
-## 最近修复（2026-06-12）
-
-- **性能**: GA-TSP 死循环修复（n! < pop_size 时截断）→ 单 query 从 180s+ 降至 4s
-- **缓存**: WorldEnv 客户端请求级缓存（goto/poi_distance/open 检查）
-- **坐标**: 交通距离优先 Haversine 估算，减少 agent_env 往返
-- **熔断**: 全局 120s deadline，GA-TSP 参数自适应降级
-- **分数**: training_rand10 从 64.85 → 97.52（P0/P1 修复 + 结果热修）
-
----
-
-## 目录结构
+## Directory Structure
 
 ```
-demo1/
-  main.py                      # solve_one_query() 总入口
-  run_tpc.py                   # 批量运行（对齐官方接口）
-  config.yaml                  # 全局配置
-  tpc_agent.py / tpc_llm.py    # 官方 Agent/LLM 适配器
-  src/
-    data_layer/                # Schema / 数据加载 / WorldEnv 客户端 / 缓存
-    constraints/               # 约束卡片抽取（hard_logic DSL + NL regex）
-    active/                    # 主动约束获取
-    semantic/                  # 语义落地（菜系/节奏/偏好权重）
-    candidates/                # 候选池构建
-    planner/                   # 多日任务分配 + 滚动逐日规划
-    optimizer/                 # 日内路线优化 (GA-TSP + 2-opt)
-    scheduler/                 # 时间表 + 预算控制
-    repair/                    # 类型化修复 (typed_repair)
-    skills/                    # 旅行规划师技能库 (8 code-level skills)
-    search/                    # 多候选搜索 (best-of-N)
-    verifier/                  # 本地检查 + eval bridge
-    submission/                # 官方格式输出 + schema 校验
-  scripts/
-    sync_results.py            # 同步结果到 ChinaTravel/results/
-    eval_analyzer.py           # 评测分析 (0分分类 + 失败明细)
-  ChinaTravel/                 # 官方评测仓库
-    results/TPCAgent_TPCLLM_en/  # 官方结果目录
+├── main.py / run_tpc.py         # Entry points
+├── config.yaml                  # Global config
+├── tpc_agent.py / tpc_llm.py    # Official Agent/LLM adapters
+├── src/
+│   ├── data_layer/              # Schema, WorldEnv client, cache
+│   ├── constraints/             # NL parser, hard logic DSL, lexicons
+│   ├── active/                  # Active constraint acquisition
+│   ├── semantic/                # Cuisine/pace/preference grounding
+│   ├── candidates/              # POI/hotel/restaurant candidate pools
+│   ├── planner/                 # Multi-day allocation, rolling day planner
+│   ├── optimizer/               # GA-TSP + 2-opt route optimization
+│   ├── scheduler/               # Timetable + budget control
+│   ├── repair/                  # Typed repair (FORMAT/TICKET/TRANSPORT/BUDGET/TIME/MEAL/MUST_VISIT)
+│   ├── skills/                  # Travel planner skill library
+│   ├── search/                  # Multi-candidate search, best-of-N
+│   ├── verifier/                # Local checker, official verifier bridge
+│   └── submission/              # Official format + schema validation
+├── scripts/                     # Evaluation analysis tools
+├── semantic_library_lab/        # Semantic classifier + failure corpus
+├── ChinaTravel/                 # Official evaluation harness
+│   └── results/                 # Evaluation results
+└── data/
+    ├── splits/                  # Evaluation split files
+    └── training data/           # Query dataset (1000 queries)
 ```
